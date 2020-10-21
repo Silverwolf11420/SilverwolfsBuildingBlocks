@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "silverwolfsbuildingblocks:green_clay_ball"
+  },
+  "result": "silverwolfsbuildingblocks:green_brick",
+  "experience": 0.3,
+  "cookingtime": 200
+}

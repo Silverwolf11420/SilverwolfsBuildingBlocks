@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: SilverwolfsBuildingBlocks
+Implementation-Version: 1.15.2_1.0.2
+Specification-Vendor: examplemodsareus
+Specification-Title: examplemod
+Implementation-Timestamp: 2020-10-18T23:14:02-0500
+Specification-Version: 1
+Implementation-Vendor: examplemodsareus
+

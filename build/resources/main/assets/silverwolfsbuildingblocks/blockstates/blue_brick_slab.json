@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "silverwolfsbuildingblocks:block/blue_brick_slab" },
+    "type=top": { "model": "silverwolfsbuildingblocks:block/blue_brick_slab_top" },
+    "type=double": { "model": "silverwolfsbuildingblocks:block/blue_bricks" }
+  }
+}

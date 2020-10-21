@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "silverwolfsbuildingblocks:bamboo_block"
+    }
+  ],
+  "result":
+  {
+    "item": "minecraft:bamboo",
+    "count": 9
+  }
+}

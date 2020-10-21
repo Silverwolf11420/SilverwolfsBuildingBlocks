@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "silverwolfsbuildingblocks:block/jungle_beam_middle",
+    "all": "silverwolfsbuildingblocks:block/jungle_beam_middle"
+  }
+}

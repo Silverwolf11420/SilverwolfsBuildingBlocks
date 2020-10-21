@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "silverwolfsbuildingblocks:block/magenta_bricks",
+    "top": "silverwolfsbuildingblocks:block/magenta_bricks",
+    "side": "silverwolfsbuildingblocks:block/magenta_bricks"
+  }
+}

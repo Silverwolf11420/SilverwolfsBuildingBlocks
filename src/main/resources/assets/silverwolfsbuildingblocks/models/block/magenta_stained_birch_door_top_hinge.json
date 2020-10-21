@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "silverwolfsbuildingblocks:block/magenta_stained_birch_door_bottom",
+    "top": "silverwolfsbuildingblocks:block/magenta_stained_birch_door_top"
+  }
+}

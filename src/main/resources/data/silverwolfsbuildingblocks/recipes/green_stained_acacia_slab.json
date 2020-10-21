@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stained_acacia_slabs",
+  "pattern": [
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:green_stained_acacia_planks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:green_stained_acacia_slab",
+    "count": 6
+  }
+}

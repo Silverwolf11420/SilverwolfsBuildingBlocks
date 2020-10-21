@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "stained_oak_planks",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_planks"
+    },
+	{
+      "item": "minecraft:cyan_dye"
+    }
+  ],
+  "result":
+  {
+    "item": "silverwolfsbuildingblocks:cyan_stained_oak_planks",
+    "count": 1
+  }
+}

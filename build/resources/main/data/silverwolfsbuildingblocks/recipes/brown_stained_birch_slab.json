@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stained_birch_slabs",
+  "pattern": [
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:brown_stained_birch_planks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:brown_stained_birch_slab",
+    "count": 6
+  }
+}

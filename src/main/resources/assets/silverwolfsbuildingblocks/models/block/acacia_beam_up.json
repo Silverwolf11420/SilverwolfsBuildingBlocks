@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "silverwolfsbuildingblocks:block/acacia_beam_up",
+    "all": "silverwolfsbuildingblocks:block/acacia_beam_up"
+  }
+}

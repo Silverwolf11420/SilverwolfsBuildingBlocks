@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "colored_stone_bricks",
+  "ingredients": [
+    {
+      "item": "minecraft:stone_bricks"
+    },
+    {
+      "item": "minecraft:cyan_dye"
+    }
+  ],
+  "result":
+  {
+    "item": "silverwolfsbuildingblocks:cyan_stone_bricks",
+    "count": 1
+  }
+}

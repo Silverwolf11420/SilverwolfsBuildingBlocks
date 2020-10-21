@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_jungle_buttons",
+  "pattern": [
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:magenta_stained_jungle_planks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:magenta_jungle_button",
+    "count": 1
+  }
+}

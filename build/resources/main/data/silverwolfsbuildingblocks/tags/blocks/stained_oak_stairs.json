@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "silverwolfsbuildingblocks:black_stained_oak_stairs",
+    "silverwolfsbuildingblocks:blue_stained_oak_stairs",
+    "silverwolfsbuildingblocks:brown_stained_oak_stairs",
+    "silverwolfsbuildingblocks:cyan_stained_oak_stairs",
+    "silverwolfsbuildingblocks:gray_stained_oak_stairs",
+    "silverwolfsbuildingblocks:green_stained_oak_stairs",
+    "silverwolfsbuildingblocks:light_blue_stained_oak_stairs",
+    "silverwolfsbuildingblocks:light_gray_stained_oak_stairs",
+    "silverwolfsbuildingblocks:light_green_stained_oak_stairs",
+    "silverwolfsbuildingblocks:magenta_stained_oak_stairs",
+    "silverwolfsbuildingblocks:orange_stained_oak_stairs",
+    "silverwolfsbuildingblocks:pink_stained_oak_stairs",
+    "silverwolfsbuildingblocks:purple_stained_oak_stairs",
+    "silverwolfsbuildingblocks:red_stained_oak_stairs",
+    "silverwolfsbuildingblocks:white_stained_oak_stairs",
+    "silverwolfsbuildingblocks:yellow_stained_oak_stairs"
+  ]
+}

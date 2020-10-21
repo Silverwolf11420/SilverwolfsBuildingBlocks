@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "silverwolfsbuildingblocks:black_stained_jungle_button",
+    "silverwolfsbuildingblocks:blue_stained_jungle_button",
+    "silverwolfsbuildingblocks:brown_stained_jungle_button",
+    "silverwolfsbuildingblocks:cyan_stained_jungle_button",
+    "silverwolfsbuildingblocks:gray_stained_jungle_button",
+    "silverwolfsbuildingblocks:green_stained_jungle_button",
+    "silverwolfsbuildingblocks:light_blue_stained_jungle_button",
+    "silverwolfsbuildingblocks:light_gray_stained_jungle_button",
+    "silverwolfsbuildingblocks:light_green_stained_jungle_button",
+    "silverwolfsbuildingblocks:magenta_stained_jungle_button",
+    "silverwolfsbuildingblocks:orange_stained_jungle_button",
+    "silverwolfsbuildingblocks:pink_stained_jungle_button",
+    "silverwolfsbuildingblocks:purple_stained_jungle_button",
+    "silverwolfsbuildingblocks:red_stained_jungle_button",
+    "silverwolfsbuildingblocks:white_stained_jungle_button",
+    "silverwolfsbuildingblocks:yellow_stained_jungle_button"
+  ]
+}

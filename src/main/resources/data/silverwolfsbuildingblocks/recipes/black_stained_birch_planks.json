@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "stained_birch_planks",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_planks"
+    },
+	{
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "result":
+  {
+    "item": "silverwolfsbuildingblocks:black_stained_birch_planks",
+    "count": 1
+  }
+}

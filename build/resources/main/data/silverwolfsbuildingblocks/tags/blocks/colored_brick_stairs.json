@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "silverwolfsbuildingblocks:black_brick_stairs",
+    "silverwolfsbuildingblocks:blue_brick_stairs",
+    "silverwolfsbuildingblocks:brown_brick_stairs",
+    "silverwolfsbuildingblocks:cyan_brick_stairs",
+    "silverwolfsbuildingblocks:gray_brick_stairs",
+    "silverwolfsbuildingblocks:green_brick_stairs",
+    "silverwolfsbuildingblocks:light_blue_brick_stairs",
+    "silverwolfsbuildingblocks:light_gray_brick_stairs",
+    "silverwolfsbuildingblocks:light_green_brick_stairs",
+    "silverwolfsbuildingblocks:magenta_brick_stairs",
+    "silverwolfsbuildingblocks:orange_brick_stairs",
+    "silverwolfsbuildingblocks:pink_brick_stairs",
+    "silverwolfsbuildingblocks:purple_brick_stairs",
+    "silverwolfsbuildingblocks:red_brick_stairs",
+    "silverwolfsbuildingblocks:white_brick_stairs",
+    "silverwolfsbuildingblocks:yellow_brick_stairs"
+  ]
+}

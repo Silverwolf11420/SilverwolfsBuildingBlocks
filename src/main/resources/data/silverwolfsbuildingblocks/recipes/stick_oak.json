@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sticks",
+  "ingredients": [
+    {
+      "item": "silverwolfsbuildingblocks:oak_stick"
+    }
+  ],
+  "result":
+  {
+    "item": "minecraft:stick",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "silverwolfsbuildingblocks:block/magenta_stained_dark_oak_slab" },
+    "type=top": { "model": "silverwolfsbuildingblocks:block/magenta_stained_dark_oak_slab_top" },
+    "type=double": { "model": "silverwolfsbuildingblocks:block/magenta_stained_dark_oak_planks" }
+  }
+}

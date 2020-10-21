@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "silverwolfsbuildingblocks:block/yellow_stained_oak_planks",
+    "all": "silverwolfsbuildingblocks:block/yellow_stained_oak_planks"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_jungle_pressure_plate",
+  "pattern": [
+    "xx "
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:pink_stained_jungle_planks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:pink_jungle_pressure_plate",
+    "count": 1
+  }
+}

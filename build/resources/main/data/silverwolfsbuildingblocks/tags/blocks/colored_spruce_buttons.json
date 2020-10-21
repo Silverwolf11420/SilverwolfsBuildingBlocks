@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "silverwolfsbuildingblocks:black_stained_spruce_button",
+    "silverwolfsbuildingblocks:blue_stained_spruce_button",
+    "silverwolfsbuildingblocks:brown_stained_spruce_button",
+    "silverwolfsbuildingblocks:cyan_stained_spruce_button",
+    "silverwolfsbuildingblocks:gray_stained_spruce_button",
+    "silverwolfsbuildingblocks:green_stained_spruce_button",
+    "silverwolfsbuildingblocks:light_blue_stained_spruce_button",
+    "silverwolfsbuildingblocks:light_gray_stained_spruce_button",
+    "silverwolfsbuildingblocks:light_green_stained_spruce_button",
+    "silverwolfsbuildingblocks:magenta_stained_spruce_button",
+    "silverwolfsbuildingblocks:orange_stained_spruce_button",
+    "silverwolfsbuildingblocks:pink_stained_spruce_button",
+    "silverwolfsbuildingblocks:purple_stained_spruce_button",
+    "silverwolfsbuildingblocks:red_stained_spruce_button",
+    "silverwolfsbuildingblocks:white_stained_spruce_button",
+    "silverwolfsbuildingblocks:yellow_stained_spruce_button"
+  ]
+}

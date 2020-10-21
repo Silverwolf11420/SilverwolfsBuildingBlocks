@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "silverwolfsbuildingblocks:black_stained_birch_button",
+    "silverwolfsbuildingblocks:blue_stained_birch_button",
+    "silverwolfsbuildingblocks:brown_stained_birch_button",
+    "silverwolfsbuildingblocks:cyan_stained_birch_button",
+    "silverwolfsbuildingblocks:gray_stained_birch_button",
+    "silverwolfsbuildingblocks:green_stained_birch_button",
+    "silverwolfsbuildingblocks:light_blue_stained_birch_button",
+    "silverwolfsbuildingblocks:light_gray_stained_birch_button",
+    "silverwolfsbuildingblocks:light_green_stained_birch_button",
+    "silverwolfsbuildingblocks:magenta_stained_birch_button",
+    "silverwolfsbuildingblocks:orange_stained_birch_button",
+    "silverwolfsbuildingblocks:pink_stained_birch_button",
+    "silverwolfsbuildingblocks:purple_stained_birch_button",
+    "silverwolfsbuildingblocks:red_stained_birch_button",
+    "silverwolfsbuildingblocks:white_stained_birch_button",
+    "silverwolfsbuildingblocks:yellow_stained_birch_button"
+  ]
+}

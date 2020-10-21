@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "silverwolfsbuildingblocks:black_clay_ball",
+    "silverwolfsbuildingblocks:blue_clay_ball",
+    "silverwolfsbuildingblocks:brown_clay_ball",
+    "silverwolfsbuildingblocks:cyan_clay_ball",
+    "silverwolfsbuildingblocks:gray_clay_ball",
+    "silverwolfsbuildingblocks:green_clay_ball",
+    "silverwolfsbuildingblocks:light_blue_clay_ball",
+    "silverwolfsbuildingblocks:light_gray_clay_ball",
+    "silverwolfsbuildingblocks:light_green_clay_ball",
+    "silverwolfsbuildingblocks:magenta_clay_ball",
+    "silverwolfsbuildingblocks:orange_clay_ball",
+    "silverwolfsbuildingblocks:pink_clay_ball",
+    "silverwolfsbuildingblocks:purple_clay_ball",
+    "silverwolfsbuildingblocks:red_clay_ball",
+    "silverwolfsbuildingblocks:white_clay_ball",
+    "silverwolfsbuildingblocks:yellow_clay_ball"
+  ]
+}

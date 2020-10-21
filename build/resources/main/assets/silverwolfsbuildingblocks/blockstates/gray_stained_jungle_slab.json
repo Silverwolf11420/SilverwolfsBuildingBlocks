@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "silverwolfsbuildingblocks:block/gray_stained_jungle_slab" },
+    "type=top": { "model": "silverwolfsbuildingblocks:block/gray_stained_jungle_slab_top" },
+    "type=double": { "model": "silverwolfsbuildingblocks:block/gray_stained_jungle_planks" }
+  }
+}

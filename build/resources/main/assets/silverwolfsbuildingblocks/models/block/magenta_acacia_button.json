@@ -1,0 +1,6 @@
+{
+    "parent": "block/button",
+    "textures": {
+        "texture": "silverwolfsbuildingblocks:block/magenta_stained_acacia_planks"
+    }
+}

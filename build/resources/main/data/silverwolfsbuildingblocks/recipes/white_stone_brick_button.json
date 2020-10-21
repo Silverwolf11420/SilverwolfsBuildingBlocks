@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_stone_brick_buttons",
+  "pattern": [
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:white_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:white_stone_brick_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "silverwolfsbuildingblocks:black_brick",
+    "silverwolfsbuildingblocks:blue_brick",
+    "silverwolfsbuildingblocks:brown_brick",
+    "silverwolfsbuildingblocks:cyan_brick",
+    "silverwolfsbuildingblocks:gray_brick",
+    "silverwolfsbuildingblocks:green_brick",
+    "silverwolfsbuildingblocks:light_blue_brick",
+    "silverwolfsbuildingblocks:light_gray_brick",
+    "silverwolfsbuildingblocks:light_green_brick",
+    "silverwolfsbuildingblocks:magenta_brick",
+    "silverwolfsbuildingblocks:orange_brick",
+    "silverwolfsbuildingblocks:pink_brick",
+    "silverwolfsbuildingblocks:purple_brick",
+    "silverwolfsbuildingblocks:red_brick",
+    "silverwolfsbuildingblocks:white_brick",
+    "silverwolfsbuildingblocks:yellow_brick"
+  ]
+}

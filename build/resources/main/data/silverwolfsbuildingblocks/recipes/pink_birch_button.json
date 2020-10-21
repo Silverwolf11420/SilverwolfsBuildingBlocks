@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_birch_buttons",
+  "pattern": [
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:pink_stained_birch_planks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:pink_birch_button",
+    "count": 1
+  }
+}

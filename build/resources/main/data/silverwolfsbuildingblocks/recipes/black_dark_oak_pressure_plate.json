@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_dark_oak_pressure_plate",
+  "pattern": [
+    "xx "
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:black_stained_dark_oak_planks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:black_dark_oak_pressure_plate",
+    "count": 1
+  }
+}

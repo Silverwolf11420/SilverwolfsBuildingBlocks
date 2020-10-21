@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "silverwolfsbuildingblocks:magenta_stained_acacia_stairs"
+        }
+      ]
+    }
+  ]
+}

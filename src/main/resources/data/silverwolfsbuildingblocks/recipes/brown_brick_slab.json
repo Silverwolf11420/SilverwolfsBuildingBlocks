@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_brick_slabs",
+  "pattern": [
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:brown_bricks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:brown_brick_slab",
+    "count": 6
+  }
+}

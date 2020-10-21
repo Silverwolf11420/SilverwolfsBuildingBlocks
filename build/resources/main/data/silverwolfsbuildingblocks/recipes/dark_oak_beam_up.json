@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "plank_beam_up",
+  "pattern":
+  [
+    "sss",
+    "sxs",
+    "sxs"
+  ],
+  "key":
+  {
+    "s":
+    {
+      "item": "silverwolfsbuildingblocks:dark_oak_stick"
+    },
+    "x":
+    {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "result":
+  {
+    "item": "silverwolfsbuildingblocks:dark_oak_beam_up",
+    "count": 1
+  }
+}

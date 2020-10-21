@@ -1,0 +1,21 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2020-10-18 22:15:02 -0500"
+    },
+    "done": false
+  },
+  "silverwolfsbuildingblocks:recipes/thatch": {
+    "criteria": {
+      "has_thatch_block": "2020-10-18 22:15:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2020-10-18 22:15:09 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 2230
+}
