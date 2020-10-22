@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx "
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:thatch_block"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:thatch_pressure_plate",
+    "count": 1
+  }
+}

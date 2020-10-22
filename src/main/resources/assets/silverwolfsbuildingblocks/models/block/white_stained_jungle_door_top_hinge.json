@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "silverwolfsbuildingblocks:block/white_stained_jungle_door_bottom",
+    "top": "silverwolfsbuildingblocks:block/white_stained_jungle_door_top"
+  }
+}

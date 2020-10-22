@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "silverwolfsbuildingblocks:mossy_stone_stairs",
+    "silverwolfsbuildingblocks:more_mossy_stone_stairs",
+    "silverwolfsbuildingblocks:mossy_andesite_stairs",
+    "silverwolfsbuildingblocks:more_mossy_andesite_stairs"
+  ]
+}

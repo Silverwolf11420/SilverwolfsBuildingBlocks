@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "silverwolfsbuildingblocks:block/blue_stained_birch_planks",
+    "top": "silverwolfsbuildingblocks:block/blue_stained_birch_planks",
+    "side": "silverwolfsbuildingblocks:block/blue_stained_birch_planks"
+  }
+}

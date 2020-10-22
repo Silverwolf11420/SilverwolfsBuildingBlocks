@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "silverwolfsbuildingblocks:acacia_beam_down",
+    "silverwolfsbuildingblocks:birch_beam_down",
+    "silverwolfsbuildingblocks:dark_oak_beam_down",
+    "silverwolfsbuildingblocks:jungle_beam_down",
+    "silverwolfsbuildingblocks:oak_beam_down",
+    "silverwolfsbuildingblocks:spruce_beam_down"
+  ]
+}

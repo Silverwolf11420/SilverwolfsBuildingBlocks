@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "silverwolfsbuildingblocks:block/light_gray_stained_jungle_planks",
+    "top": "silverwolfsbuildingblocks:block/light_gray_stained_jungle_planks",
+    "side": "silverwolfsbuildingblocks:block/light_gray_stained_jungle_planks"
+  }
+}

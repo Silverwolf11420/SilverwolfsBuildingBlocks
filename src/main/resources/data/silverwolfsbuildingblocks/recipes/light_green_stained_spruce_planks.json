@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "stained_spruce_planks",
+  "ingredients": [
+    {
+      "item": "minecraft:spruce_planks"
+    },
+	{
+      "item": "minecraft:lime_dye"
+    }
+  ],
+  "result":
+  {
+    "item": "silverwolfsbuildingblocks:light_green_stained_spruce_planks",
+    "count": 1
+  }
+}

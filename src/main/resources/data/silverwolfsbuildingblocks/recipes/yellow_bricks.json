@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_bricks_block",
+  "pattern":
+  [
+    "xx ",
+    "xx ",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "silverwolfsbuildingblocks:yellow_brick"
+    }
+  },
+  "result":
+  {
+    "item": "silverwolfsbuildingblocks:yellow_bricks",
+    "count": 1
+  }
+}

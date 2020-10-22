@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "plank_beam_down",
+  "pattern":
+  [
+    "sxs",
+    "sxs",
+    "sss"
+  ],
+  "key":
+  {
+    "s":
+    {
+      "item": "silverwolfsbuildingblocks:oak_stick"
+    },
+    "x":
+    {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result":
+  {
+    "item": "silverwolfsbuildingblocks:oak_beam_down",
+    "count": 1
+  }
+}

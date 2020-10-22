@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "silverwolfsbuildingblocks:block/cyan_bricks",
+    "top": "silverwolfsbuildingblocks:block/cyan_bricks",
+    "side": "silverwolfsbuildingblocks:block/cyan_bricks"
+  }
+}

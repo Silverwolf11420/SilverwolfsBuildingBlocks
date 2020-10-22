@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "stained_jungle_planks",
+  "ingredients": [
+    {
+      "item": "minecraft:jungle_planks"
+    },
+	{
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "result":
+  {
+    "item": "silverwolfsbuildingblocks:white_stained_jungle_planks",
+    "count": 1
+  }
+}

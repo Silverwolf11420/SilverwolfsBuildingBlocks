@@ -1,0 +1,6 @@
+{
+    "parent": "block/pressure_plate_up",
+    "textures": {
+        "texture": "silverwolfsbuildingblocks:block/white_stone_bricks"
+    }
+}

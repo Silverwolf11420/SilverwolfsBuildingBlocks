@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "silverwolfsbuildingblocks:block/white_stained_spruce_planks",
+    "top": "silverwolfsbuildingblocks:block/white_stained_spruce_planks",
+    "side": "silverwolfsbuildingblocks:block/white_stained_spruce_planks"
+  }
+}

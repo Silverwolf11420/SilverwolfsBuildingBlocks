@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "silverwolfsbuildingblocks:black_stained_spruce_door",
+    "silverwolfsbuildingblocks:blue_stained_spruce_door",
+    "silverwolfsbuildingblocks:brown_stained_spruce_door",
+    "silverwolfsbuildingblocks:cyan_stained_spruce_door",
+    "silverwolfsbuildingblocks:gray_stained_spruce_door",
+    "silverwolfsbuildingblocks:green_stained_spruce_door",
+    "silverwolfsbuildingblocks:light_blue_stained_spruce_door",
+    "silverwolfsbuildingblocks:light_gray_stained_spruce_door",
+    "silverwolfsbuildingblocks:light_green_stained_spruce_door",
+    "silverwolfsbuildingblocks:magenta_stained_spruce_door",
+    "silverwolfsbuildingblocks:orange_stained_spruce_door",
+    "silverwolfsbuildingblocks:pink_stained_spruce_door",
+    "silverwolfsbuildingblocks:purple_stained_spruce_door",
+    "silverwolfsbuildingblocks:red_stained_spruce_door",
+    "silverwolfsbuildingblocks:white_stained_spruce_door",
+    "silverwolfsbuildingblocks:yellow_stained_spruce_door"
+  ]
+}
