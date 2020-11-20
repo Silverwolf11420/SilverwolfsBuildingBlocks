@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:purple_stained_dark_oak_door",
+      "silverwolfsbuildingblocks:purple_stained_dark_oak_slab",
+      "silverwolfsbuildingblocks:purple_stained_dark_oak_stairs",
+      "silverwolfsbuildingblocks:purple_dark_oak_button",
+      "silverwolfsbuildingblocks:purple_dark_oak_pressure_plate"
+    ]
+  },
+  "criteria": {
+    "has_purple_stained_dark_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:purple_stained_dark_oak_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:purple_stained_dark_oak_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_purple_stained_dark_oak_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

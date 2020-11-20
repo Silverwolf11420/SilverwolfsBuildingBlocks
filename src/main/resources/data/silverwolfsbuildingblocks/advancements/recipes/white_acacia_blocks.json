@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:white_stained_acacia_door",
+      "silverwolfsbuildingblocks:white_stained_acacia_slab",
+      "silverwolfsbuildingblocks:white_stained_acacia_stairs",
+      "silverwolfsbuildingblocks:white_acacia_button",
+      "silverwolfsbuildingblocks:white_acacia_pressure_plate"
+    ]
+  },
+  "criteria": {
+    "has_white_stained_acacia_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:white_stained_acacia_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:white_stained_acacia_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_white_stained_acacia_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

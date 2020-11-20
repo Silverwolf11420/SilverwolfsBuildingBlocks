@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:green_stained_jungle_door",
+      "silverwolfsbuildingblocks:green_stained_jungle_slab",
+      "silverwolfsbuildingblocks:green_stained_jungle_stairs",
+      "silverwolfsbuildingblocks:green_jungle_button",
+      "silverwolfsbuildingblocks:green_jungle_pressure_plate"
+    ]
+  },
+  "criteria": {
+    "has_green_stained_jungle_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:green_stained_jungle_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:green_stained_jungle_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_green_stained_jungle_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

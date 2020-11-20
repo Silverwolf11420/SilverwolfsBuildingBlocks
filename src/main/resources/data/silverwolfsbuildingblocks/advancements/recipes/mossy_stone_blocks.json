@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:mossy_stone_button",
+      "silverwolfsbuildingblocks:mossy_stone_pressure_plate",
+      "silverwolfsbuildingblocks:mossy_stone_slab",
+      "silverwolfsbuildingblocks:mossy_stone_slab_alt",
+      "silverwolfsbuildingblocks:mossy_stone_stairs",
+      "silverwolfsbuildingblocks:mossy_stone_stairs_alt"
+    ]
+  },
+  "criteria": {
+    "has_mossy_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:mossy_stone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:mossy_stone_button"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mossy_stone",
+      "has_the_recipe"
+    ]
+  ]
+}

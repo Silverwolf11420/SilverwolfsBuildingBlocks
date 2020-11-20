@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:orange_stained_acacia_door",
+      "silverwolfsbuildingblocks:orange_stained_acacia_slab",
+      "silverwolfsbuildingblocks:orange_stained_acacia_stairs",
+      "silverwolfsbuildingblocks:orange_acacia_button",
+      "silverwolfsbuildingblocks:orange_acacia_pressure_plate"
+    ]
+  },
+  "criteria": {
+    "has_orange_stained_acacia_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:orange_stained_acacia_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:orange_stained_acacia_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_orange_stained_acacia_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

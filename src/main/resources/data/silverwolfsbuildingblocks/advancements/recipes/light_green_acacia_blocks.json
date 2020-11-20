@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:light_green_stained_acacia_door",
+      "silverwolfsbuildingblocks:light_green_stained_acacia_slab",
+      "silverwolfsbuildingblocks:light_green_stained_acacia_stairs",
+      "silverwolfsbuildingblocks:light_green_acacia_button",
+      "silverwolfsbuildingblocks:light_green_acacia_pressure_plate"
+    ]
+  },
+  "criteria": {
+    "has_light_green_stained_acacia_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:light_green_stained_acacia_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:light_green_stained_acacia_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_light_green_stained_acacia_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

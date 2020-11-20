@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:pink_stained_acacia_door",
+      "silverwolfsbuildingblocks:pink_stained_acacia_slab",
+      "silverwolfsbuildingblocks:pink_stained_acacia_stairs",
+      "silverwolfsbuildingblocks:pink_acacia_button",
+      "silverwolfsbuildingblocks:pink_acacia_pressure_plate"
+    ]
+  },
+  "criteria": {
+    "has_pink_stained_acacia_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:pink_stained_acacia_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:pink_stained_acacia_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pink_stained_acacia_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

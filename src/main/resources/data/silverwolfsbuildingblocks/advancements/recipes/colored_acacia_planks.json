@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:black_stained_acacia_planks",
+      "silverwolfsbuildingblocks:blue_stained_acacia_planks",
+      "silverwolfsbuildingblocks:brown_stained_acacia_planks",
+      "silverwolfsbuildingblocks:cyan_stained_acacia_planks",
+      "silverwolfsbuildingblocks:gray_stained_acacia_planks",
+      "silverwolfsbuildingblocks:green_stained_acacia_planks",
+      "silverwolfsbuildingblocks:light_blue_stained_acacia_planks",
+      "silverwolfsbuildingblocks:light_gray_stained_acacia_planks",
+      "silverwolfsbuildingblocks:light_green_stained_acacia_planks",
+      "silverwolfsbuildingblocks:magenta_stained_acacia_planks",
+      "silverwolfsbuildingblocks:orange_stained_acacia_planks",
+      "silverwolfsbuildingblocks:pink_stained_acacia_planks",
+      "silverwolfsbuildingblocks:purple_stained_acacia_planks",
+      "silverwolfsbuildingblocks:red_stained_acacia_planks",
+      "silverwolfsbuildingblocks:white_stained_acacia_planks",
+      "silverwolfsbuildingblocks:yellow_stained_acacia_planks",
+      "silverwolfsbuildingblocks:acacia_sticks"
+    ]
+  },
+  "criteria": {
+    "has_colored_acacia_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:acacia_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:acacia_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_acacia_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

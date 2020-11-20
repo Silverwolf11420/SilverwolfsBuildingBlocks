@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:black_stained_oak_planks",
+      "silverwolfsbuildingblocks:blue_stained_oak_planks",
+      "silverwolfsbuildingblocks:brown_stained_oak_planks",
+      "silverwolfsbuildingblocks:cyan_stained_oak_planks",
+      "silverwolfsbuildingblocks:gray_stained_oak_planks",
+      "silverwolfsbuildingblocks:green_stained_oak_planks",
+      "silverwolfsbuildingblocks:light_blue_stained_oak_planks",
+      "silverwolfsbuildingblocks:light_gray_stained_oak_planks",
+      "silverwolfsbuildingblocks:light_green_stained_oak_planks",
+      "silverwolfsbuildingblocks:magenta_stained_oak_planks",
+      "silverwolfsbuildingblocks:orange_stained_oak_planks",
+      "silverwolfsbuildingblocks:pink_stained_oak_planks",
+      "silverwolfsbuildingblocks:purple_stained_oak_planks",
+      "silverwolfsbuildingblocks:red_stained_oak_planks",
+      "silverwolfsbuildingblocks:white_stained_oak_planks",
+      "silverwolfsbuildingblocks:yellow_stained_oak_planks",
+      "silverwolfsbuildingblocks:oak_sticks"
+    ]
+  },
+  "criteria": {
+    "has_colored_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:oak_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_oak_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

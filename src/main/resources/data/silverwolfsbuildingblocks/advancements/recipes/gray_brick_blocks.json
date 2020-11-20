@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:gray_brick_slab",
+	  "silverwolfsbuildingblocks:gray_bricks_stairs",
+	  "silverwolfsbuildingblocks:gray_brick_button",
+	  "silverwolfsbuildingblocks:gray_brick_pressure_plate"
+    ]
+  },
+  "criteria": {
+    "has_colored_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:gray_bricks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:gray_brick_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}

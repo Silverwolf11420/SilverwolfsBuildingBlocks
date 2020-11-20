@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:blue_bricks"
+    ]
+  },
+  "criteria": {
+    "has_colored_brick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:blue_brick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:blue_bricks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_brick",
+      "has_the_recipe"
+    ]
+  ]
+}

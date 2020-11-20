@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:cyan_bricks"
+    ]
+  },
+  "criteria": {
+    "has_colored_brick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:cyan_brick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:cyan_bricks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_brick",
+      "has_the_recipe"
+    ]
+  ]
+}
