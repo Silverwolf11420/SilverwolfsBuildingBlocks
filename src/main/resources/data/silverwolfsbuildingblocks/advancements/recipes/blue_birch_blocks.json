@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:blue_stained_birch_door",
+      "silverwolfsbuildingblocks:blue_stained_birch_slab",
+      "silverwolfsbuildingblocks:blue_stained_birch_stairs",
+      "silverwolfsbuildingblocks:blue_birch_button",
+      "silverwolfsbuildingblocks:blue_birch_pressure_plate"
+    ]
+  },
+  "criteria": {
+    "has_blue_stained_birch_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:blue_stained_birch_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:blue_stained_birch_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blue_stained_birch_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

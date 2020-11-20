@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:birch_beam_down",
+      "silverwolfsbuildingblocks:birch_beam_middle",
+      "silverwolfsbuildingblocks:birch_beam_up",
+      "silverwolfsbuildingblocks:stick_birch"
+    ]
+  },
+  "criteria": {
+    "has_birch_sticks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:birch_stick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:birch_beam_down"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_birch_sticks",
+      "has_the_recipe"
+    ]
+  ]
+}

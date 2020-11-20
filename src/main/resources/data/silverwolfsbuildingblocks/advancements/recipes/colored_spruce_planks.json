@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:black_stained_spruce_planks",
+      "silverwolfsbuildingblocks:blue_stained_spruce_planks",
+      "silverwolfsbuildingblocks:brown_stained_spruce_planks",
+      "silverwolfsbuildingblocks:cyan_stained_spruce_planks",
+      "silverwolfsbuildingblocks:gray_stained_spruce_planks",
+      "silverwolfsbuildingblocks:green_stained_spruce_planks",
+      "silverwolfsbuildingblocks:light_blue_stained_spruce_planks",
+      "silverwolfsbuildingblocks:light_gray_stained_spruce_planks",
+      "silverwolfsbuildingblocks:light_green_stained_spruce_planks",
+      "silverwolfsbuildingblocks:magenta_stained_spruce_planks",
+      "silverwolfsbuildingblocks:orange_stained_spruce_planks",
+      "silverwolfsbuildingblocks:pink_stained_spruce_planks",
+      "silverwolfsbuildingblocks:purple_stained_spruce_planks",
+      "silverwolfsbuildingblocks:red_stained_spruce_planks",
+      "silverwolfsbuildingblocks:white_stained_spruce_planks",
+      "silverwolfsbuildingblocks:yellow_stained_spruce_planks",
+      "silverwolfsbuildingblocks:spruce_sticks"
+    ]
+  },
+  "criteria": {
+    "has_colored_spruce_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:spruce_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_spruce_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

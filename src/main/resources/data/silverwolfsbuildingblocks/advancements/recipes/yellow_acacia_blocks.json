@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:yellow_stained_acacia_door",
+      "silverwolfsbuildingblocks:yellow_stained_acacia_slab",
+      "silverwolfsbuildingblocks:yellow_stained_acacia_stairs",
+      "silverwolfsbuildingblocks:yellow_acacia_button",
+      "silverwolfsbuildingblocks:yellow_acacia_pressure_plate"
+    ]
+  },
+  "criteria": {
+    "has_yellow_stained_acacia_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:yellow_stained_acacia_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:yellow_stained_acacia_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_yellow_stained_acacia_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

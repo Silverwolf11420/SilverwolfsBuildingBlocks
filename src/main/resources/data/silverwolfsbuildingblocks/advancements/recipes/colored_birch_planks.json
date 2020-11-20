@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:black_stained_birch_planks",
+      "silverwolfsbuildingblocks:blue_stained_birch_planks",
+      "silverwolfsbuildingblocks:brown_stained_birch_planks",
+      "silverwolfsbuildingblocks:cyan_stained_birch_planks",
+      "silverwolfsbuildingblocks:gray_stained_birch_planks",
+      "silverwolfsbuildingblocks:green_stained_birch_planks",
+      "silverwolfsbuildingblocks:light_blue_stained_birch_planks",
+      "silverwolfsbuildingblocks:light_gray_stained_birch_planks",
+      "silverwolfsbuildingblocks:light_green_stained_birch_planks",
+      "silverwolfsbuildingblocks:magenta_stained_birch_planks",
+      "silverwolfsbuildingblocks:orange_stained_birch_planks",
+      "silverwolfsbuildingblocks:pink_stained_birch_planks",
+      "silverwolfsbuildingblocks:purple_stained_birch_planks",
+      "silverwolfsbuildingblocks:red_stained_birch_planks",
+      "silverwolfsbuildingblocks:white_stained_birch_planks",
+      "silverwolfsbuildingblocks:yellow_stained_birch_planks",
+      "silverwolfsbuildingblocks:birch_sticks"
+    ]
+  },
+  "criteria": {
+    "has_colored_birch_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:birch_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_birch_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:orange_stained_spruce_door",
+      "silverwolfsbuildingblocks:orange_stained_spruce_slab",
+      "silverwolfsbuildingblocks:orange_stained_spruce_stairs",
+      "silverwolfsbuildingblocks:orange_spruce_button",
+      "silverwolfsbuildingblocks:orange_spruce_pressure_plate"
+    ]
+  },
+  "criteria": {
+    "has_orange_stained_spruce_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:orange_stained_spruce_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:orange_stained_spruce_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_orange_stained_spruce_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

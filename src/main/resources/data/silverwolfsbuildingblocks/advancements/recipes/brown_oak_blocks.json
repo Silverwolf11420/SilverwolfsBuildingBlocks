@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:brown_stained_oak_door",
+      "silverwolfsbuildingblocks:brown_stained_oak_slab",
+      "silverwolfsbuildingblocks:brown_stained_oak_stairs",
+      "silverwolfsbuildingblocks:brown_oak_button",
+      "silverwolfsbuildingblocks:brown_oak_pressure_plate"
+    ]
+  },
+  "criteria": {
+    "has_brown_stained_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:brown_stained_oak_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:brown_stained_oak_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_brown_stained_oak_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

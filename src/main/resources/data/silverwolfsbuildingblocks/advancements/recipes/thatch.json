@@ -2,21 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:thatch",
-      "silverwolfsbuildingblocks:thatch_button",
-      "silverwolfsbuildingblocks:thatch_door",
-      "silverwolfsbuildingblocks:thatch_pressure_plate",
-      "silverwolfsbuildingblocks:thatch_slab",
-      "silverwolfsbuildingblocks:thatch_stairs"
+      "silverwolfsbuildingblocks:wheat_thatch"
     ]
   },
   "criteria": {
-    "has_thatch_block": {
+    "has_wheat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:thatch_block"
+            "item": "minecraft:wheat"
           }
         ]
       }
@@ -24,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuldingblocks:thatch_block"
+        "recipe": "silverwolfsbuldingblocks:thatch"
       }
     }
   },
   "requirements": [
     [
-      "has_thatch_block",
+      "has_wheat",
       "has_the_recipe"
     ]
   ]

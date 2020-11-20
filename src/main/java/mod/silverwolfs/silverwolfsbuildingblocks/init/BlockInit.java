@@ -176,5 +176,4 @@ public class BlockInit {
     public static final RegistryObject<Block> WHITE_STAINED_SPRUCE_PLANKS = BLOCKS.register("white_stained_spruce_planks", () -> new Block(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F,3.0F).harvestTool(ToolType.AXE)));
     public static final RegistryObject<Block> YELLOW_STAINED_SPRUCE_PLANKS = BLOCKS.register("yellow_stained_spruce_planks", () -> new Block(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F,3.0F).harvestTool(ToolType.AXE)));
 
-
 }

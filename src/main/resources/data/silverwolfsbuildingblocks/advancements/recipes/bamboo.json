@@ -2,21 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:bamboo",
-      "silverwolfsbuildingblocks:bamboo_button",
-      "silverwolfsbuildingblocks:bamboo_door",
-      "silverwolfsbuildingblocks:bamboo_pressure_plate",
-      "silverwolfsbuildingblocks:bamboo_slab",
-      "silverwolfsbuildingblocks:bamboo_stairs"
+      "silverwolfsbuildingblocks:bamboo_block"
     ]
   },
   "criteria": {
-    "has_bamboo_block": {
+    "has_bamboo": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:bamboo_block"
+            "item": "minecraft:bamboo"
           }
         ]
       }
@@ -30,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_bamboo_block",
+      "has_bamboo",
       "has_the_recipe"
     ]
   ]

@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:brown_stained_jungle_door",
+      "silverwolfsbuildingblocks:brown_stained_jungle_slab",
+      "silverwolfsbuildingblocks:brown_stained_jungle_stairs",
+      "silverwolfsbuildingblocks:brown_jungle_button",
+      "silverwolfsbuildingblocks:brown_jungle_pressure_plate"
+    ]
+  },
+  "criteria": {
+    "has_brown_stained_jungle_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:brown_stained_jungle_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:brown_stained_jungle_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_brown_stained_jungle_planks",
+      "has_the_recipe"
+    ]
+  ]
+}
