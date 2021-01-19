@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:green_jungle_ladder"
+    ]
+  },
+  "criteria": {
+    "has_green_jungle_sticks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:green_jungle_stick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:green_jungle_ladder"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_green_jungle_sticks",
+      "has_the_recipe"
+    ]
+  ]
+}

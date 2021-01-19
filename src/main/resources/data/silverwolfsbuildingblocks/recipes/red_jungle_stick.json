@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_jungle_sticks",
+  "pattern":
+  [
+    "x  ",
+    "x  ",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "silverwolfsbuildingblocks:red_stained_jungle_planks"
+    }
+  },
+  "result":
+  {
+    "item": "silverwolfsbuildingblocks:red_jungle_stick",
+    "count": 4
+  }
+}

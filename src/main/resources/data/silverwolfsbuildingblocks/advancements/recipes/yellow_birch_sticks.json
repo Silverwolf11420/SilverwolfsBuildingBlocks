@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:yellow_birch_ladder"
+    ]
+  },
+  "criteria": {
+    "has_yellow_birch_sticks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:yellow_birch_stick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:yellow_birch_ladder"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_yellow_birch_sticks",
+      "has_the_recipe"
+    ]
+  ]
+}

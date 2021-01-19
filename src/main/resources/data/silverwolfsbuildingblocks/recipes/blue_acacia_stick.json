@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_acacia_sticks",
+  "pattern":
+  [
+    "x  ",
+    "x  ",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "silverwolfsbuildingblocks:blue_stained_acacia_planks"
+    }
+  },
+  "result":
+  {
+    "item": "silverwolfsbuildingblocks:blue_acacia_stick",
+    "count": 4
+  }
+}
