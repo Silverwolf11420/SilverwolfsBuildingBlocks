@@ -6,7 +6,9 @@
       "silverwolfsbuildingblocks:thatch_door",
       "silverwolfsbuildingblocks:thatch_pressure_plate",
       "silverwolfsbuildingblocks:thatch_slab",
-      "silverwolfsbuildingblocks:thatch_stairs"
+      "silverwolfsbuildingblocks:thatch_stairs",
+      "silverwolfsbuildingblocks:thatch_fence",
+      "silverwolfsbuildingblocks:thatch_fence_gate"
     ]
   },
   "criteria": {

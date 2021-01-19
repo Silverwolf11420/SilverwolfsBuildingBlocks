@@ -11,6 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class DoorInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, SilverwolfsBuildingBlocks.MOD_ID);
 
+    //Door
     public static final RegistryObject<Block> THATCH_DOOR = BLOCKS.register("thatch_door", () -> new ModDoors(Block.Properties.from(Blocks.OAK_DOOR)));
     public static final RegistryObject<Block> BAMBOO_DOOR = BLOCKS.register("bamboo_door", () -> new ModDoors(Block.Properties.from(Blocks.OAK_DOOR)));
 

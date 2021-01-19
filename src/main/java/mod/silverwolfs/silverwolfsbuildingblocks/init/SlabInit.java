@@ -10,7 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class SlabInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, SilverwolfsBuildingBlocks.MOD_ID);
 
-    //Slabs
+    //Slab
     public static final RegistryObject<Block> THATCH_SLAB = BLOCKS.register("thatch_slab", () -> new SlabBlock(Block.Properties.from(BlockInit.THATCH_BLOCK.get())));
     public static final RegistryObject<Block> BAMBOO_SLAB = BLOCKS.register("bamboo_slab", () -> new SlabBlock(Block.Properties.from(BlockInit.BAMBOO_BLOCK.get())));
     public static final RegistryObject<Block> MOSSY_STONE_SLAB = BLOCKS.register("mossy_stone_slab", () -> new SlabBlock(Block.Properties.from(BlockInit.MOSSY_STONE.get())));

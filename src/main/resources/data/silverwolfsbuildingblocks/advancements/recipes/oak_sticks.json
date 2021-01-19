@@ -5,7 +5,8 @@
       "silverwolfsbuildingblocks:oak_beam_down",
       "silverwolfsbuildingblocks:oak_beam_middle",
       "silverwolfsbuildingblocks:oak_beam_up",
-      "silverwolfsbuildingblocks:stick_oak"
+      "silverwolfsbuildingblocks:stick_oak",
+      "silverwolfsbuildingblocks:oak_ladder"
     ]
   },
   "criteria": {

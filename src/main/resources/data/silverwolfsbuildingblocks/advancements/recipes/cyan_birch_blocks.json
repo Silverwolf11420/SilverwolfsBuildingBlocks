@@ -6,7 +6,8 @@
       "silverwolfsbuildingblocks:cyan_stained_birch_slab",
       "silverwolfsbuildingblocks:cyan_stained_birch_stairs",
       "silverwolfsbuildingblocks:cyan_birch_button",
-      "silverwolfsbuildingblocks:cyan_birch_pressure_plate"
+      "silverwolfsbuildingblocks:cyan_birch_pressure_plate",
+      "silverwolfsbuildingblocks:cyan_birch_stick"
     ]
   },
   "criteria": {

@@ -1,8 +1,10 @@
 package mod.silverwolfs.silverwolfsbuildingblocks.util;
 
 import mod.silverwolfs.silverwolfsbuildingblocks.SilverwolfsBuildingBlocks;
-import mod.silverwolfs.silverwolfsbuildingblocks.init.BlockInit;
 import mod.silverwolfs.silverwolfsbuildingblocks.init.DoorInit;
+import mod.silverwolfs.silverwolfsbuildingblocks.init.FencesWallsInit;
+import mod.silverwolfs.silverwolfsbuildingblocks.init.LadderInit;
+import mod.silverwolfs.silverwolfsbuildingblocks.init.TrapdoorsInit;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.api.distmarker.Dist;
@@ -71,5 +73,119 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(DoorInit.WHITE_STAINED_OAK_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.YELLOW_STAINED_OAK_DOOR.get(), RenderType.getCutout());
 
+        //Ladders
+        RenderTypeLookup.setRenderLayer(LadderInit.BAMBOO_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.THATCH_LADDER.get(), RenderType.getCutout());
+
+        RenderTypeLookup.setRenderLayer(LadderInit.ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BLACK_ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BLUE_ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BROWN_ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.CYAN_ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.GRAY_ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.GREEN_ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_BLUE_ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GRAY_ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GREEN_ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.MAGENTA_ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.ORANGE_ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.PINK_ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.PURPLE_ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.RED_ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.WHITE_ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.YELLOW_ACACIA_LADDER.get(), RenderType.getCutout());
+
+        RenderTypeLookup.setRenderLayer(LadderInit.BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BLACK_BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BLUE_BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BROWN_BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.CYAN_BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.GRAY_BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.GREEN_BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_BLUE_BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GRAY_BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GREEN_BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.MAGENTA_BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.ORANGE_BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.PINK_BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.PURPLE_BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.RED_BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.WHITE_BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.YELLOW_BIRCH_LADDER.get(), RenderType.getCutout());
+
+        RenderTypeLookup.setRenderLayer(LadderInit.DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BLACK_DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BLUE_DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BROWN_DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.CYAN_DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.GRAY_DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.GREEN_DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_BLUE_DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GRAY_DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GREEN_DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.MAGENTA_DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.ORANGE_DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.PINK_DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.PURPLE_DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.RED_DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.WHITE_DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.YELLOW_DARK_OAK_LADDER.get(), RenderType.getCutout());
+
+        RenderTypeLookup.setRenderLayer(LadderInit.JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BLACK_JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BLUE_JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BROWN_JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.CYAN_JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.GRAY_JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.GREEN_JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_BLUE_JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GRAY_JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GREEN_JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.MAGENTA_JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.ORANGE_JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.PINK_JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.PURPLE_JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.RED_JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.WHITE_JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.YELLOW_JUNGLE_LADDER.get(), RenderType.getCutout());
+
+        RenderTypeLookup.setRenderLayer(LadderInit.BLACK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BLUE_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BROWN_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.CYAN_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.GRAY_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.GREEN_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_BLUE_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GRAY_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GREEN_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.MAGENTA_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.ORANGE_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.PINK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.PURPLE_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.RED_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.WHITE_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.YELLOW_OAK_LADDER.get(), RenderType.getCutout());
+
+        RenderTypeLookup.setRenderLayer(LadderInit.SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BLACK_SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BLUE_SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.BROWN_SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.CYAN_SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.GRAY_SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.GREEN_SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_BLUE_SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GRAY_SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GREEN_SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.MAGENTA_SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.ORANGE_SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.PINK_SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.PURPLE_SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.RED_SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.WHITE_SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.YELLOW_SPRUCE_LADDER.get(), RenderType.getCutout());
+
+        //trapdoors
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.BAMBOO_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.THATCH_TRAPDOOR.get(), RenderType.getCutout());
     }
 }

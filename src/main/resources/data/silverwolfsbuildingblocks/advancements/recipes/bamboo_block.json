@@ -7,7 +7,10 @@
       "silverwolfsbuildingblocks:bamboo_pressure_plate",
       "silverwolfsbuildingblocks:bamboo",
       "silverwolfsbuildingblocks:bamboo_slab",
-      "silverwolfsbuildingblocks:bamboo_stairs"
+      "silverwolfsbuildingblocks:bamboo_stairs",
+      "silverwolfsbuildingblocks:bamboo_trapdoor",
+      "silverwolfsbuildingblocks:bamboo_fence",
+      "silverwolfsbuildingblocks:bamboo_fence_gate"
     ]
   },
   "criteria": {

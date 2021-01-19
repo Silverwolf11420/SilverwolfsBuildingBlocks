@@ -35,11 +35,14 @@ public class SilverwolfsBuildingBlocks {
 
         ItemInit.ITEMS.register(modEventbus);
         BlockInit.BLOCKS.register(modEventbus);
-        StairsInit.BLOCKS.register(modEventbus);
-        SlabInit.BLOCKS.register(modEventbus);
-        DoorInit.BLOCKS.register(modEventbus);
         ButtonInit.BLOCKS.register(modEventbus);
+        DoorInit.BLOCKS.register(modEventbus);
+        LadderInit.BLOCKS.register(modEventbus);
         PressurePlateInit.BLOCKS.register(modEventbus);
+        SlabInit.BLOCKS.register(modEventbus);
+        StairsInit.BLOCKS.register(modEventbus);
+        TrapdoorsInit.BLOCKS.register(modEventbus);
+        FencesWallsInit.BLOCKS.register(modEventbus);
 
         instance = this;
         MinecraftForge.EVENT_BUS.register(this);
@@ -57,35 +60,56 @@ public class SilverwolfsBuildingBlocks {
         });
 
         StairsInit.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
-            final Item.Properties properties = new Item.Properties().group(SilverwolfsStairsItemGroup.instance);
+            final Item.Properties properties = new Item.Properties().group(SilverwolfsBlocksItemGroup.instance);
             final BlockItem blockItem = new BlockItem(block, properties);
             blockItem.setRegistryName(block.getRegistryName());
             registry.register(blockItem);
         });
 
         SlabInit.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
-            final Item.Properties properties = new Item.Properties().group(SilverwolfsSlabItemGroup.instance);
+            final Item.Properties properties = new Item.Properties().group(SilverwolfsBlocksItemGroup.instance);
             final BlockItem blockItem = new BlockItem(block, properties);
             blockItem.setRegistryName(block.getRegistryName());
             registry.register(blockItem);
         });
 
         DoorInit.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
-            final Item.Properties properties = new Item.Properties().group(SilverwolfsDoorItemGroup.instance);
+            final Item.Properties properties = new Item.Properties().group(SilverwolfsBlocksItemGroup.instance);
             final BlockItem blockItem = new BlockItem(block, properties);
             blockItem.setRegistryName(block.getRegistryName());
             registry.register(blockItem);
         });
 
         ButtonInit.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
-            final Item.Properties properties = new Item.Properties().group(SilverwolfsButtonItemGroup.instance);
+            final Item.Properties properties = new Item.Properties().group(SilverwolfsBlocksItemGroup.instance);
             final BlockItem blockItem = new BlockItem(block, properties);
             blockItem.setRegistryName(block.getRegistryName());
             registry.register(blockItem);
         });
 
         PressurePlateInit.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
-            final Item.Properties properties = new Item.Properties().group(SilverwolfsPressurePlateItemGroup.instance);
+            final Item.Properties properties = new Item.Properties().group(SilverwolfsBlocksItemGroup.instance);
+            final BlockItem blockItem = new BlockItem(block, properties);
+            blockItem.setRegistryName(block.getRegistryName());
+            registry.register(blockItem);
+        });
+
+        LadderInit.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
+            final Item.Properties properties = new Item.Properties().group(SilverwolfsBlocksItemGroup.instance);
+            final BlockItem blockItem = new BlockItem(block, properties);
+            blockItem.setRegistryName(block.getRegistryName());
+            registry.register(blockItem);
+        });
+
+        TrapdoorsInit.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
+            final Item.Properties properties = new Item.Properties().group(SilverwolfsBlocksItemGroup.instance);
+            final BlockItem blockItem = new BlockItem(block, properties);
+            blockItem.setRegistryName(block.getRegistryName());
+            registry.register(blockItem);
+        });
+
+        FencesWallsInit.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
+            final Item.Properties properties = new Item.Properties().group(SilverwolfsBlocksItemGroup.instance);
             final BlockItem blockItem = new BlockItem(block, properties);
             blockItem.setRegistryName(block.getRegistryName());
             registry.register(blockItem);
@@ -115,6 +139,10 @@ public class SilverwolfsBuildingBlocks {
         public ItemStack createIcon() {
             return new ItemStack(ItemInit.RED_BRICK.get());
         }
+        @Override
+        public boolean hasSearchBar() {
+            return true;
+        }
     }
 
     public static class SilverwolfsBlocksItemGroup extends ItemGroup{
@@ -127,65 +155,9 @@ public class SilverwolfsBuildingBlocks {
         public ItemStack createIcon() {
             return new ItemStack(BlockInit.OAK_BEAM_MIDDLE.get());
         }
-    }
-
-    public static class SilverwolfsStairsItemGroup extends ItemGroup{
-        public static final SilverwolfsStairsItemGroup instance = new SilverwolfsStairsItemGroup(ItemGroup.GROUPS.length, "stairstab");
-        private SilverwolfsStairsItemGroup(int index, String label)
-        {
-            super(index, label);
-        }
         @Override
-        public ItemStack createIcon() {
-            return new ItemStack(StairsInit.BLACK_BRICKS_STAIRS.get());
-        }
-    }
-
-    public static class SilverwolfsSlabItemGroup extends ItemGroup{
-        public static final SilverwolfsBuildingBlocks.SilverwolfsSlabItemGroup instance = new SilverwolfsBuildingBlocks.SilverwolfsSlabItemGroup(ItemGroup.GROUPS.length, "slabtab");
-        private SilverwolfsSlabItemGroup(int index, String label)
-        {
-            super(index, label);
-        }
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(SlabInit.MOSSY_STONE_SLAB.get());
-        }
-    }
-
-    public static class SilverwolfsDoorItemGroup extends ItemGroup{
-        public static final SilverwolfsBuildingBlocks.SilverwolfsDoorItemGroup instance = new SilverwolfsBuildingBlocks.SilverwolfsDoorItemGroup(ItemGroup.GROUPS.length, "doortab");
-        private SilverwolfsDoorItemGroup(int index, String label)
-        {
-            super(index, label);
-        }
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(DoorInit.BLACK_STAINED_ACACIA_DOOR.get());
-        }
-    }
-
-    public static class SilverwolfsButtonItemGroup extends ItemGroup{
-        public static final SilverwolfsBuildingBlocks.SilverwolfsButtonItemGroup instance = new SilverwolfsBuildingBlocks.SilverwolfsButtonItemGroup(ItemGroup.GROUPS.length, "buttontab");
-        private SilverwolfsButtonItemGroup(int index, String label)
-        {
-            super(index, label);
-        }
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(ButtonInit.BAMBOO_BUTTON.get());
-        }
-    }
-
-    public static class SilverwolfsPressurePlateItemGroup extends ItemGroup{
-        public static final SilverwolfsBuildingBlocks.SilverwolfsPressurePlateItemGroup instance = new SilverwolfsBuildingBlocks.SilverwolfsPressurePlateItemGroup(ItemGroup.GROUPS.length, "pressureplatetab");
-        private SilverwolfsPressurePlateItemGroup(int index, String label)
-        {
-            super(index, label);
-        }
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(PressurePlateInit.THATCH_PRESSURE_PLATE.get());
+        public boolean hasSearchBar() {
+            return true;
         }
     }
 }

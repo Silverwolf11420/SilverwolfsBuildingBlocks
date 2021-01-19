@@ -3,7 +3,9 @@
   "rewards": {
     "recipes": [
       "silverwolfsbuildingblocks:thatch_block",
-      "silverwolfsbuildingblocks:thatch"
+      "silverwolfsbuildingblocks:thatch",
+      "silverwolfsbuildingblocks:thatch_ladder",
+      "silverwolfsbuildingblocks:thatch_trapdoor"
     ]
   },
   "criteria": {

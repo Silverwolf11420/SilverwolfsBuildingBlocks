@@ -5,7 +5,8 @@
       "silverwolfsbuildingblocks:acacia_beam_down",
       "silverwolfsbuildingblocks:acacia_beam_middle",
       "silverwolfsbuildingblocks:acacia_beam_up",
-      "silverwolfsbuildingblocks:stick_acacia"
+      "silverwolfsbuildingblocks:stick_acacia",
+      "silverwolfsbuildingblocks:acacia_ladder"
     ]
   },
   "criteria": {

@@ -6,7 +6,8 @@
       "silverwolfsbuildingblocks:gray_stained_spruce_slab",
       "silverwolfsbuildingblocks:gray_stained_spruce_stairs",
       "silverwolfsbuildingblocks:gray_spruce_button",
-      "silverwolfsbuildingblocks:gray_spruce_pressure_plate"
+      "silverwolfsbuildingblocks:gray_spruce_pressure_plate",
+      "silverwolfsbuildingblocks:gray_spruce_stick"
     ]
   },
   "criteria": {

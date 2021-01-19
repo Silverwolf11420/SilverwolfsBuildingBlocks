@@ -6,7 +6,8 @@
       "silverwolfsbuildingblocks:gray_stained_acacia_slab",
       "silverwolfsbuildingblocks:gray_stained_acacia_stairs",
       "silverwolfsbuildingblocks:gray_acacia_button",
-      "silverwolfsbuildingblocks:gray_acacia_pressure_plate"
+      "silverwolfsbuildingblocks:gray_acacia_pressure_plate",
+      "silverwolfsbuildingblocks:gray_acacia_stick"
     ]
   },
   "criteria": {

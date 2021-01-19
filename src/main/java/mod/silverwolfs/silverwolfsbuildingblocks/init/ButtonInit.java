@@ -14,6 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ButtonInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, SilverwolfsBuildingBlocks.MOD_ID);
 
+    //Button
     public static final RegistryObject<Block> BAMBOO_BUTTON = BLOCKS.register("bamboo_button", () -> new ModWoodButtonBlock(Block.Properties.create(Material.BAMBOO).sound(SoundType.BAMBOO).hardnessAndResistance(0.5F,0.5F)));
     public static final RegistryObject<Block> THATCH_BUTTON = BLOCKS.register("thatch_button", () -> new ModWoodButtonBlock(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT).hardnessAndResistance(0.5F,0.5F)));
     public static final RegistryObject<Block> MOSSY_STONE_BUTTON = BLOCKS.register("mossy_stone_button", () -> new ModStoneButtonBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5F,6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0)));
@@ -158,4 +159,3 @@ public class ButtonInit {
     public static final RegistryObject<Block> YELLOW_SPRUCE_BUTTON = BLOCKS.register("yellow_spruce_button", () -> new ModWoodButtonBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F,3.0F).harvestTool(ToolType.AXE)));
 
 }
-

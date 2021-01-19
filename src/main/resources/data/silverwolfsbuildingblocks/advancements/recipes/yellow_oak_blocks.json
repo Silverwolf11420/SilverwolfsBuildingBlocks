@@ -6,7 +6,8 @@
       "silverwolfsbuildingblocks:yellow_stained_oak_slab",
       "silverwolfsbuildingblocks:yellow_stained_oak_stairs",
       "silverwolfsbuildingblocks:yellow_oak_button",
-      "silverwolfsbuildingblocks:yellow_oak_pressure_plate"
+      "silverwolfsbuildingblocks:yellow_oak_pressure_plate",
+      "silverwolfsbuildingblocks:yellow_oak_stick"
     ]
   },
   "criteria": {
