@@ -1,8 +1,8 @@
 package mod.silverwolfs.silverwolfsbuildingblocks.init;
 
 import mod.silverwolfs.silverwolfsbuildingblocks.SilverwolfsBuildingBlocks;
-import net.minecraft.block.Block;
-import net.minecraft.block.SoundType;
+import mod.silverwolfs.silverwolfsbuildingblocks.object.blocks.*;
+import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
