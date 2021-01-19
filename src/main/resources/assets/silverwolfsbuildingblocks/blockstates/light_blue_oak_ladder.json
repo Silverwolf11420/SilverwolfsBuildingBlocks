@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "silverwolfsbuildingblocks:block/light_blue_oak_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "silverwolfsbuildingblocks:block/light_blue_oak_ladder"
+    },
+    "facing=south": {
+      "model": "silverwolfsbuildingblocks:block/light_blue_oak_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "silverwolfsbuildingblocks:block/light_blue_oak_ladder",
+      "y": 270
+    }
+  }
+}

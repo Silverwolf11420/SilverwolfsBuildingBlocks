@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_oak_ladders",
+  "pattern": [
+    "x x",
+    "xxx",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:white_oak_stick"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:white_oak_ladder",
+    "count": 3
+  }
+}

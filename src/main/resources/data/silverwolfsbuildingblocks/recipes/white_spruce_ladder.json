@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_spruce_ladders",
+  "pattern": [
+    "x x",
+    "xxx",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:white_spruce_stick"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:white_spruce_ladder",
+    "count": 3
+  }
+}

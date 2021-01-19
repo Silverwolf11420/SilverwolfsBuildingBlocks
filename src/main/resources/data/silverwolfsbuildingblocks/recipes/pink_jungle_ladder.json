@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_jungle_ladders",
+  "pattern": [
+    "x x",
+    "xxx",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:pink_jungle_stick"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:pink_jungle_ladder",
+    "count": 3
+  }
+}
