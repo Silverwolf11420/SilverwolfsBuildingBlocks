@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xyx",
+    "xyx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:thatch_block"
+    },
+    "y": {
+      "item": "silverwolfsbuildingblocks:thatch"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:thatch_fence_gate"
+  }
+}
