@@ -7,7 +7,8 @@
       "silverwolfsbuildingblocks:gray_stained_oak_stairs",
       "silverwolfsbuildingblocks:gray_oak_button",
       "silverwolfsbuildingblocks:gray_oak_pressure_plate",
-      "silverwolfsbuildingblocks:gray_oak_stick"
+      "silverwolfsbuildingblocks:gray_oak_stick",
+      "silverwolfsbuildingblocks:gray_oak_trapdoor"
     ]
   },
   "criteria": {

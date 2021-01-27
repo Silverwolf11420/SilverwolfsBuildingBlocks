@@ -7,7 +7,8 @@
       "silverwolfsbuildingblocks:gray_stained_birch_stairs",
       "silverwolfsbuildingblocks:gray_birch_button",
       "silverwolfsbuildingblocks:gray_birch_pressure_plate",
-      "silverwolfsbuildingblocks:gray_birch_stick"
+      "silverwolfsbuildingblocks:gray_birch_stick",
+      "silverwolfsbuildingblocks:gray_birch_trapdoor"
     ]
   },
   "criteria": {

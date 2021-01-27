@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_spruce_trapdoors",
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:black_stained_spruce_planks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:black_spruce_trapdoor",
+    "count": 2
+  }
+}

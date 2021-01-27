@@ -187,5 +187,57 @@ public class ClientEventBusSubscriber {
         //trapdoors
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.BAMBOO_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.THATCH_TRAPDOOR.get(), RenderType.getCutout());
+
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.BLACK_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.BLUE_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.BROWN_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.CYAN_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.GRAY_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.GREEN_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_BLUE_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_GRAY_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_GREEN_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.MAGENTA_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.ORANGE_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.PINK_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.PURPLE_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.RED_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.WHITE_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.YELLOW_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.BLACK_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.BLUE_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.BROWN_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.CYAN_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.GRAY_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.GREEN_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_BLUE_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_GRAY_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_GREEN_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.MAGENTA_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.ORANGE_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.PINK_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.PURPLE_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.RED_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.WHITE_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.YELLOW_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.BLACK_OAK_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.BLUE_OAK_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.BROWN_OAK_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.CYAN_OAK_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.GRAY_OAK_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.GREEN_OAK_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_BLUE_OAK_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_GRAY_OAK_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_GREEN_OAK_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.MAGENTA_OAK_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.ORANGE_OAK_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.PINK_OAK_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.PURPLE_OAK_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.RED_OAK_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.WHITE_OAK_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.YELLOW_OAK_TRAPDOOR.get(), RenderType.getCutout());
+
     }
 }
