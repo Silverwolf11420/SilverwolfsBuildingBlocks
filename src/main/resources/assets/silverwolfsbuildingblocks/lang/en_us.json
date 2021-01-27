@@ -1207,6 +1207,9 @@
   "block.silverwolfsbuildingblocks.white_spruce_trapdoor": "White Spruce Trapdoor",
   "block.silverwolfsbuildingblocks.yellow_spruce_trapdoor": "Yellow Spruce Trapdoor",
 
-  "block.silverwolfsbuildingblocks.mossy_stone_wall": "Mossy Stone Wall"
+  "block.silverwolfsbuildingblocks.mossy_stone_wall": "Mossy Stone Wall",
+  "block.silverwolfsbuildingblocks.more_mossy_stone_wall": "More Mossy Stone Wall",
+  "block.silverwolfsbuildingblocks.mossy_andesite_wall": "Mossy Andesite Wall",
+  "block.silverwolfsbuildingblocks.more_mossy_andesite_wall": "More Mossy Andesite Wall"
 
 }
