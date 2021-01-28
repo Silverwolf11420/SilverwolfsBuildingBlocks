@@ -5,7 +5,8 @@
       "silverwolfsbuildingblocks:light_blue_brick_slab",
 	  "silverwolfsbuildingblocks:light_blue_bricks_stairs",
 	  "silverwolfsbuildingblocks:light_blue_brick_button",
-	  "silverwolfsbuildingblocks:light_blue_brick_pressure_plate"
+	  "silverwolfsbuildingblocks:light_blue_brick_pressure_plate",
+      "silverwolfsbuildingblocks:light_blue_brick_wall"
     ]
   },
   "criteria": {

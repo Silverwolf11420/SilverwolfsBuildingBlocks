@@ -5,7 +5,8 @@
       "silverwolfsbuildingblocks:orange_stone_brick_slab",
 	  "silverwolfsbuildingblocks:orange_stone_brick_stairs",
 	  "silverwolfsbuildingblocks:orange_stone_brick_button",
-	  "silverwolfsbuildingblocks:orange_stone_brick_pressure_plate"
+	  "silverwolfsbuildingblocks:orange_stone_brick_pressure_plate",
+      "silverwolfsbuildingblocks:orange_stone_brick_wall"
     ]
   },
   "criteria": {

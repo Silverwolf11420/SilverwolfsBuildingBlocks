@@ -5,7 +5,8 @@
       "silverwolfsbuildingblocks:yellow_stone_brick_slab",
 	  "silverwolfsbuildingblocks:yellow_stone_brick_stairs",
 	  "silverwolfsbuildingblocks:yellow_stone_brick_button",
-	  "silverwolfsbuildingblocks:yellow_stone_brick_pressure_plate"
+	  "silverwolfsbuildingblocks:yellow_stone_brick_pressure_plate",
+      "silverwolfsbuildingblocks:yellow_stone_brick_wall"
     ]
   },
   "criteria": {

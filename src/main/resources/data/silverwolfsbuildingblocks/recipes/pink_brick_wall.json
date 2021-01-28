@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:pink_bricks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:pink_brick_wall",
+    "count": 6
+  }
+}

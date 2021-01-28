@@ -5,7 +5,8 @@
       "silverwolfsbuildingblocks:red_stone_brick_slab",
 	  "silverwolfsbuildingblocks:red_stone_brick_stairs",
 	  "silverwolfsbuildingblocks:red_stone_brick_button",
-	  "silverwolfsbuildingblocks:red_stone_brick_pressure_plate"
+	  "silverwolfsbuildingblocks:red_stone_brick_pressure_plate",
+      "silverwolfsbuildingblocks:red_stone_brick_wall"
     ]
   },
   "criteria": {

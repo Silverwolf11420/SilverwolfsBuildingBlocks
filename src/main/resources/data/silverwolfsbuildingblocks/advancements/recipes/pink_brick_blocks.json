@@ -5,7 +5,8 @@
       "silverwolfsbuildingblocks:pink_brick_slab",
 	  "silverwolfsbuildingblocks:pink_bricks_stairs",
 	  "silverwolfsbuildingblocks:pink_brick_button",
-	  "silverwolfsbuildingblocks:pink_brick_pressure_plate"
+	  "silverwolfsbuildingblocks:pink_brick_pressure_plate",
+      "silverwolfsbuildingblocks:pink_brick_wall"
     ]
   },
   "criteria": {

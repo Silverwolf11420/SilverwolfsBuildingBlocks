@@ -5,7 +5,8 @@
       "silverwolfsbuildingblocks:light_green_stone_brick_slab",
 	  "silverwolfsbuildingblocks:light_green_stone_brick_stairs",
 	  "silverwolfsbuildingblocks:light_green_stone_brick_button",
-	  "silverwolfsbuildingblocks:light_green_stone_brick_pressure_plate"
+	  "silverwolfsbuildingblocks:light_green_stone_brick_pressure_plate",
+      "silverwolfsbuildingblocks:light_green_stone_brick_wall"
     ]
   },
   "criteria": {
