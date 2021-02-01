@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_jungle_fence",
+  "pattern": [
+    "xyx",
+    "xyx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:white_stained_jungle_planks"
+    },
+    "y": {
+      "item": "silverwolfsbuildingblocks:white_jungle_stick"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:white_jungle_fence",
+    "count": 3
+  }
+}

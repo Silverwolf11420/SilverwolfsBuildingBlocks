@@ -2,7 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:pink_spruce_ladder"
+      "silverwolfsbuildingblocks:pink_spruce_ladder",
+      "silverwolfsbuildingblocks:pink_spruce_fence",
+      "silverwolfsbuildingblocks:pink_spruce_fence_gate"
     ]
   },
   "criteria": {

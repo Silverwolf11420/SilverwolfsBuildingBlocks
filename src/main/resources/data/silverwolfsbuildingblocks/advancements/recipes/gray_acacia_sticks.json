@@ -2,7 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:gray_acacia_ladder"
+      "silverwolfsbuildingblocks:gray_acacia_ladder",
+      "silverwolfsbuildingblocks:gray_acacia_fence",
+      "silverwolfsbuildingblocks:gray_acacia_fence_gate"
     ]
   },
   "criteria": {

@@ -2,7 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:magenta_oak_ladder"
+      "silverwolfsbuildingblocks:magenta_oak_ladder",
+      "silverwolfsbuildingblocks:magenta_oak_fence",
+      "silverwolfsbuildingblocks:magenta_oak_fence_gate"
     ]
   },
   "criteria": {

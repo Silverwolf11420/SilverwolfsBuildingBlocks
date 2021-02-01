@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "silverwolfsbuildingblocks:block/light_green_stained_spruce_planks"
+  }
+}

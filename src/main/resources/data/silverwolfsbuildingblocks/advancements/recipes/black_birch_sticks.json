@@ -2,7 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:black_birch_ladder"
+      "silverwolfsbuildingblocks:black_birch_ladder",
+      "silverwolfsbuildingblocks:black_birch_fence",
+      "silverwolfsbuildingblocks:black_birch_fence_gate"
     ]
   },
   "criteria": {
