@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_jungle_fence_gates",
+  "pattern": [
+    "xyx",
+    "xyx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:red_stained_jungle_planks"
+    },
+    "y": {
+      "item": "silverwolfsbuildingblocks:red_jungle_stick"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:red_jungle_fence_gate"
+  }
+}

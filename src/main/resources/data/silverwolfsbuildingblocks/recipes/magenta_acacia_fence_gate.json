@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_acacia_fence_gates",
+  "pattern": [
+    "xyx",
+    "xyx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:magenta_stained_acacia_planks"
+    },
+    "y": {
+      "item": "silverwolfsbuildingblocks:magenta_acacia_stick"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:magenta_acacia_fence_gate"
+  }
+}
