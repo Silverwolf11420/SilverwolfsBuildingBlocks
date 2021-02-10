@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "silverwolfsbuildingblocks:block/lime_oak_pressure_plate" },
+        "powered=true": { "model": "silverwolfsbuildingblocks:block/lime_oak_pressure_plate_down" }
+    }
+}

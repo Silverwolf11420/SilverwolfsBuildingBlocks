@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_stone_brick_stairs",
+  "pattern": [
+    "x  ",
+    "xx ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:lime_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:lime_stone_brick_stairs",
+    "count": 6
+  }
+}

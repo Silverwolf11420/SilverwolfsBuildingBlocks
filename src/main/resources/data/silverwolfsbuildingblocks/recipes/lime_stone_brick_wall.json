@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:lime_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:lime_stone_brick_wall",
+    "count": 6
+  }
+}

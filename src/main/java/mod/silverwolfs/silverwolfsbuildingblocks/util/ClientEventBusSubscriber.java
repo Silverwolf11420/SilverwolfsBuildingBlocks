@@ -19,6 +19,7 @@ public class ClientEventBusSubscriber {
     public static void clientSetup(FMLClientSetupEvent event) {
 
         //Doors
+
         RenderTypeLookup.setRenderLayer(DoorInit.THATCH_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.BAMBOO_DOOR.get(), RenderType.getCutout());
 
@@ -30,7 +31,7 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(DoorInit.GREEN_STAINED_ACACIA_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.LIGHT_BLUE_STAINED_ACACIA_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.LIGHT_GRAY_STAINED_ACACIA_DOOR.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(DoorInit.LIGHT_GREEN_STAINED_ACACIA_DOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(DoorInit.LIME_STAINED_ACACIA_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.MAGENTA_STAINED_ACACIA_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.ORANGE_STAINED_ACACIA_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.PINK_STAINED_ACACIA_DOOR.get(), RenderType.getCutout());
@@ -47,7 +48,7 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(DoorInit.GREEN_STAINED_JUNGLE_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.LIGHT_BLUE_STAINED_JUNGLE_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.LIGHT_GRAY_STAINED_JUNGLE_DOOR.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(DoorInit.LIGHT_GREEN_STAINED_JUNGLE_DOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(DoorInit.LIME_STAINED_JUNGLE_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.MAGENTA_STAINED_JUNGLE_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.ORANGE_STAINED_JUNGLE_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.PINK_STAINED_JUNGLE_DOOR.get(), RenderType.getCutout());
@@ -64,7 +65,7 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(DoorInit.GREEN_STAINED_OAK_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.LIGHT_BLUE_STAINED_OAK_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.LIGHT_GRAY_STAINED_OAK_DOOR.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(DoorInit.LIGHT_GREEN_STAINED_OAK_DOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(DoorInit.LIME_STAINED_OAK_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.MAGENTA_STAINED_OAK_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.ORANGE_STAINED_OAK_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(DoorInit.PINK_STAINED_OAK_DOOR.get(), RenderType.getCutout());
@@ -86,7 +87,7 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(LadderInit.GREEN_ACACIA_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_BLUE_ACACIA_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GRAY_ACACIA_LADDER.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GREEN_ACACIA_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIME_ACACIA_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.MAGENTA_ACACIA_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.ORANGE_ACACIA_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.PINK_ACACIA_LADDER.get(), RenderType.getCutout());
@@ -104,7 +105,7 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(LadderInit.GREEN_BIRCH_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_BLUE_BIRCH_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GRAY_BIRCH_LADDER.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GREEN_BIRCH_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIME_BIRCH_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.MAGENTA_BIRCH_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.ORANGE_BIRCH_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.PINK_BIRCH_LADDER.get(), RenderType.getCutout());
@@ -122,7 +123,7 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(LadderInit.GREEN_DARK_OAK_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_BLUE_DARK_OAK_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GRAY_DARK_OAK_LADDER.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GREEN_DARK_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIME_DARK_OAK_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.MAGENTA_DARK_OAK_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.ORANGE_DARK_OAK_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.PINK_DARK_OAK_LADDER.get(), RenderType.getCutout());
@@ -140,7 +141,7 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(LadderInit.GREEN_JUNGLE_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_BLUE_JUNGLE_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GRAY_JUNGLE_LADDER.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GREEN_JUNGLE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIME_JUNGLE_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.MAGENTA_JUNGLE_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.ORANGE_JUNGLE_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.PINK_JUNGLE_LADDER.get(), RenderType.getCutout());
@@ -157,7 +158,7 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(LadderInit.GREEN_OAK_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_BLUE_OAK_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GRAY_OAK_LADDER.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GREEN_OAK_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIME_OAK_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.MAGENTA_OAK_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.ORANGE_OAK_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.PINK_OAK_LADDER.get(), RenderType.getCutout());
@@ -175,7 +176,7 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(LadderInit.GREEN_SPRUCE_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_BLUE_SPRUCE_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GRAY_SPRUCE_LADDER.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(LadderInit.LIGHT_GREEN_SPRUCE_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LadderInit.LIME_SPRUCE_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.MAGENTA_SPRUCE_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.ORANGE_SPRUCE_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LadderInit.PINK_SPRUCE_LADDER.get(), RenderType.getCutout());
@@ -196,7 +197,7 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.GREEN_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_BLUE_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_GRAY_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_GREEN_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIME_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.MAGENTA_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.ORANGE_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.PINK_ACACIA_TRAPDOOR.get(), RenderType.getCutout());
@@ -213,7 +214,7 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.GREEN_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_BLUE_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_GRAY_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_GREEN_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIME_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.MAGENTA_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.ORANGE_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.PINK_JUNGLE_TRAPDOOR.get(), RenderType.getCutout());
@@ -230,7 +231,7 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.GREEN_OAK_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_BLUE_OAK_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_GRAY_OAK_TRAPDOOR.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIGHT_GREEN_OAK_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TrapdoorsInit.LIME_OAK_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.MAGENTA_OAK_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.ORANGE_OAK_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TrapdoorsInit.PINK_OAK_TRAPDOOR.get(), RenderType.getCutout());
