@@ -1,12 +1,7 @@
 package mod.silverwolfs.silverwolfsbuildingblocks.datagen;
 
-import mod.silverwolfs.silverwolfsbuildingblocks.SilverwolfsBuildingBlocks;
-import mod.silverwolfs.silverwolfsbuildingblocks.init.BlockInit;
-import mod.silverwolfs.silverwolfsbuildingblocks.init.StairsInit;
-import mod.silverwolfs.silverwolfsbuildingblocks.util.WoodenPlank;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.item.DyeColor;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 

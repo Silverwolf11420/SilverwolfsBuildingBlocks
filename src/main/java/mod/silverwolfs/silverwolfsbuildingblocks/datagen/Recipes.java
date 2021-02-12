@@ -1,12 +1,7 @@
 package mod.silverwolfs.silverwolfsbuildingblocks.datagen;
 
-import mod.silverwolfs.silverwolfsbuildingblocks.init.BlockInit;
-import mod.silverwolfs.silverwolfsbuildingblocks.init.FencesWallsInit;
-import mod.silverwolfs.silverwolfsbuildingblocks.init.ItemInit;
-import mod.silverwolfs.silverwolfsbuildingblocks.util.WoodenPlank;
 import net.minecraft.data.*;
 import net.minecraft.item.DyeColor;
-import net.minecraft.item.Items;
 
 import java.util.function.Consumer;
 
