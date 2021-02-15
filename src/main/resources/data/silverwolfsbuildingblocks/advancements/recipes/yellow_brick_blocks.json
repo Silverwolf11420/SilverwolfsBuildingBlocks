@@ -3,7 +3,7 @@
   "rewards": {
     "recipes": [
       "silverwolfsbuildingblocks:yellow_brick_slab",
-	  "silverwolfsbuildingblocks:yellow_bricks_stairs",
+	  "silverwolfsbuildingblocks:yellow_brick_stairs",
 	  "silverwolfsbuildingblocks:yellow_brick_button",
 	  "silverwolfsbuildingblocks:yellow_brick_pressure_plate",
       "silverwolfsbuildingblocks:yellow_brick_wall"

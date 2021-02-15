@@ -4,12 +4,12 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 
 public enum WoodenPlank {
-    OAK(Blocks.OAK_PLANKS),
-    DARK_OAK(Blocks.DARK_OAK_PLANKS),
-    SPRUCE(Blocks.SPRUCE_PLANKS),
+    ACACIA(Blocks.ACACIA_PLANKS),
     BIRCH(Blocks.BIRCH_PLANKS),
+    DARK_OAK(Blocks.DARK_OAK_PLANKS),
     JUNGLE(Blocks.JUNGLE_PLANKS),
-    ACACIA(Blocks.ACACIA_PLANKS);
+    OAK(Blocks.OAK_PLANKS),
+    SPRUCE(Blocks.SPRUCE_PLANKS);
 
 
     public Block plank;
