@@ -26,7 +26,7 @@ public class ClientEventBusSubscriber {
         for (DyeColor color : DyeColor.values()) {
 
             for (WoodenPlank plank : WoodenPlank.values()) {
-                RenderTypeLookup.setRenderLayer(BlockInit.DOORS.get(plank).get(color.getId()).get(), RenderType.getCutout());
+                RenderTypeLookup.setRenderLayer(BlockInit.DOORS.get(plank).get(color.getId()).get(), RenderType.getCutout()); //not called
                 RenderTypeLookup.setRenderLayer(BlockInit.LADDERS.get(plank).get(color.getId()).get(), RenderType.getCutout());
                 RenderTypeLookup.setRenderLayer(BlockInit.TRAPDOORS.get(plank).get(color.getId()).get(), RenderType.getCutout());
             }

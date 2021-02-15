@@ -178,10 +178,12 @@ public class BlockInit {
                         .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_button",
                                 () -> new ModWoodButtonBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
                         ));
-                DOORS.getOrDefault(plank, new ArrayList<>())
-                        .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_door",
-                                () -> new ModDoors(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
-                        ));
+                ArrayList<RegistryObject<Block>> doors = DOORS.getOrDefault(plank, new ArrayList<>());
+
+                doors.add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_door",
+                        () -> new ModDoors(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
+                ));
+                DOORS.put(plank, doors);
                 FENCES.getOrDefault(plank, new ArrayList<>())
                         .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_fence",
                                 () -> new FenceBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F,3.0F).harvestTool(ToolType.AXE))
@@ -190,10 +192,12 @@ public class BlockInit {
                         .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_fence_gate",
                                 () -> new FenceGateBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F,3.0F).harvestTool(ToolType.AXE))
                         ));
-                LADDERS.getOrDefault(plank, new ArrayList<>())
-                        .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_ladder",
-                                () -> new ModLadderBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
-                        ));
+                ArrayList<RegistryObject<Block>> ladders = LADDERS.getOrDefault(plank, new ArrayList<>());
+
+                ladders.add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_ladder",
+                        () -> new ModLadderBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
+                ));
+                LADDERS.put(plank, ladders);
                 PRESSURE_PLATES.getOrDefault(plank, new ArrayList<>())
                         .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_pressure_plate",
                                 () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
@@ -206,10 +210,12 @@ public class BlockInit {
                         .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_stairs",
                                 () -> new StairsBlock(Blocks.OAK_WOOD.getDefaultState(), Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE)))
                         );
-                TRAPDOORS.getOrDefault(plank, new ArrayList<>())
-                        .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_trapdoor",
-                                () -> new TrapDoorBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE).notSolid())
-                        ));
+                ArrayList<RegistryObject<Block>> trapdoors = TRAPDOORS.getOrDefault(plank, new ArrayList<>());
+
+                trapdoors.add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_trapdoor",
+                        () -> new TrapDoorBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
+                ));
+                TRAPDOORS.put(plank, trapdoors);
             }
         }
     }
