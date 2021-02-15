@@ -1,6 +1,6 @@
 {
     "parent": "block/pressure_plate_down",
     "textures": {
-        "texture": "silverwolfsbuildingblocks:block/cyan_stained_jungle_planks"
+        "texture": "silverwolfsbuildingblocks:block/cyan_jungle_planks"
     }
 }

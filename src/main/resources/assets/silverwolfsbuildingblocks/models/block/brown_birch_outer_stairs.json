@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "silverwolfsbuildingblocks:block/brown_birch_planks",
+    "top": "silverwolfsbuildingblocks:block/brown_birch_planks",
+    "side": "silverwolfsbuildingblocks:block/brown_birch_planks"
+  }
+}

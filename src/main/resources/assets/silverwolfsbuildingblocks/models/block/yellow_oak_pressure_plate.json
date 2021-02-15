@@ -1,6 +1,6 @@
 {
     "parent": "block/pressure_plate_up",
     "textures": {
-        "texture": "silverwolfsbuildingblocks:block/yellow_stained_oak_planks"
+        "texture": "silverwolfsbuildingblocks:block/yellow_oak_planks"
     }
 }

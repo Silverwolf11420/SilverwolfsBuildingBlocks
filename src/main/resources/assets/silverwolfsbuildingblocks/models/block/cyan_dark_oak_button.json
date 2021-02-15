@@ -1,6 +1,6 @@
 {
     "parent": "block/button",
     "textures": {
-        "texture": "silverwolfsbuildingblocks:block/cyan_stained_dark_oak_planks"
+        "texture": "silverwolfsbuildingblocks:block/cyan_dark_oak_planks"
     }
 }

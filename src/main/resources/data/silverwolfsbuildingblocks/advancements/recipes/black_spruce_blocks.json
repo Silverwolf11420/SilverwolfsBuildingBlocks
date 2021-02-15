@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:black_stained_spruce_door",
-      "silverwolfsbuildingblocks:black_stained_spruce_slab",
-      "silverwolfsbuildingblocks:black_stained_spruce_stairs",
+      "silverwolfsbuildingblocks:black_spruce_door",
+      "silverwolfsbuildingblocks:black_spruce_slab",
+      "silverwolfsbuildingblocks:black_spruce_stairs",
       "silverwolfsbuildingblocks:black_spruce_button",
       "silverwolfsbuildingblocks:black_spruce_pressure_plate",
       "silverwolfsbuildingblocks:black_spruce_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_black_stained_spruce_planks": {
+    "has_black_spruce_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:black_stained_spruce_planks"
+            "item": "silverwolfsbuildingblocks:black_spruce_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:black_stained_spruce_slab"
+        "recipe": "silverwolfsbuildingblocks:black_spruce_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_black_stained_spruce_planks",
+      "has_black_spruce_planks",
       "has_the_recipe"
     ]
   ]

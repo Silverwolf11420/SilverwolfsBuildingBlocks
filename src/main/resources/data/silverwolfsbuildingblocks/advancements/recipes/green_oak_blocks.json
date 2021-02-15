@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:green_stained_oak_door",
-      "silverwolfsbuildingblocks:green_stained_oak_slab",
-      "silverwolfsbuildingblocks:green_stained_oak_stairs",
+      "silverwolfsbuildingblocks:green_oak_door",
+      "silverwolfsbuildingblocks:green_oak_slab",
+      "silverwolfsbuildingblocks:green_oak_stairs",
       "silverwolfsbuildingblocks:green_oak_button",
       "silverwolfsbuildingblocks:green_oak_pressure_plate",
       "silverwolfsbuildingblocks:green_oak_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_green_stained_oak_planks": {
+    "has_green_oak_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:green_stained_oak_planks"
+            "item": "silverwolfsbuildingblocks:green_oak_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:green_stained_oak_slab"
+        "recipe": "silverwolfsbuildingblocks:green_oak_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_green_stained_oak_planks",
+      "has_green_oak_planks",
       "has_the_recipe"
     ]
   ]

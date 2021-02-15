@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_post",
   "textures": {
-    "texture": "silverwolfsbuildingblocks:block/white_stained_birch_planks"
+    "texture": "silverwolfsbuildingblocks:block/white_birch_planks"
   }
 }

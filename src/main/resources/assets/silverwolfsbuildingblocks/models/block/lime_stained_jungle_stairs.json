@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/lime_stained_jungle_planks",
-    "top": "silverwolfsbuildingblocks:block/lime_stained_jungle_planks",
-    "side": "silverwolfsbuildingblocks:block/lime_stained_jungle_planks"
-  }
-}

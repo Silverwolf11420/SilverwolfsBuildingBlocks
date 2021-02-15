@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:purple_stained_acacia_door",
-      "silverwolfsbuildingblocks:purple_stained_acacia_slab",
-      "silverwolfsbuildingblocks:purple_stained_acacia_stairs",
+      "silverwolfsbuildingblocks:purple_acacia_door",
+      "silverwolfsbuildingblocks:purple_acacia_slab",
+      "silverwolfsbuildingblocks:purple_acacia_stairs",
       "silverwolfsbuildingblocks:purple_acacia_button",
       "silverwolfsbuildingblocks:purple_acacia_pressure_plate",
       "silverwolfsbuildingblocks:purple_acacia_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_purple_stained_acacia_planks": {
+    "has_purple_acacia_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:purple_stained_acacia_planks"
+            "item": "silverwolfsbuildingblocks:purple_acacia_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:purple_stained_acacia_slab"
+        "recipe": "silverwolfsbuildingblocks:purple_acacia_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_purple_stained_acacia_planks",
+      "has_purple_acacia_planks",
       "has_the_recipe"
     ]
   ]

@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "type=bottom": { "model": "silverwolfsbuildingblocks:block/cyan_stained_oak_slab" },
-    "type=top": { "model": "silverwolfsbuildingblocks:block/cyan_stained_oak_slab_top" },
-    "type=double": { "model": "silverwolfsbuildingblocks:block/cyan_stained_oak_planks" }
-  }
-}

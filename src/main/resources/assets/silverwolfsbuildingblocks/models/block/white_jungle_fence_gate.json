@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_fence_gate",
   "textures": {
-    "texture": "silverwolfsbuildingblocks:block/white_stained_jungle_planks"
+    "texture": "silverwolfsbuildingblocks:block/white_jungle_planks"
   }
 }

@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:white_stained_jungle_door",
-      "silverwolfsbuildingblocks:white_stained_jungle_slab",
-      "silverwolfsbuildingblocks:white_stained_jungle_stairs",
+      "silverwolfsbuildingblocks:white_jungle_door",
+      "silverwolfsbuildingblocks:white_jungle_slab",
+      "silverwolfsbuildingblocks:white_jungle_stairs",
       "silverwolfsbuildingblocks:white_jungle_button",
       "silverwolfsbuildingblocks:white_jungle_pressure_plate",
       "silverwolfsbuildingblocks:white_jungle_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_white_stained_jungle_planks": {
+    "has_white_jungle_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:white_stained_jungle_planks"
+            "item": "silverwolfsbuildingblocks:white_jungle_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:white_stained_jungle_slab"
+        "recipe": "silverwolfsbuildingblocks:white_jungle_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_white_stained_jungle_planks",
+      "has_white_jungle_planks",
       "has_the_recipe"
     ]
   ]

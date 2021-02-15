@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_fence_gate_wall_open",
   "textures": {
-    "texture": "silverwolfsbuildingblocks:block/orange_stained_dark_oak_planks"
+    "texture": "silverwolfsbuildingblocks:block/orange_dark_oak_planks"
   }
 }

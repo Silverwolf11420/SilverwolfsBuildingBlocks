@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:lime_stained_oak_door",
-      "silverwolfsbuildingblocks:lime_stained_oak_slab",
-      "silverwolfsbuildingblocks:lime_stained_oak_stairs",
+      "silverwolfsbuildingblocks:lime_oak_door",
+      "silverwolfsbuildingblocks:lime_oak_slab",
+      "silverwolfsbuildingblocks:lime_oak_stairs",
       "silverwolfsbuildingblocks:lime_oak_button",
       "silverwolfsbuildingblocks:lime_oak_pressure_plate",
       "silverwolfsbuildingblocks:lime_oak_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_lime_stained_oak_planks": {
+    "has_lime_oak_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:lime_stained_oak_planks"
+            "item": "silverwolfsbuildingblocks:lime_oak_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:lime_stained_oak_slab"
+        "recipe": "silverwolfsbuildingblocks:lime_oak_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_lime_stained_oak_planks",
+      "has_lime_oak_planks",
       "has_the_recipe"
     ]
   ]

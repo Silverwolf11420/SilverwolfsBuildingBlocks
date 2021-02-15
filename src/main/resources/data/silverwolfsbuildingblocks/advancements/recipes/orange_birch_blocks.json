@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:orange_stained_birch_door",
-      "silverwolfsbuildingblocks:orange_stained_birch_slab",
-      "silverwolfsbuildingblocks:orange_stained_birch_stairs",
+      "silverwolfsbuildingblocks:orange_birch_door",
+      "silverwolfsbuildingblocks:orange_birch_slab",
+      "silverwolfsbuildingblocks:orange_birch_stairs",
       "silverwolfsbuildingblocks:orange_birch_button",
       "silverwolfsbuildingblocks:orange_birch_pressure_plate",
       "silverwolfsbuildingblocks:orange_birch_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_orange_stained_birch_planks": {
+    "has_orange_birch_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:orange_stained_birch_planks"
+            "item": "silverwolfsbuildingblocks:orange_birch_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:orange_stained_birch_slab"
+        "recipe": "silverwolfsbuildingblocks:orange_birch_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_orange_stained_birch_planks",
+      "has_orange_birch_planks",
       "has_the_recipe"
     ]
   ]

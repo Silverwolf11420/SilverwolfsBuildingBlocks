@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:yellow_stained_spruce_door",
-      "silverwolfsbuildingblocks:yellow_stained_spruce_slab",
-      "silverwolfsbuildingblocks:yellow_stained_spruce_stairs",
+      "silverwolfsbuildingblocks:yellow_spruce_door",
+      "silverwolfsbuildingblocks:yellow_spruce_slab",
+      "silverwolfsbuildingblocks:yellow_spruce_stairs",
       "silverwolfsbuildingblocks:yellow_spruce_button",
       "silverwolfsbuildingblocks:yellow_spruce_pressure_plate",
       "silverwolfsbuildingblocks:yellow_spruce_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_yellow_stained_spruce_planks": {
+    "has_yellow_spruce_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:yellow_stained_spruce_planks"
+            "item": "silverwolfsbuildingblocks:yellow_spruce_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:yellow_stained_spruce_slab"
+        "recipe": "silverwolfsbuildingblocks:yellow_spruce_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_yellow_stained_spruce_planks",
+      "has_yellow_spruce_planks",
       "has_the_recipe"
     ]
   ]

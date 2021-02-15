@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dark_oak_slabs",
+  "pattern": [
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:pink_dark_oak_planks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:pink_dark_oak_slab",
+    "count": 6
+  }
+}

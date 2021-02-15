@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spruce_planks",
+  "ingredients": [
+    {
+      "item": "minecraft:spruce_planks"
+    },
+	{
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "result":
+  {
+    "item": "silverwolfsbuildingblocks:red_spruce_planks",
+    "count": 1
+  }
+}

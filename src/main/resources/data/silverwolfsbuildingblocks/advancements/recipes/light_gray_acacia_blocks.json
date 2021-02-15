@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:light_gray_stained_acacia_door",
-      "silverwolfsbuildingblocks:light_gray_stained_acacia_slab",
-      "silverwolfsbuildingblocks:light_gray_stained_acacia_stairs",
+      "silverwolfsbuildingblocks:light_gray_acacia_door",
+      "silverwolfsbuildingblocks:light_gray_acacia_slab",
+      "silverwolfsbuildingblocks:light_gray_acacia_stairs",
       "silverwolfsbuildingblocks:light_gray_acacia_button",
       "silverwolfsbuildingblocks:light_gray_acacia_pressure_plate",
       "silverwolfsbuildingblocks:light_gray_acacia_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_light_gray_stained_acacia_planks": {
+    "has_light_gray_acacia_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:light_gray_stained_acacia_planks"
+            "item": "silverwolfsbuildingblocks:light_gray_acacia_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:light_gray_stained_acacia_slab"
+        "recipe": "silverwolfsbuildingblocks:light_gray_acacia_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_light_gray_stained_acacia_planks",
+      "has_light_gray_acacia_planks",
       "has_the_recipe"
     ]
   ]

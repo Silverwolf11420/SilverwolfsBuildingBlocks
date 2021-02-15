@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:black_stained_acacia_door",
-      "silverwolfsbuildingblocks:black_stained_acacia_slab",
-      "silverwolfsbuildingblocks:black_stained_acacia_stairs",
+      "silverwolfsbuildingblocks:black_acacia_door",
+      "silverwolfsbuildingblocks:black_acacia_slab",
+      "silverwolfsbuildingblocks:black_acacia_stairs",
       "silverwolfsbuildingblocks:black_acacia_button",
       "silverwolfsbuildingblocks:black_acacia_pressure_plate",
       "silverwolfsbuildingblocks:black_acacia_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_black_stained_acacia_planks": {
+    "has_black_acacia_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:black_stained_acacia_planks"
+            "item": "silverwolfsbuildingblocks:black_acacia_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:black_stained_acacia_slab"
+        "recipe": "silverwolfsbuildingblocks:black_acacia_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_black_stained_acacia_planks",
+      "has_black_acacia_planks",
       "has_the_recipe"
     ]
   ]

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "acacia_planks",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_planks"
+    },
+	{
+      "item": "minecraft:green_dye"
+    }
+  ],
+  "result":
+  {
+    "item": "silverwolfsbuildingblocks:green_acacia_planks",
+    "count": 1
+  }
+}

@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:blue_stained_oak_door",
-      "silverwolfsbuildingblocks:blue_stained_oak_slab",
-      "silverwolfsbuildingblocks:blue_stained_oak_stairs",
+      "silverwolfsbuildingblocks:blue_oak_door",
+      "silverwolfsbuildingblocks:blue_oak_slab",
+      "silverwolfsbuildingblocks:blue_oak_stairs",
       "silverwolfsbuildingblocks:blue_oak_button",
       "silverwolfsbuildingblocks:blue_oak_pressure_plate",
       "silverwolfsbuildingblocks:blue_oak_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_blue_stained_oak_planks": {
+    "has_blue_oak_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:blue_stained_oak_planks"
+            "item": "silverwolfsbuildingblocks:blue_oak_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:blue_stained_oak_slab"
+        "recipe": "silverwolfsbuildingblocks:blue_oak_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_blue_stained_oak_planks",
+      "has_blue_oak_planks",
       "has_the_recipe"
     ]
   ]

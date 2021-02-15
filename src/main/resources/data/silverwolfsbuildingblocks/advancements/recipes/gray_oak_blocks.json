@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:gray_stained_oak_door",
-      "silverwolfsbuildingblocks:gray_stained_oak_slab",
-      "silverwolfsbuildingblocks:gray_stained_oak_stairs",
+      "silverwolfsbuildingblocks:gray_oak_door",
+      "silverwolfsbuildingblocks:gray_oak_slab",
+      "silverwolfsbuildingblocks:gray_oak_stairs",
       "silverwolfsbuildingblocks:gray_oak_button",
       "silverwolfsbuildingblocks:gray_oak_pressure_plate",
       "silverwolfsbuildingblocks:gray_oak_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_gray_stained_oak_planks": {
+    "has_gray_oak_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:gray_stained_oak_planks"
+            "item": "silverwolfsbuildingblocks:gray_oak_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:gray_stained_oak_slab"
+        "recipe": "silverwolfsbuildingblocks:gray_oak_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_gray_stained_oak_planks",
+      "has_gray_oak_planks",
       "has_the_recipe"
     ]
   ]

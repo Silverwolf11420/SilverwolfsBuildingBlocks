@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:magenta_stained_acacia_door",
-      "silverwolfsbuildingblocks:magenta_stained_acacia_slab",
-      "silverwolfsbuildingblocks:magenta_stained_acacia_stairs",
+      "silverwolfsbuildingblocks:magenta_acacia_door",
+      "silverwolfsbuildingblocks:magenta_acacia_slab",
+      "silverwolfsbuildingblocks:magenta_acacia_stairs",
       "silverwolfsbuildingblocks:magenta_acacia_button",
       "silverwolfsbuildingblocks:magenta_acacia_pressure_plate",
       "silverwolfsbuildingblocks:magenta_acacia_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_magenta_stained_acacia_planks": {
+    "has_magenta_acacia_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:magenta_stained_acacia_planks"
+            "item": "silverwolfsbuildingblocks:magenta_acacia_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:magenta_stained_acacia_slab"
+        "recipe": "silverwolfsbuildingblocks:magenta_acacia_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_magenta_stained_acacia_planks",
+      "has_magenta_acacia_planks",
       "has_the_recipe"
     ]
   ]

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_fence_gate_wall",
   "textures": {
-    "texture": "silverwolfsbuildingblocks:block/pink_stained_acacia_planks"
+    "texture": "silverwolfsbuildingblocks:block/pink_acacia_planks"
   }
 }

@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:gray_stained_birch_door",
-      "silverwolfsbuildingblocks:gray_stained_birch_slab",
-      "silverwolfsbuildingblocks:gray_stained_birch_stairs",
+      "silverwolfsbuildingblocks:gray_birch_door",
+      "silverwolfsbuildingblocks:gray_birch_slab",
+      "silverwolfsbuildingblocks:gray_birch_stairs",
       "silverwolfsbuildingblocks:gray_birch_button",
       "silverwolfsbuildingblocks:gray_birch_pressure_plate",
       "silverwolfsbuildingblocks:gray_birch_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_gray_stained_birch_planks": {
+    "has_gray_birch_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:gray_stained_birch_planks"
+            "item": "silverwolfsbuildingblocks:gray_birch_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:gray_stained_birch_slab"
+        "recipe": "silverwolfsbuildingblocks:gray_birch_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_gray_stained_birch_planks",
+      "has_gray_birch_planks",
       "has_the_recipe"
     ]
   ]

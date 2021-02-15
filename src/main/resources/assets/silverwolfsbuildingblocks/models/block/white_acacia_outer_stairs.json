@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "silverwolfsbuildingblocks:block/white_acacia_planks",
+    "top": "silverwolfsbuildingblocks:block/white_acacia_planks",
+    "side": "silverwolfsbuildingblocks:block/white_acacia_planks"
+  }
+}

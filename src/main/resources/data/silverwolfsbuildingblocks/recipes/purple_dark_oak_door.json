@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dark_oak_doors",
+  "pattern": [
+    "xx",
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:purple_dark_oak_planks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:purple_dark_oak_door",
+    "count": 3
+  }
+}

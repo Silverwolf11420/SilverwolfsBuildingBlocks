@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:magenta_stained_jungle_door",
-      "silverwolfsbuildingblocks:magenta_stained_jungle_slab",
-      "silverwolfsbuildingblocks:magenta_stained_jungle_stairs",
+      "silverwolfsbuildingblocks:magenta_jungle_door",
+      "silverwolfsbuildingblocks:magenta_jungle_slab",
+      "silverwolfsbuildingblocks:magenta_jungle_stairs",
       "silverwolfsbuildingblocks:magenta_jungle_button",
       "silverwolfsbuildingblocks:magenta_jungle_pressure_plate",
       "silverwolfsbuildingblocks:magenta_jungle_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_magenta_stained_jungle_planks": {
+    "has_magenta_jungle_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:magenta_stained_jungle_planks"
+            "item": "silverwolfsbuildingblocks:magenta_jungle_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:magenta_stained_jungle_slab"
+        "recipe": "silverwolfsbuildingblocks:magenta_jungle_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_magenta_stained_jungle_planks",
+      "has_magenta_jungle_planks",
       "has_the_recipe"
     ]
   ]

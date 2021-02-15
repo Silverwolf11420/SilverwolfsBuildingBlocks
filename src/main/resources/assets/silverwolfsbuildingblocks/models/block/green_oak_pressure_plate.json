@@ -1,6 +1,6 @@
 {
     "parent": "block/pressure_plate_up",
     "textures": {
-        "texture": "silverwolfsbuildingblocks:block/green_stained_oak_planks"
+        "texture": "silverwolfsbuildingblocks:block/green_oak_planks"
     }
 }

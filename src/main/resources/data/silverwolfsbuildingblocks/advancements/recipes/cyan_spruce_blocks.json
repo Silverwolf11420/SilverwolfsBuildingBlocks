@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:cyan_stained_spruce_door",
-      "silverwolfsbuildingblocks:cyan_stained_spruce_slab",
-      "silverwolfsbuildingblocks:cyan_stained_spruce_stairs",
+      "silverwolfsbuildingblocks:cyan_spruce_door",
+      "silverwolfsbuildingblocks:cyan_spruce_slab",
+      "silverwolfsbuildingblocks:cyan_spruce_stairs",
       "silverwolfsbuildingblocks:cyan_spruce_button",
       "silverwolfsbuildingblocks:cyan_spruce_pressure_plate",
       "silverwolfsbuildingblocks:cyan_spruce_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_cyan_stained_spruce_planks": {
+    "has_cyan_spruce_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:cyan_stained_spruce_planks"
+            "item": "silverwolfsbuildingblocks:cyan_spruce_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:cyan_stained_spruce_slab"
+        "recipe": "silverwolfsbuildingblocks:cyan_spruce_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_cyan_stained_spruce_planks",
+      "has_cyan_spruce_planks",
       "has_the_recipe"
     ]
   ]

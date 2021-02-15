@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:yellow_stained_jungle_door",
-      "silverwolfsbuildingblocks:yellow_stained_jungle_slab",
-      "silverwolfsbuildingblocks:yellow_stained_jungle_stairs",
+      "silverwolfsbuildingblocks:yellow_jungle_door",
+      "silverwolfsbuildingblocks:yellow_jungle_slab",
+      "silverwolfsbuildingblocks:yellow_jungle_stairs",
       "silverwolfsbuildingblocks:yellow_jungle_button",
       "silverwolfsbuildingblocks:yellow_jungle_pressure_plate",
       "silverwolfsbuildingblocks:yellow_jungle_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_yellow_stained_jungle_planks": {
+    "has_yellow_jungle_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:yellow_stained_jungle_planks"
+            "item": "silverwolfsbuildingblocks:yellow_jungle_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:yellow_stained_jungle_slab"
+        "recipe": "silverwolfsbuildingblocks:yellow_jungle_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_yellow_stained_jungle_planks",
+      "has_yellow_jungle_planks",
       "has_the_recipe"
     ]
   ]

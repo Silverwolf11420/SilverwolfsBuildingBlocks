@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:brown_stained_dark_oak_door",
-      "silverwolfsbuildingblocks:brown_stained_dark_oak_slab",
-      "silverwolfsbuildingblocks:brown_stained_dark_oak_stairs",
+      "silverwolfsbuildingblocks:brown_dark_oak_door",
+      "silverwolfsbuildingblocks:brown_dark_oak_slab",
+      "silverwolfsbuildingblocks:brown_dark_oak_stairs",
       "silverwolfsbuildingblocks:brown_dark_oak_button",
       "silverwolfsbuildingblocks:brown_dark_oak_pressure_plate",
       "silverwolfsbuildingblocks:brown_dark_oak_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_brown_stained_dark_oak_planks": {
+    "has_brown_dark_oak_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:brown_stained_dark_oak_planks"
+            "item": "silverwolfsbuildingblocks:brown_dark_oak_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:brown_stained_dark_oak_slab"
+        "recipe": "silverwolfsbuildingblocks:brown_dark_oak_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_brown_stained_dark_oak_planks",
+      "has_brown_dark_oak_planks",
       "has_the_recipe"
     ]
   ]

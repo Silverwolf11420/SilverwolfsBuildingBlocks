@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "jungle_planks",
+  "ingredients": [
+    {
+      "item": "minecraft:jungle_planks"
+    },
+	{
+      "item": "minecraft:pink_dye"
+    }
+  ],
+  "result":
+  {
+    "item": "silverwolfsbuildingblocks:pink_jungle_planks",
+    "count": 1
+  }
+}

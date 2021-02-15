@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/lime_stained_spruce_planks",
-    "top": "silverwolfsbuildingblocks:block/lime_stained_spruce_planks",
-    "side": "silverwolfsbuildingblocks:block/lime_stained_spruce_planks"
-  }
-}

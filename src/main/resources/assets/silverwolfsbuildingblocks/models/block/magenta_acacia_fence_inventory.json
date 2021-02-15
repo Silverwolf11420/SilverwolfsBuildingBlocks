@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_inventory",
   "textures": {
-    "texture": "silverwolfsbuildingblocks:block/magenta_stained_acacia_planks"
+    "texture": "silverwolfsbuildingblocks:block/magenta_acacia_planks"
   }
 }

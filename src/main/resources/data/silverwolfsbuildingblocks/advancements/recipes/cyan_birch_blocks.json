@@ -2,9 +2,9 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:cyan_stained_birch_door",
-      "silverwolfsbuildingblocks:cyan_stained_birch_slab",
-      "silverwolfsbuildingblocks:cyan_stained_birch_stairs",
+      "silverwolfsbuildingblocks:cyan_birch_door",
+      "silverwolfsbuildingblocks:cyan_birch_slab",
+      "silverwolfsbuildingblocks:cyan_birch_stairs",
       "silverwolfsbuildingblocks:cyan_birch_button",
       "silverwolfsbuildingblocks:cyan_birch_pressure_plate",
       "silverwolfsbuildingblocks:cyan_birch_stick",
@@ -12,12 +12,12 @@
     ]
   },
   "criteria": {
-    "has_cyan_stained_birch_planks": {
+    "has_cyan_birch_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:cyan_stained_birch_planks"
+            "item": "silverwolfsbuildingblocks:cyan_birch_planks"
           }
         ]
       }
@@ -25,13 +25,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:cyan_stained_birch_slab"
+        "recipe": "silverwolfsbuildingblocks:cyan_birch_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_cyan_stained_birch_planks",
+      "has_cyan_birch_planks",
       "has_the_recipe"
     ]
   ]
