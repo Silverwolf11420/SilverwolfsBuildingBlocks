@@ -1,17 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "acacia_planks",
+  "group": "colored_acacia_planks",
   "ingredients": [
     {
-      "item": "minecraft:acacia_planks"
-    },
-	{
-      "item": "minecraft:cyan_dye"
+      "item": "silverwolfsbuildingblocks:cyan_acacia_log"
     }
   ],
   "result":
   {
     "item": "silverwolfsbuildingblocks:cyan_acacia_planks",
-    "count": 1
+    "count": 4
   }
 }

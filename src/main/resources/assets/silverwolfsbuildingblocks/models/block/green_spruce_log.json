@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "silverwolfsbuildingblocks:block/green_spruce_log_top",
+    "side": "silverwolfsbuildingblocks:block/green_spruce_log"
+  }
+}

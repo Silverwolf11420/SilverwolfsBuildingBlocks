@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	    "silverwolfsbuildingblocks:orange_birch_planks"
+		]
+  },
+  "criteria": {
+    "has_orange_birch_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:orange_birch_log"
+          }
+        ]
+      }
+    },
+	"has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:orange_birch_planks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_orange_birch_log",
+      "has_the_recipe"
+    ]
+  ]
+}

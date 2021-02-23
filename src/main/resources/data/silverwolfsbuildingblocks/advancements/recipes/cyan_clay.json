@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	    "silverwolfsbuildingblocks:cyan_clay_ball"
+		]
+  },
+  "criteria": {
+    "has_cyan_clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:cyan_clay"
+          }
+        ]
+      }
+    },
+	"has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:cyan_clay_ball"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cyan_clay",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "colored_jungle_logs",
+  "ingredients": [
+    {
+      "item": "minecraft:jungle_log"
+    },
+	{
+      "item": "minecraft:pink_dye"
+    }
+  ],
+  "result": {
+    "item": "silverwolfsbuildingblocks:pink_jungle_log"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	    "silverwolfsbuildingblocks:light_gray_clay_ball"
+		]
+  },
+  "criteria": {
+    "has_light_gray_clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:light_gray_clay"
+          }
+        ]
+      }
+    },
+	"has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:light_gray_clay_ball"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_light_gray_clay",
+      "has_the_recipe"
+    ]
+  ]
+}

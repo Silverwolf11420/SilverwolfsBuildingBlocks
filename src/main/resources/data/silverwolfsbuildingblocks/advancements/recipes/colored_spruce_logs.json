@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	    "silverwolfsbuildingblocks:black_spruce_log",
+		"silverwolfsbuildingblocks:blue_spruce_log",
+		"silverwolfsbuildingblocks:brown_spruce_log",
+		"silverwolfsbuildingblocks:cyan_spruce_log",
+		"silverwolfsbuildingblocks:gray_spruce_log",
+		"silverwolfsbuildingblocks:green_spruce_log",
+		"silverwolfsbuildingblocks:light_blue_spruce_log",
+		"silverwolfsbuildingblocks:light_gray_spruce_log",
+		"silverwolfsbuildingblocks:lime_spruce_log",
+		"silverwolfsbuildingblocks:magenta_spruce_log",
+		"silverwolfsbuildingblocks:orange_spruce_log",
+		"silverwolfsbuildingblocks:pink_spruce_log",
+		"silverwolfsbuildingblocks:purple_spruce_log",
+		"silverwolfsbuildingblocks:red_spruce_log",
+		"silverwolfsbuildingblocks:white_spruce_log",
+		"silverwolfsbuildingblocks:yellow_spruce_log"
+		]
+  },
+  "criteria": {
+    "has_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_log"
+          }
+        ]
+      }
+    },
+	"has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:black_spruce_log"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_spruce_log",
+      "has_the_recipe"
+    ]
+  ]
+}

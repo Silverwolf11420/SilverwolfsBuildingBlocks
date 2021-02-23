@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "colored_birch_logs",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_log"
+    },
+	{
+      "item": "minecraft:cyan_dye"
+    }
+  ],
+  "result": {
+    "item": "silverwolfsbuildingblocks:cyan_birch_log"
+  }
+}

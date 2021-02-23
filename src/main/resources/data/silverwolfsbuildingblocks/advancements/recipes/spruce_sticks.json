@@ -2,20 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:spruce_beam_down",
-      "silverwolfsbuildingblocks:spruce_beam_middle",
-      "silverwolfsbuildingblocks:spruce_beam_up",
-      "silverwolfsbuildingblocks:stick_spruce",
-      "silverwolfsbuildingblocks:spruce_ladder"
-    ]
+	    "silverwolfsbuildingblocks:spruce_sticks"
+		]
   },
   "criteria": {
-    "has_spruce_sticks": {
+    "has_spruce_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:spruce_stick"
+            "item": "minecraft:spruce_planks"
           }
         ]
       }
@@ -23,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:spruce_beam_down"
+        "recipe": "minecraft:spruce_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_spruce_sticks",
+      "has_spruce_planks",
       "has_the_recipe"
     ]
   ]

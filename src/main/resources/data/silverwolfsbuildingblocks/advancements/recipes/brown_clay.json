@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	    "silverwolfsbuildingblocks:brown_clay_ball"
+		]
+  },
+  "criteria": {
+    "has_brown_clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:brown_clay"
+          }
+        ]
+      }
+    },
+	"has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:brown_clay_ball"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_brown_clay",
+      "has_the_recipe"
+    ]
+  ]
+}

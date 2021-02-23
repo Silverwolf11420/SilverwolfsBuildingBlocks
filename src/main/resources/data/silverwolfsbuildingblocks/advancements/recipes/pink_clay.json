@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	    "silverwolfsbuildingblocks:pink_clay_ball"
+		]
+  },
+  "criteria": {
+    "has_pink_clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:pink_clay"
+          }
+        ]
+      }
+    },
+	"has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:pink_clay_ball"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pink_clay",
+      "has_the_recipe"
+    ]
+  ]
+}

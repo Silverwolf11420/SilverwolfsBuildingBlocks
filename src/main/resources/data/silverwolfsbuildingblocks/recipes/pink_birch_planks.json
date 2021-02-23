@@ -1,17 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "birch_planks",
+  "group": "colored_birch_planks",
   "ingredients": [
     {
-      "item": "minecraft:birch_planks"
-    },
-	{
-      "item": "minecraft:pink_dye"
+      "item": "silverwolfsbuildingblocks:pink_birch_log"
     }
   ],
   "result":
   {
     "item": "silverwolfsbuildingblocks:pink_birch_planks",
-    "count": 1
+    "count": 4
   }
 }

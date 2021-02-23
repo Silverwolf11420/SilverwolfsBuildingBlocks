@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "colored_clay",
+  "ingredients": [
+    {
+      "item": "minecraft:clay"
+    },
+	{
+      "item": "minecraft:pink_dye"
+    }
+  ],
+  "result":
+  {
+    "item": "silverwolfsbuildingblocks:pink_clay",
+    "count": 1
+  }
+}

@@ -2,20 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:acacia_beam_down",
-      "silverwolfsbuildingblocks:acacia_beam_middle",
-      "silverwolfsbuildingblocks:acacia_beam_up",
-      "silverwolfsbuildingblocks:stick_acacia",
-      "silverwolfsbuildingblocks:acacia_ladder"
-    ]
+	    "silverwolfsbuildingblocks:acacia_sticks"
+		]
   },
   "criteria": {
-    "has_acacia_sticks": {
+    "has_acacia_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:acacia_stick"
+            "item": "minecraft:acacia_planks"
           }
         ]
       }
@@ -23,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:acacia_beam_down"
+        "recipe": "minecraft:acacia_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_acacia_sticks",
+      "has_acacia_planks",
       "has_the_recipe"
     ]
   ]

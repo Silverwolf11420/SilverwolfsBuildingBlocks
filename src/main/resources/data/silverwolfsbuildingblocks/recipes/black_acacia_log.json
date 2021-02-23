@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "colored_acacia_logs",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_log"
+    },
+	{
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "result": {
+    "item": "silverwolfsbuildingblocks:black_acacia_log"
+  }
+}

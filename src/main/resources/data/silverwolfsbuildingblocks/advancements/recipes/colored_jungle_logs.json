@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	    "silverwolfsbuildingblocks:black_jungle_log",
+		"silverwolfsbuildingblocks:blue_jungle_log",
+		"silverwolfsbuildingblocks:brown_jungle_log",
+		"silverwolfsbuildingblocks:cyan_jungle_log",
+		"silverwolfsbuildingblocks:gray_jungle_log",
+		"silverwolfsbuildingblocks:green_jungle_log",
+		"silverwolfsbuildingblocks:light_blue_jungle_log",
+		"silverwolfsbuildingblocks:light_gray_jungle_log",
+		"silverwolfsbuildingblocks:lime_jungle_log",
+		"silverwolfsbuildingblocks:magenta_jungle_log",
+		"silverwolfsbuildingblocks:orange_jungle_log",
+		"silverwolfsbuildingblocks:pink_jungle_log",
+		"silverwolfsbuildingblocks:purple_jungle_log",
+		"silverwolfsbuildingblocks:red_jungle_log",
+		"silverwolfsbuildingblocks:white_jungle_log",
+		"silverwolfsbuildingblocks:yellow_jungle_log"
+		]
+  },
+  "criteria": {
+    "has_jungle_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_log"
+          }
+        ]
+      }
+    },
+	"has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:black_jungle_log"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_jungle_log",
+      "has_the_recipe"
+    ]
+  ]
+}

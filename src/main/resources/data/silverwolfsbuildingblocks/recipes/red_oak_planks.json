@@ -1,17 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "oak_planks",
+  "group": "colored_oak_planks",
   "ingredients": [
     {
-      "item": "minecraft:oak_planks"
-    },
-	{
-      "item": "minecraft:red_dye"
+      "item": "silverwolfsbuildingblocks:red_oak_log"
     }
   ],
   "result":
   {
     "item": "silverwolfsbuildingblocks:red_oak_planks",
-    "count": 1
+    "count": 4
   }
 }

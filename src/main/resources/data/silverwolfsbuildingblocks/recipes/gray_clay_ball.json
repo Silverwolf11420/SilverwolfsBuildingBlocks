@@ -3,15 +3,12 @@
   "group": "colored_clay_balls",
   "ingredients": [
     {
-      "item": "minecraft:clay_ball"
-    },
-    {
-      "item": "minecraft:gray_dye"
+      "item": "silverwolfsbuildingblocks:gray_clay"
     }
   ],
   "result":
   {
     "item": "silverwolfsbuildingblocks:gray_clay_ball",
-    "count": 1
+    "count": 4
   }
 }

@@ -1,17 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "spruce_planks",
+  "group": "colored_spruce_planks",
   "ingredients": [
     {
-      "item": "minecraft:spruce_planks"
-    },
-	{
-      "item": "minecraft:white_dye"
+      "item": "silverwolfsbuildingblocks:white_spruce_log"
     }
   ],
   "result":
   {
     "item": "silverwolfsbuildingblocks:white_spruce_planks",
-    "count": 1
+    "count": 4
   }
 }

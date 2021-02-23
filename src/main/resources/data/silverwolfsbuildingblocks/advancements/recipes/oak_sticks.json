@@ -2,20 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "silverwolfsbuildingblocks:oak_beam_down",
-      "silverwolfsbuildingblocks:oak_beam_middle",
-      "silverwolfsbuildingblocks:oak_beam_up",
-      "silverwolfsbuildingblocks:stick_oak",
-      "silverwolfsbuildingblocks:oak_ladder"
-    ]
+	    "silverwolfsbuildingblocks:oak_sticks"
+		]
   },
   "criteria": {
-    "has_oak_sticks": {
+    "has_oak_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:oak_stick"
+            "item": "minecraft:oak_planks"
           }
         ]
       }
@@ -23,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "silverwolfsbuildingblocks:oak_beam_down"
+        "recipe": "minecraft:oak_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_oak_sticks",
+      "has_oak_planks",
       "has_the_recipe"
     ]
   ]

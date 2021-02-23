@@ -205,6 +205,7 @@ public class BlockInit {
     public static final RegistryObject<BlockItem> MORE_MOSSY_ANDESITE_STAIRS_ITEM = ItemInit.ITEMS.register("more_mossy_andesite_stairs", () -> new BlockItem(MORE_MOSSY_ANDESITE_STAIRS.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
 
     //lists
+    public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> LOGS = new EnumMap<>(WoodenPlank.class);
     public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> PLANKS = new EnumMap<>(WoodenPlank.class);
     public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> BUTTONS = new EnumMap<>(WoodenPlank.class);
     public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> DOORS = new EnumMap<>(WoodenPlank.class);
@@ -230,83 +231,70 @@ public class BlockInit {
     public static ArrayList<RegistryObject<Block>> STONE_BRICK_SLABS = new ArrayList<>();
     public static ArrayList<RegistryObject<Block>> STONE_BRICK_STAIRS = new ArrayList<>();
 
+    public static ArrayList<RegistryObject<Block>> CLAY_BLOCKS = new ArrayList<>();
+
     static {
-        for (WoodenPlank plank : WoodenPlank.values()) {
-            for (DyeColor color : DyeColor.values()) {
+        for (DyeColor color : DyeColor.values()) {
+
+            BRICKS.add(register(color.getTranslationKey() + "_bricks", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            BRICK_BUTTONS.add(register(color.getTranslationKey() + "_brick_button", () -> new ModStoneButtonBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            BRICK_WALLS.add(register(color.getTranslationKey() + "_brick_wall", () -> new WallBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            BRICK_PRESSURE_PLATES.add(register(color.getTranslationKey() + "_brick_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            BRICK_SLABS.add(register(color.getTranslationKey() + "_brick_slab", () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            BRICK_STAIRS.add(register(color.getTranslationKey() + "_brick_stairs", () -> new StairsBlock(Blocks.BRICKS.getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+
+            STONE_BRICKS.add(register(color.getTranslationKey() + "_stone_bricks", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            STONE_BRICK_BUTTONS.add(register(color.getTranslationKey() + "_stone_brick_button", () -> new ModStoneButtonBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            STONE_BRICK_WALLS.add(register(color.getTranslationKey() + "_stone_brick_wall", () -> new WallBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            STONE_BRICK_PRESSURE_PLATES.add(register(color.getTranslationKey() + "_stone_brick_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            STONE_BRICK_SLABS.add(register(color.getTranslationKey() + "_stone_brick_slab", () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            STONE_BRICK_STAIRS.add(register(color.getTranslationKey() + "_stone_brick_stairs", () -> new StairsBlock(Blocks.STONE_BRICKS.getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+
+            CLAY_BLOCKS.add(register(color.getTranslationKey() + "_clay", () -> new Block(AbstractBlock.Properties.create(Material.CLAY).sound(SoundType.GROUND).hardnessAndResistance(0.6F, 0.6F).harvestTool(ToolType.SHOVEL).harvestLevel(0))));
+
+            for (WoodenPlank plank : WoodenPlank.values()) {
+                LOGS.getOrDefault(plank, new ArrayList<>())
+                        .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_log",
+                                () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
+                        ));
                 PLANKS.getOrDefault(plank, new ArrayList<>())
                         .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_planks",
-                                () -> new FenceBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
+                                () -> new Block(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
                         ));
-            }
-        }
-        for (WoodenPlank plank : WoodenPlank.values()) {
-            for (DyeColor color : DyeColor.values()) {
                 BUTTONS.getOrDefault(plank, new ArrayList<>())
                         .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_button",
                                 () -> new ModWoodButtonBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
                         ));
-            }
-        }
-        for (WoodenPlank plank : WoodenPlank.values()) {
-            for (DyeColor color : DyeColor.values()) {
                 ArrayList<RegistryObject<Block>> doors = DOORS.getOrDefault(plank, new ArrayList<>());
                 doors.add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_door",
                         () -> new ModDoors(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
                 ));
                 DOORS.put(plank, doors);
-            }
-        }
-        for (WoodenPlank plank : WoodenPlank.values()) {
-            for (DyeColor color : DyeColor.values()) {
                 FENCES.getOrDefault(plank, new ArrayList<>())
                         .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_fence",
                                 () -> new FenceBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
                         ));
-            }
-        }
-        for (WoodenPlank plank : WoodenPlank.values()) {
-            for (DyeColor color : DyeColor.values()) {
                 FENCE_GATES.getOrDefault(plank, new ArrayList<>())
                         .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_fence_gate",
                                 () -> new FenceGateBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
                         ));
-            }
-        }
-        for (WoodenPlank plank : WoodenPlank.values()) {
-            for (DyeColor color : DyeColor.values()) {
                 ArrayList<RegistryObject<Block>> ladders = LADDERS.getOrDefault(plank, new ArrayList<>());
                 ladders.add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_ladder",
                         () -> new ModLadderBlock(AbstractBlock.Properties.from(Blocks.LADDER))
                 ));
                 LADDERS.put(plank, ladders);
-            }
-        }
-        for (WoodenPlank plank : WoodenPlank.values()) {
-            for (DyeColor color : DyeColor.values()) {
                 PRESSURE_PLATES.getOrDefault(plank, new ArrayList<>())
                         .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_pressure_plate",
                                 () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
                         ));
-            }
-        }
-        for (WoodenPlank plank : WoodenPlank.values()) {
-            for (DyeColor color : DyeColor.values()) {
                 SLABS.getOrDefault(plank, new ArrayList<>())
                         .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_slab",
                                 () -> new SlabBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
                         ));
-            }
-        }
-        for (WoodenPlank plank : WoodenPlank.values()) {
-            for (DyeColor color : DyeColor.values()) {
                 STAIRS.getOrDefault(plank, new ArrayList<>())
                         .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_stairs",
                                 () -> new StairsBlock(Blocks.OAK_WOOD.getDefaultState(), Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE)))
                         );
-            }
-        }
-        for (WoodenPlank plank : WoodenPlank.values()) {
-            for (DyeColor color : DyeColor.values()) {
                 ArrayList<RegistryObject<Block>> trapdoors = TRAPDOORS.getOrDefault(plank, new ArrayList<>());
                 trapdoors.add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_trapdoor",
                         () -> new TrapDoorBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
@@ -314,29 +302,5 @@ public class BlockInit {
                 TRAPDOORS.put(plank, trapdoors);
             }
         }
-        for (DyeColor color : DyeColor.values()) {
-            BRICKS.add(register(color.getTranslationKey() + "_bricks", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F,6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));}
-        for (DyeColor color : DyeColor.values()) {
-            STONE_BRICKS.add(register(color.getTranslationKey() + "_stone_bricks", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F,6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));}
-        for (DyeColor color : DyeColor.values()) {
-            BRICK_BUTTONS.add(register(color.getTranslationKey() + "_brick_button", () -> new ModStoneButtonBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F,6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));}
-        for (DyeColor color : DyeColor.values()) {
-            STONE_BRICK_BUTTONS.add(register(color.getTranslationKey() + "_stone_brick_button", () -> new ModStoneButtonBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F,6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));}
-        for (DyeColor color : DyeColor.values()) {
-            BRICK_WALLS.add(register(color.getTranslationKey() + "_brick_wall", () -> new WallBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F,6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));}
-        for (DyeColor color : DyeColor.values()) {
-            STONE_BRICK_WALLS.add(register(color.getTranslationKey() + "_stone_brick_wall", () -> new WallBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F,6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));}
-        for (DyeColor color : DyeColor.values()) {
-            BRICK_PRESSURE_PLATES.add(register(color.getTranslationKey() + "_brick_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));}
-        for (DyeColor color : DyeColor.values()) {
-            STONE_BRICK_PRESSURE_PLATES.add(register(color.getTranslationKey() + "_stone_brick_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));}
-        for (DyeColor color : DyeColor.values()) {
-            BRICK_SLABS.add(register(color.getTranslationKey() + "_brick_slab", () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));}
-        for (DyeColor color : DyeColor.values()) {
-            STONE_BRICK_SLABS.add(register(color.getTranslationKey() + "_stone_brick_slab", () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));}
-        for (DyeColor color : DyeColor.values()) {
-            BRICK_STAIRS.add(register(color.getTranslationKey() + "_brick_stairs", () -> new StairsBlock(Blocks.BRICKS.getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));}
-        for (DyeColor color : DyeColor.values()) {
-            STONE_BRICK_STAIRS.add(register(color.getTranslationKey() + "_stone_brick_stairs", () -> new StairsBlock(Blocks.STONE_BRICKS.getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool()))); }
     }
 }

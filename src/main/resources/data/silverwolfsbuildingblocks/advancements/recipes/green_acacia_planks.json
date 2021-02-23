@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	    "silverwolfsbuildingblocks:green_acacia_planks"
+		]
+  },
+  "criteria": {
+    "has_green_acacia_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silverwolfsbuildingblocks:green_acacia_log"
+          }
+        ]
+      }
+    },
+	"has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:green_acacia_planks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_green_acacia_log",
+      "has_the_recipe"
+    ]
+  ]
+}
