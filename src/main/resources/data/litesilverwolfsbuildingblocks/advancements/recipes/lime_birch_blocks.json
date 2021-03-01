@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:lime_birch_door",
+      "litesilverwolfsbuildingblocks:lime_birch_slab",
+      "litesilverwolfsbuildingblocks:lime_birch_stairs",
+      "litesilverwolfsbuildingblocks:lime_birch_button",
+      "litesilverwolfsbuildingblocks:lime_birch_pressure_plate",
+      "litesilverwolfsbuildingblocks:lime_birch_stick",
+      "litesilverwolfsbuildingblocks:lime_birch_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_lime_birch_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:lime_birch_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:lime_birch_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lime_birch_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:white_brick"
+    ]
+  },
+  "criteria": {
+    "has_colowhite_clay_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:white_clay_ball"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:white_brick"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colowhite_clay_ball",
+      "has_the_recipe"
+    ]
+  ]
+}

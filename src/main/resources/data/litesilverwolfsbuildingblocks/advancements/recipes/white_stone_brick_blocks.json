@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:white_stone_brick_slab",
+	  "litesilverwolfsbuildingblocks:white_stone_brick_stairs",
+	  "litesilverwolfsbuildingblocks:white_stone_brick_button",
+	  "litesilverwolfsbuildingblocks:white_stone_brick_pressure_plate",
+      "litesilverwolfsbuildingblocks:white_stone_brick_wall"
+    ]
+  },
+  "criteria": {
+    "has_colowhite_stone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:white_stone_bricks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:white_stone_brick_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colowhite_stone_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}

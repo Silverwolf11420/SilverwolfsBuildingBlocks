@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:purple_spruce_door",
+      "litesilverwolfsbuildingblocks:purple_spruce_slab",
+      "litesilverwolfsbuildingblocks:purple_spruce_stairs",
+      "litesilverwolfsbuildingblocks:purple_spruce_button",
+      "litesilverwolfsbuildingblocks:purple_spruce_pressure_plate",
+      "litesilverwolfsbuildingblocks:purple_spruce_stick",
+      "litesilverwolfsbuildingblocks:purple_spruce_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_purple_spruce_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:purple_spruce_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:purple_spruce_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_purple_spruce_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

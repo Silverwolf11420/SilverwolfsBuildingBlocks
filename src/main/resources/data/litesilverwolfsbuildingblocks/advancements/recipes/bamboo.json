@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:bamboo_block",
+      "litesilverwolfsbuildingblocks:bamboo_ladder"
+    ]
+  },
+  "criteria": {
+    "has_bamboo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bamboo"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuldingblocks:bamboo_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bamboo",
+      "has_the_recipe"
+    ]
+  ]
+}

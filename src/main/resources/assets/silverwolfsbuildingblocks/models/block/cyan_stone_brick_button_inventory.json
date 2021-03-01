@@ -1,6 +1,0 @@
-{
-    "parent": "block/button_inventory",
-    "textures": {
-        "texture": "silverwolfsbuildingblocks:block/cyan_stone_bricks"
-    }
-}

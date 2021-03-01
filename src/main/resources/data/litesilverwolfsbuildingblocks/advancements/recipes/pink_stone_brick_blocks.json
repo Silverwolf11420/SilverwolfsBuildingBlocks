@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:pink_stone_brick_slab",
+	  "litesilverwolfsbuildingblocks:pink_stone_brick_stairs",
+	  "litesilverwolfsbuildingblocks:pink_stone_brick_button",
+	  "litesilverwolfsbuildingblocks:pink_stone_brick_pressure_plate",
+      "litesilverwolfsbuildingblocks:pink_stone_brick_wall"
+    ]
+  },
+  "criteria": {
+    "has_colored_stone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:pink_stone_bricks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:pink_stone_brick_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_stone_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}

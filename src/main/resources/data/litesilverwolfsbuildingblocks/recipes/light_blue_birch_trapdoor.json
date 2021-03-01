@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_birch_trapdoors",
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "litesilverwolfsbuildingblocks:light_blue_birch_planks"
+    }
+  },
+  "result": {
+    "item": "litesilverwolfsbuildingblocks:light_blue_birch_trapdoor",
+    "count": 2
+  }
+}

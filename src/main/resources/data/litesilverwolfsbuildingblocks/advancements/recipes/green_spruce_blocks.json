@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:green_spruce_door",
+      "litesilverwolfsbuildingblocks:green_spruce_slab",
+      "litesilverwolfsbuildingblocks:green_spruce_stairs",
+      "litesilverwolfsbuildingblocks:green_spruce_button",
+      "litesilverwolfsbuildingblocks:green_spruce_pressure_plate",
+      "litesilverwolfsbuildingblocks:green_spruce_stick",
+      "litesilverwolfsbuildingblocks:green_spruce_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_green_spruce_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:green_spruce_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:green_spruce_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_green_spruce_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

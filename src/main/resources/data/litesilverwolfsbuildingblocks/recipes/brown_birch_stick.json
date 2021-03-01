@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_birch_sticks",
+  "pattern":
+  [
+    "x  ",
+    "x  ",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "litesilverwolfsbuildingblocks:brown_birch_planks"
+    }
+  },
+  "result":
+  {
+    "item": "litesilverwolfsbuildingblocks:brown_birch_stick",
+    "count": 4
+  }
+}

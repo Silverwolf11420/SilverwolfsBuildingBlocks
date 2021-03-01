@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:jungle_beam_down",
+      "litesilverwolfsbuildingblocks:jungle_beam_middle",
+      "litesilverwolfsbuildingblocks:jungle_beam_up",
+      "litesilverwolfsbuildingblocks:stick_jungle",
+      "litesilverwolfsbuildingblocks:jungle_ladder"
+    ]
+  },
+  "criteria": {
+    "has_jungle_sticks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:jungle_stick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:jungle_beam_down"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_jungle_sticks",
+      "has_the_recipe"
+    ]
+  ]
+}

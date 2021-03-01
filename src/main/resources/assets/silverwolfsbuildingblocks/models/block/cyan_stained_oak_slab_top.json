@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/cyan_stained_oak_planks",
-    "top": "silverwolfsbuildingblocks:block/cyan_stained_oak_planks",
-    "side": "silverwolfsbuildingblocks:block/cyan_stained_oak_planks"
-  }
-}

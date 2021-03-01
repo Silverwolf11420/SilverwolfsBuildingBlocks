@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:brown_birch_door",
+      "litesilverwolfsbuildingblocks:brown_birch_slab",
+      "litesilverwolfsbuildingblocks:brown_birch_stairs",
+      "litesilverwolfsbuildingblocks:brown_birch_button",
+      "litesilverwolfsbuildingblocks:brown_birch_pressure_plate",
+      "litesilverwolfsbuildingblocks:brown_birch_stick",
+      "litesilverwolfsbuildingblocks:brown_birch_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_brown_birch_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:brown_birch_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:brown_birch_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_brown_birch_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_brick_buttons",
+  "pattern": [
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "litesilverwolfsbuildingblocks:black_bricks"
+    }
+  },
+  "result": {
+    "item": "litesilverwolfsbuildingblocks:black_brick_button",
+    "count": 1
+  }
+}

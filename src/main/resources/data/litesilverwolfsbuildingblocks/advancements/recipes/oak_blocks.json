@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:oak_beam_down",
+      "litesilverwolfsbuildingblocks:oak_beam_middle",
+      "litesilverwolfsbuildingblocks:oak_beam_up",
+      "litesilverwolfsbuildingblocks:stick_oak",
+      "litesilverwolfsbuildingblocks:oak_ladder"
+    ]
+  },
+  "criteria": {
+    "has_oak_sticks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:oak_stick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:oak_beam_down"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_oak_sticks",
+      "has_the_recipe"
+    ]
+  ]
+}

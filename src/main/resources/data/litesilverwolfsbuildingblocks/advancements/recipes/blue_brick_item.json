@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:blue_brick"
+    ]
+  },
+  "criteria": {
+    "has_colored_clay_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:blue_clay_ball"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:blue_brick"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_clay_ball",
+      "has_the_recipe"
+    ]
+  ]
+}

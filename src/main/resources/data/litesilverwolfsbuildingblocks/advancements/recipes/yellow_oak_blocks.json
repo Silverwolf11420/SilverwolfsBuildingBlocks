@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:yellow_oak_door",
+      "litesilverwolfsbuildingblocks:yellow_oak_slab",
+      "litesilverwolfsbuildingblocks:yellow_oak_stairs",
+      "litesilverwolfsbuildingblocks:yellow_oak_button",
+      "litesilverwolfsbuildingblocks:yellow_oak_pressure_plate",
+      "litesilverwolfsbuildingblocks:yellow_oak_stick",
+      "litesilverwolfsbuildingblocks:yellow_oak_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_yellow_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:yellow_oak_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:yellow_oak_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_yellow_oak_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

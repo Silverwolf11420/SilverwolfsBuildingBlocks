@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:black_birch_door",
+      "litesilverwolfsbuildingblocks:black_birch_slab",
+      "litesilverwolfsbuildingblocks:black_birch_stairs",
+      "litesilverwolfsbuildingblocks:black_birch_button",
+      "litesilverwolfsbuildingblocks:black_birch_pressure_plate",
+      "litesilverwolfsbuildingblocks:black_birch_stick",
+      "litesilverwolfsbuildingblocks:black_birch_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_black_birch_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:black_birch_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:black_birch_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_black_birch_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

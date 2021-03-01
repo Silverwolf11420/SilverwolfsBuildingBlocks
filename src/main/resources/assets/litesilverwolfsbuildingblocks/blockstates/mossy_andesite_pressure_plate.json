@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "litesilverwolfsbuildingblocks:block/mossy_andesite_pressure_plate" },
+        "powered=true": { "model": "litesilverwolfsbuildingblocks:block/mossy_andesite_pressure_plate_down" }
+    }
+}

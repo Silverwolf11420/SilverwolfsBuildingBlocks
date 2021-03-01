@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "litesilverwolfsbuildingblocks:block/white_spruce_ladder"
+  }
+}

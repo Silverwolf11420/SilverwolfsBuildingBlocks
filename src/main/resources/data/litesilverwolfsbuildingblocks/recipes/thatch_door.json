@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "litesilverwolfsbuildingblocks:thatch_block"
+    }
+  },
+  "result": {
+    "item": "litesilverwolfsbuildingblocks:thatch_door",
+    "count": 3
+  }
+}

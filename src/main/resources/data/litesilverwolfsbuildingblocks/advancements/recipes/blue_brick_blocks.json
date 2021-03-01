@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:blue_brick_slab",
+	  "litesilverwolfsbuildingblocks:blue_brick_stairs",
+	  "litesilverwolfsbuildingblocks:blue_brick_button",
+	  "litesilverwolfsbuildingblocks:blue_brick_pressure_plate",
+      "litesilverwolfsbuildingblocks:blue_brick_wall"
+    ]
+  },
+  "criteria": {
+    "has_colored_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:blue_bricks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:blue_brick_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "powered=false": { "model": "silverwolfsbuildingblocks:block/brown_birch_pressure_plate" },
-        "powered=true": { "model": "silverwolfsbuildingblocks:block/brown_birch_pressure_plate_down" }
-    }
-}

@@ -13,9 +13,9 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.16.3_1.0.5'
-group = 'mod.silverwolf.silverwolfsbuildingblocks' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'silverwolfsbuildingblocks'
+version = '1.16.3_1.0.0'
+group = 'mod.silverwolf.litesilverwolfsbuildingblocks' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'litesilverwolfsbuildingblocks'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -75,7 +75,9 @@ minecraft {
             // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
 
-            args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/')
+            args '--mod', 'litesilverwolfsbuildingblocks', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources')
+
+            environment 'target', 'fmluserdevdata'
 
             mods {
                 examplemod {

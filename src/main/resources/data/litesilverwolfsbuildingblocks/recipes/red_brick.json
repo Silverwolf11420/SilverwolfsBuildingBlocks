@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "litesilverwolfsbuildingblocks:red_clay_ball"
+  },
+  "result": "litesilverwolfsbuildingblocks:red_brick",
+  "experience": 0.3,
+  "cookingtime": 200
+}

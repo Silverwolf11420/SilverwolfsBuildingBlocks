@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:cyan_birch_door",
+      "litesilverwolfsbuildingblocks:cyan_birch_slab",
+      "litesilverwolfsbuildingblocks:cyan_birch_stairs",
+      "litesilverwolfsbuildingblocks:cyan_birch_button",
+      "litesilverwolfsbuildingblocks:cyan_birch_pressure_plate",
+      "litesilverwolfsbuildingblocks:cyan_birch_stick",
+      "litesilverwolfsbuildingblocks:cyan_birch_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_cyan_birch_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:cyan_birch_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:cyan_birch_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cyan_birch_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "colored_clay_balls",
+  "ingredients": [
+    {
+      "item": "litesilverwolfsbuildingblocks:pink_clay"
+    }
+  ],
+  "result":
+  {
+    "item": "litesilverwolfsbuildingblocks:pink_clay_ball",
+    "count": 4
+  }
+}

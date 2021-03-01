@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:orange_spruce_ladder",
+      "litesilverwolfsbuildingblocks:orange_spruce_fence",
+      "litesilverwolfsbuildingblocks:orange_spruce_fence_gate"
+    ]
+  },
+  "criteria": {
+    "has_orange_spruce_sticks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:orange_spruce_stick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:orange_spruce_ladder"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_orange_spruce_sticks",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:red_oak_ladder",
+      "litesilverwolfsbuildingblocks:red_oak_fence",
+      "litesilverwolfsbuildingblocks:red_oak_fence_gate"
+    ]
+  },
+  "criteria": {
+    "has_red_oak_sticks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:red_oak_stick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:red_oak_ladder"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_red_oak_sticks",
+      "has_the_recipe"
+    ]
+  ]
+}

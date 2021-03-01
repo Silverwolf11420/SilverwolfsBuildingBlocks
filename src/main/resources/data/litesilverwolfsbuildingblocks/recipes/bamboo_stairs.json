@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x  ",
+    "xx ",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "litesilverwolfsbuildingblocks:bamboo_block"
+    }
+  },
+  "result": {
+    "item": "litesilverwolfsbuildingblocks:bamboo_stairs",
+    "count": 6
+  }
+}

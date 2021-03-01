@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:blue_oak_door",
+      "litesilverwolfsbuildingblocks:blue_oak_slab",
+      "litesilverwolfsbuildingblocks:blue_oak_stairs",
+      "litesilverwolfsbuildingblocks:blue_oak_button",
+      "litesilverwolfsbuildingblocks:blue_oak_pressure_plate",
+      "litesilverwolfsbuildingblocks:blue_oak_stick",
+      "litesilverwolfsbuildingblocks:blue_oak_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_blue_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:blue_oak_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:blue_oak_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blue_oak_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

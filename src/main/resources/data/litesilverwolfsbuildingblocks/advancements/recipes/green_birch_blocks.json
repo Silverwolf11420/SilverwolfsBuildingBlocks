@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:green_birch_door",
+      "litesilverwolfsbuildingblocks:green_birch_slab",
+      "litesilverwolfsbuildingblocks:green_birch_stairs",
+      "litesilverwolfsbuildingblocks:green_birch_button",
+      "litesilverwolfsbuildingblocks:green_birch_pressure_plate",
+      "litesilverwolfsbuildingblocks:green_birch_stick",
+      "litesilverwolfsbuildingblocks:green_birch_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_green_birch_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:green_birch_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:green_birch_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_green_birch_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

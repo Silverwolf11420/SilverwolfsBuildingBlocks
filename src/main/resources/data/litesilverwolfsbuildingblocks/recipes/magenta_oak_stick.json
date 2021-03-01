@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_oak_sticks",
+  "pattern":
+  [
+    "x  ",
+    "x  ",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "litesilverwolfsbuildingblocks:magenta_oak_planks"
+    }
+  },
+  "result":
+  {
+    "item": "litesilverwolfsbuildingblocks:magenta_oak_stick",
+    "count": 4
+  }
+}

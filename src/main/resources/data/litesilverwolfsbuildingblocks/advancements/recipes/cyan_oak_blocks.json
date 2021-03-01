@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:cyan_oak_door",
+      "litesilverwolfsbuildingblocks:cyan_oak_slab",
+      "litesilverwolfsbuildingblocks:cyan_oak_stairs",
+      "litesilverwolfsbuildingblocks:cyan_oak_button",
+      "litesilverwolfsbuildingblocks:cyan_oak_pressure_plate",
+      "litesilverwolfsbuildingblocks:cyan_oak_stick",
+      "litesilverwolfsbuildingblocks:cyan_oak_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_cyan_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:cyan_oak_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:cyan_oak_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cyan_oak_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

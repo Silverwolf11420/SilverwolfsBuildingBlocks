@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "litesilverwolfsbuildingblocks:block/more_mossy_stone",
+    "all": "litesilverwolfsbuildingblocks:block/more_mossy_stone"
+  }
+}

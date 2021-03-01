@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_oak_fence_gates",
+  "pattern": [
+    "xyx",
+    "xyx"
+  ],
+  "key": {
+    "x": {
+      "item": "litesilverwolfsbuildingblocks:orange_oak_planks"
+    },
+    "y": {
+      "item": "litesilverwolfsbuildingblocks:orange_oak_stick"
+    }
+  },
+  "result": {
+    "item": "litesilverwolfsbuildingblocks:orange_oak_fence_gate"
+  }
+}

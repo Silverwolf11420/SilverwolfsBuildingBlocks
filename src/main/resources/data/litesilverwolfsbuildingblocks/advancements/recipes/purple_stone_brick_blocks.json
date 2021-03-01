@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:purple_stone_brick_slab",
+	  "litesilverwolfsbuildingblocks:purple_stone_brick_stairs",
+	  "litesilverwolfsbuildingblocks:purple_stone_brick_button",
+	  "litesilverwolfsbuildingblocks:purple_stone_brick_pressure_plate",
+      "litesilverwolfsbuildingblocks:purple_stone_brick_wall"
+    ]
+  },
+  "criteria": {
+    "has_colored_stone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:purple_stone_bricks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:purple_stone_brick_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_stone_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}

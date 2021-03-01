@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "litesilverwolfsbuildingblocks:block/green_bricks",
+    "top": "litesilverwolfsbuildingblocks:block/green_bricks",
+    "side": "litesilverwolfsbuildingblocks:block/green_bricks"
+  }
+}

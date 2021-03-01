@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "litesilverwolfsbuildingblocks:block/magenta_spruce_log_top",
+    "side": "litesilverwolfsbuildingblocks:block/magenta_spruce_log"
+  }
+}

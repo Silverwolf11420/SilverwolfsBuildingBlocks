@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	    "litesilverwolfsbuildingblocks:black_oak_log",
+		"litesilverwolfsbuildingblocks:blue_oak_log",
+		"litesilverwolfsbuildingblocks:brown_oak_log",
+		"litesilverwolfsbuildingblocks:cyan_oak_log",
+		"litesilverwolfsbuildingblocks:gray_oak_log",
+		"litesilverwolfsbuildingblocks:green_oak_log",
+		"litesilverwolfsbuildingblocks:light_blue_oak_log",
+		"litesilverwolfsbuildingblocks:light_gray_oak_log",
+		"litesilverwolfsbuildingblocks:lime_oak_log",
+		"litesilverwolfsbuildingblocks:magenta_oak_log",
+		"litesilverwolfsbuildingblocks:orange_oak_log",
+		"litesilverwolfsbuildingblocks:pink_oak_log",
+		"litesilverwolfsbuildingblocks:purple_oak_log",
+		"litesilverwolfsbuildingblocks:red_oak_log",
+		"litesilverwolfsbuildingblocks:white_oak_log",
+		"litesilverwolfsbuildingblocks:yellow_oak_log"
+		]
+  },
+  "criteria": {
+    "has_oak_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_log"
+          }
+        ]
+      }
+    },
+	"has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:black_oak_log"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_oak_log",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:magenta_oak_ladder",
+      "litesilverwolfsbuildingblocks:magenta_oak_fence",
+      "litesilverwolfsbuildingblocks:magenta_oak_fence_gate"
+    ]
+  },
+  "criteria": {
+    "has_magenta_oak_sticks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:magenta_oak_stick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:magenta_oak_ladder"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_magenta_oak_sticks",
+      "has_the_recipe"
+    ]
+  ]
+}

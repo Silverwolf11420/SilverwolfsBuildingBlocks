@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_rh",
+  "textures": {
+    "bottom": "litesilverwolfsbuildingblocks:block/bamboo_door_bottom",
+    "top": "litesilverwolfsbuildingblocks:block/bamboo_door_top"
+  }
+}

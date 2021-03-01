@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "litesilverwolfsbuildingblocks:block/more_mossy_stone_slab" },
+    "type=top": { "model": "litesilverwolfsbuildingblocks:block/more_mossy_stone_slab_top" },
+    "type=double": { "model": "litesilverwolfsbuildingblocks:block/more_mossy_stone" }
+  }
+}

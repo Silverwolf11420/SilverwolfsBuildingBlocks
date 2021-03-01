@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "litesilverwolfsbuildingblocks:block/more_mossy_stone",
+    "top": "litesilverwolfsbuildingblocks:block/more_mossy_stone",
+    "side": "litesilverwolfsbuildingblocks:block/more_mossy_stone"
+  }
+}

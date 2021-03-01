@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mossy_variants_slabs",
+  "pattern": [
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "litesilverwolfsbuildingblocks:mossy_andesite"
+    }
+  },
+  "result": {
+    "item": "litesilverwolfsbuildingblocks:mossy_andesite_slab",
+    "count": 6
+  }
+}

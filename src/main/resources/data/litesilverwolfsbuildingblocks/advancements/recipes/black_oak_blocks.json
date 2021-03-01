@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:black_oak_door",
+      "litesilverwolfsbuildingblocks:black_oak_slab",
+      "litesilverwolfsbuildingblocks:black_oak_stairs",
+      "litesilverwolfsbuildingblocks:black_oak_button",
+      "litesilverwolfsbuildingblocks:black_oak_pressure_plate",
+      "litesilverwolfsbuildingblocks:black_oak_stick",
+      "litesilverwolfsbuildingblocks:black_oak_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_black_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:black_oak_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:black_oak_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_black_oak_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

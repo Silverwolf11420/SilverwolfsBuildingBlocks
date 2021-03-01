@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	    "litesilverwolfsbuildingblocks:black_birch_log",
+		"litesilverwolfsbuildingblocks:blue_birch_log",
+		"litesilverwolfsbuildingblocks:brown_birch_log",
+		"litesilverwolfsbuildingblocks:cyan_birch_log",
+		"litesilverwolfsbuildingblocks:gray_birch_log",
+		"litesilverwolfsbuildingblocks:green_birch_log",
+		"litesilverwolfsbuildingblocks:light_blue_birch_log",
+		"litesilverwolfsbuildingblocks:light_gray_birch_log",
+		"litesilverwolfsbuildingblocks:lime_birch_log",
+		"litesilverwolfsbuildingblocks:magenta_birch_log",
+		"litesilverwolfsbuildingblocks:orange_birch_log",
+		"litesilverwolfsbuildingblocks:pink_birch_log",
+		"litesilverwolfsbuildingblocks:purple_birch_log",
+		"litesilverwolfsbuildingblocks:red_birch_log",
+		"litesilverwolfsbuildingblocks:white_birch_log",
+		"litesilverwolfsbuildingblocks:yellow_birch_log"
+		]
+  },
+  "criteria": {
+    "has_birch_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_log"
+          }
+        ]
+      }
+    },
+	"has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:black_birch_log"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_birch_log",
+      "has_the_recipe"
+    ]
+  ]
+}

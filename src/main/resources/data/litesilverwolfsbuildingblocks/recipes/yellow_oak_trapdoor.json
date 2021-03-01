@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_oak_trapdoors",
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "litesilverwolfsbuildingblocks:yellow_oak_planks"
+    }
+  },
+  "result": {
+    "item": "litesilverwolfsbuildingblocks:yellow_oak_trapdoor",
+    "count": 2
+  }
+}

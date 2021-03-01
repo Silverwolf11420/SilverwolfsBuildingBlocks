@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	    "litesilverwolfsbuildingblocks:orange_clay_ball"
+		]
+  },
+  "criteria": {
+    "has_orange_clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:orange_clay"
+          }
+        ]
+      }
+    },
+	"has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:orange_clay_ball"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_orange_clay",
+      "has_the_recipe"
+    ]
+  ]
+}

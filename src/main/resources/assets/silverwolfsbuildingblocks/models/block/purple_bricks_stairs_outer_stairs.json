@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/purple_bricks",
-    "top": "silverwolfsbuildingblocks:block/purple_bricks",
-    "side": "silverwolfsbuildingblocks:block/purple_bricks"
-  }
-}

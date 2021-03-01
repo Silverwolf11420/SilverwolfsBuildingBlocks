@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:purple_spruce_ladder",
+      "litesilverwolfsbuildingblocks:purple_spruce_fence",
+      "litesilverwolfsbuildingblocks:purple_spruce_fence_gate"
+    ]
+  },
+  "criteria": {
+    "has_purple_spruce_sticks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:purple_spruce_stick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:purple_spruce_ladder"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_purple_spruce_sticks",
+      "has_the_recipe"
+    ]
+  ]
+}

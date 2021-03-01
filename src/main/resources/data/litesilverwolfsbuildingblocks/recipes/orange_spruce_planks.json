@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "colored_spruce_planks",
+  "ingredients": [
+    {
+      "item": "litesilverwolfsbuildingblocks:orange_spruce_log"
+    }
+  ],
+  "result":
+  {
+    "item": "litesilverwolfsbuildingblocks:orange_spruce_planks",
+    "count": 4
+  }
+}

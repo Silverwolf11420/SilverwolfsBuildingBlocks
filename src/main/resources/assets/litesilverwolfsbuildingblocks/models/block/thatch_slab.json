@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "litesilverwolfsbuildingblocks:block/thatch_block",
+    "top": "litesilverwolfsbuildingblocks:block/thatch_block",
+    "side": "litesilverwolfsbuildingblocks:block/thatch_block"
+  }
+}

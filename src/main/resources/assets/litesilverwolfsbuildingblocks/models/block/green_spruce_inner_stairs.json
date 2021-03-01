@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "litesilverwolfsbuildingblocks:block/green_spruce_planks",
+    "top": "litesilverwolfsbuildingblocks:block/green_spruce_planks",
+    "side": "litesilverwolfsbuildingblocks:block/green_spruce_planks"
+  }
+}

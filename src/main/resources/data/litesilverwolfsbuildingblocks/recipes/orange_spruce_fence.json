@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_spruce_fence",
+  "pattern": [
+    "xyx",
+    "xyx"
+  ],
+  "key": {
+    "x": {
+      "item": "litesilverwolfsbuildingblocks:orange_spruce_planks"
+    },
+    "y": {
+      "item": "litesilverwolfsbuildingblocks:orange_spruce_stick"
+    }
+  },
+  "result": {
+    "item": "litesilverwolfsbuildingblocks:orange_spruce_fence",
+    "count": 3
+  }
+}

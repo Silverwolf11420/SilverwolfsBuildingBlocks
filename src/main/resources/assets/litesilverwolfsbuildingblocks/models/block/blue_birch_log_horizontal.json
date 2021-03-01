@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "litesilverwolfsbuildingblocks:block/blue_birch_log_top",
+    "side": "litesilverwolfsbuildingblocks:block/blue_birch_log"
+  }
+}

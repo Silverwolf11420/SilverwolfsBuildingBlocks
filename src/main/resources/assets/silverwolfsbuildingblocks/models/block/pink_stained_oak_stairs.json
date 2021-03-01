@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/pink_stained_oak_planks",
-    "top": "silverwolfsbuildingblocks:block/pink_stained_oak_planks",
-    "side": "silverwolfsbuildingblocks:block/pink_stained_oak_planks"
-  }
-}

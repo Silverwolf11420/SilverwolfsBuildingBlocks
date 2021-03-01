@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:orange_oak_door",
+      "litesilverwolfsbuildingblocks:orange_oak_slab",
+      "litesilverwolfsbuildingblocks:orange_oak_stairs",
+      "litesilverwolfsbuildingblocks:orange_oak_button",
+      "litesilverwolfsbuildingblocks:orange_oak_pressure_plate",
+      "litesilverwolfsbuildingblocks:orange_oak_stick",
+      "litesilverwolfsbuildingblocks:orange_oak_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_orange_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:orange_oak_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:orange_oak_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_orange_oak_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

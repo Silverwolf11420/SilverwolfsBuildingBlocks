@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:dark_oak_beam_down",
+      "litesilverwolfsbuildingblocks:dark_oak_beam_middle",
+      "litesilverwolfsbuildingblocks:dark_oak_beam_up",
+      "litesilverwolfsbuildingblocks:stick_dark_oak",
+      "litesilverwolfsbuildingblocks:dark_oak_ladder"
+    ]
+  },
+  "criteria": {
+    "has_dark_oak_sticks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:dark_oak_stick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:dark_oak_beam_down"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dark_oak_sticks",
+      "has_the_recipe"
+    ]
+  ]
+}

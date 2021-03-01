@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:pink_oak_door",
+      "litesilverwolfsbuildingblocks:pink_oak_slab",
+      "litesilverwolfsbuildingblocks:pink_oak_stairs",
+      "litesilverwolfsbuildingblocks:pink_oak_button",
+      "litesilverwolfsbuildingblocks:pink_oak_pressure_plate",
+      "litesilverwolfsbuildingblocks:pink_oak_stick",
+      "litesilverwolfsbuildingblocks:pink_oak_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_pink_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:pink_oak_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:pink_oak_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pink_oak_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

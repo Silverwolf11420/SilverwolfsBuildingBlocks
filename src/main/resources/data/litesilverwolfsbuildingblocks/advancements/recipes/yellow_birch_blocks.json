@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:yellow_birch_door",
+      "litesilverwolfsbuildingblocks:yellow_birch_slab",
+      "litesilverwolfsbuildingblocks:yellow_birch_stairs",
+      "litesilverwolfsbuildingblocks:yellow_birch_button",
+      "litesilverwolfsbuildingblocks:yellow_birch_pressure_plate",
+      "litesilverwolfsbuildingblocks:yellow_birch_stick",
+      "litesilverwolfsbuildingblocks:yellow_birch_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_yellow_birch_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:yellow_birch_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:yellow_birch_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_yellow_birch_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

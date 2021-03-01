@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:green_oak_ladder",
+      "litesilverwolfsbuildingblocks:green_oak_fence",
+      "litesilverwolfsbuildingblocks:green_oak_fence_gate"
+    ]
+  },
+  "criteria": {
+    "has_green_oak_sticks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:green_oak_stick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:green_oak_ladder"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_green_oak_sticks",
+      "has_the_recipe"
+    ]
+  ]
+}

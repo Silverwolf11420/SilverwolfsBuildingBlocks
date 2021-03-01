@@ -1,0 +1,6 @@
+{
+    "parent": "block/button",
+    "textures": {
+        "texture": "litesilverwolfsbuildingblocks:block/blue_spruce_planks"
+    }
+}

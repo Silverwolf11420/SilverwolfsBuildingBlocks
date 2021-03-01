@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:purple_oak_door",
+      "litesilverwolfsbuildingblocks:purple_oak_slab",
+      "litesilverwolfsbuildingblocks:purple_oak_stairs",
+      "litesilverwolfsbuildingblocks:purple_oak_button",
+      "litesilverwolfsbuildingblocks:purple_oak_pressure_plate",
+      "litesilverwolfsbuildingblocks:purple_oak_stick",
+      "litesilverwolfsbuildingblocks:purple_oak_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_purple_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:purple_oak_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:purple_oak_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_purple_oak_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

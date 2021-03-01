@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:yellow_spruce_door",
+      "litesilverwolfsbuildingblocks:yellow_spruce_slab",
+      "litesilverwolfsbuildingblocks:yellow_spruce_stairs",
+      "litesilverwolfsbuildingblocks:yellow_spruce_button",
+      "litesilverwolfsbuildingblocks:yellow_spruce_pressure_plate",
+      "litesilverwolfsbuildingblocks:yellow_spruce_stick",
+      "litesilverwolfsbuildingblocks:yellow_spruce_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_yellow_spruce_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:yellow_spruce_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:yellow_spruce_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_yellow_spruce_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

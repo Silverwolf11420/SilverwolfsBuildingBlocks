@@ -1,0 +1,6 @@
+{
+    "parent": "block/button_pressed",
+    "textures": {
+        "texture": "litesilverwolfsbuildingblocks:block/white_oak_planks"
+    }
+}

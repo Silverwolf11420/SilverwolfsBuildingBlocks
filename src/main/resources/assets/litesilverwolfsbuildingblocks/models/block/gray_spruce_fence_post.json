@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "litesilverwolfsbuildingblocks:block/gray_spruce_planks"
+  }
+}

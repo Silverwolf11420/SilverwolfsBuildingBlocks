@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "litesilverwolfsbuildingblocks:block/white_oak_planks",
+    "top": "litesilverwolfsbuildingblocks:block/white_oak_planks",
+    "side": "litesilverwolfsbuildingblocks:block/white_oak_planks"
+  }
+}

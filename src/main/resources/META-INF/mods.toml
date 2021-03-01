@@ -9,11 +9,11 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 [[mods]] #mandatory
 
-modId="silverwolfsbuildingblocks" #mandatory
+modId="litesilverwolfsbuildingblocks" #mandatory
 
-version="1.16.3_1.0.5" #mandatory
+version="1.16.3_1.0.0" #mandatory
 
-displayName="Silverwolf's Building Blocks" #mandatory
+displayName="Silverwolf's Building Blocks - Lite Version" #mandatory
 
 updateJSONURL="http://myurl.me/" #optional
 
@@ -27,6 +27,7 @@ authors="Silverwolf" #optional
 
 description='''
 Adds more building blocks
+This is the lite version of Silverwolf's Building Blocks
 '''
 
 [[dependencies.silverwolfsbuildingblocks]] #optional

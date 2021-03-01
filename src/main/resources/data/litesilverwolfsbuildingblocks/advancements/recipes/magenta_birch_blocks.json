@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:magenta_birch_door",
+      "litesilverwolfsbuildingblocks:magenta_birch_slab",
+      "litesilverwolfsbuildingblocks:magenta_birch_stairs",
+      "litesilverwolfsbuildingblocks:magenta_birch_button",
+      "litesilverwolfsbuildingblocks:magenta_birch_pressure_plate",
+      "litesilverwolfsbuildingblocks:magenta_birch_stick",
+      "litesilverwolfsbuildingblocks:magenta_birch_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_magenta_birch_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:magenta_birch_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:magenta_birch_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_magenta_birch_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

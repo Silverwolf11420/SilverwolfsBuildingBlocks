@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:cyan_spruce_door",
+      "litesilverwolfsbuildingblocks:cyan_spruce_slab",
+      "litesilverwolfsbuildingblocks:cyan_spruce_stairs",
+      "litesilverwolfsbuildingblocks:cyan_spruce_button",
+      "litesilverwolfsbuildingblocks:cyan_spruce_pressure_plate",
+      "litesilverwolfsbuildingblocks:cyan_spruce_stick",
+      "litesilverwolfsbuildingblocks:cyan_spruce_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_cyan_spruce_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:cyan_spruce_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:cyan_spruce_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cyan_spruce_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

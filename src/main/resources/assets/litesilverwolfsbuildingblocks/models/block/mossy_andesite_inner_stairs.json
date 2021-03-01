@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "litesilverwolfsbuildingblocks:block/mossy_andesite",
+    "top": "litesilverwolfsbuildingblocks:block/mossy_andesite",
+    "side": "litesilverwolfsbuildingblocks:block/mossy_andesite"
+  }
+}

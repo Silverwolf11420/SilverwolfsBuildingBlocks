@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "litesilverwolfsbuildingblocks:block/light_blue_birch_planks",
+    "top": "litesilverwolfsbuildingblocks:block/light_blue_birch_planks",
+    "side": "litesilverwolfsbuildingblocks:block/light_blue_birch_planks"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:bamboo_button",
+      "litesilverwolfsbuildingblocks:bamboo_door",
+      "litesilverwolfsbuildingblocks:bamboo_pressure_plate",
+      "litesilverwolfsbuildingblocks:bamboo",
+      "litesilverwolfsbuildingblocks:bamboo_slab",
+      "litesilverwolfsbuildingblocks:bamboo_stairs",
+      "litesilverwolfsbuildingblocks:bamboo_trapdoor",
+      "litesilverwolfsbuildingblocks:bamboo_fence",
+      "litesilverwolfsbuildingblocks:bamboo_fence_gate"
+    ]
+  },
+  "criteria": {
+    "has_bamboo_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:bamboo_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:bamboo_button"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bamboo_block",
+      "has_the_recipe"
+    ]
+  ]
+}

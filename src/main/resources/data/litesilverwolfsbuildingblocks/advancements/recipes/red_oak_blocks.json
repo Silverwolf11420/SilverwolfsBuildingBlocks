@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:red_oak_door",
+      "litesilverwolfsbuildingblocks:red_oak_slab",
+      "litesilverwolfsbuildingblocks:red_oak_stairs",
+      "litesilverwolfsbuildingblocks:red_oak_button",
+      "litesilverwolfsbuildingblocks:red_oak_pressure_plate",
+      "litesilverwolfsbuildingblocks:red_oak_stick",
+      "litesilverwolfsbuildingblocks:red_oak_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_red_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:red_oak_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:red_oak_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_red_oak_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_spruce_buttons",
+  "pattern": [
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "litesilverwolfsbuildingblocks:blue_spruce_planks"
+    }
+  },
+  "result": {
+    "item": "litesilverwolfsbuildingblocks:blue_spruce_button",
+    "count": 1
+  }
+}

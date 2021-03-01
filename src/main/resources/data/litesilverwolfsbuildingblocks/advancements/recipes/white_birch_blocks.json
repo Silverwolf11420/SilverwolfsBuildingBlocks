@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:white_birch_door",
+      "litesilverwolfsbuildingblocks:white_birch_slab",
+      "litesilverwolfsbuildingblocks:white_birch_stairs",
+      "litesilverwolfsbuildingblocks:white_birch_button",
+      "litesilverwolfsbuildingblocks:white_birch_pressure_plate",
+      "litesilverwolfsbuildingblocks:white_birch_stick",
+      "litesilverwolfsbuildingblocks:white_birch_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_white_birch_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:white_birch_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:white_birch_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_white_birch_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

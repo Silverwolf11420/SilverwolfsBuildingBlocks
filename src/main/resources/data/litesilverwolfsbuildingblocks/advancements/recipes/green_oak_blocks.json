@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:green_oak_door",
+      "litesilverwolfsbuildingblocks:green_oak_slab",
+      "litesilverwolfsbuildingblocks:green_oak_stairs",
+      "litesilverwolfsbuildingblocks:green_oak_button",
+      "litesilverwolfsbuildingblocks:green_oak_pressure_plate",
+      "litesilverwolfsbuildingblocks:green_oak_stick",
+      "litesilverwolfsbuildingblocks:green_oak_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_green_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:green_oak_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:green_oak_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_green_oak_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

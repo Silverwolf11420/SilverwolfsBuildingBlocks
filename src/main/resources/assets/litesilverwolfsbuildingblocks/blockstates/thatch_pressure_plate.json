@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "litesilverwolfsbuildingblocks:block/thatch_pressure_plate" },
+        "powered=true": { "model": "litesilverwolfsbuildingblocks:block/thatch_pressure_plate_down" }
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:mossy_andesite_button",
+      "litesilverwolfsbuildingblocks:mossy_andesite_pressure_plate",
+      "litesilverwolfsbuildingblocks:mossy_andesite_slab",
+      "litesilverwolfsbuildingblocks:mossy_andesite_slab_alt",
+      "litesilverwolfsbuildingblocks:mossy_andesite_stairs",
+      "litesilverwolfsbuildingblocks:mossy_andesite_stairs_alt",
+      "litesilverwolfsbuildingblocks:mossy_andesite_wall"
+    ]
+  },
+  "criteria": {
+    "has_mossy_andesite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:mossy_andesite"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:mossy_andesite_button"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mossy_andesite",
+      "has_the_recipe"
+    ]
+  ]
+}

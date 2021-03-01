@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "litesilverwolfsbuildingblocks:block/mossy_stone",
+    "top": "litesilverwolfsbuildingblocks:block/mossy_stone",
+    "side": "litesilverwolfsbuildingblocks:block/mossy_stone"
+  }
+}

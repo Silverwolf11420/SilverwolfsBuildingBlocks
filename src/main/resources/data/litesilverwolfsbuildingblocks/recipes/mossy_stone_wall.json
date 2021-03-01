@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "litesilverwolfsbuildingblocks:mossy_stone"
+    }
+  },
+  "result": {
+    "item": "litesilverwolfsbuildingblocks:mossy_stone_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "litesilverwolfsbuildingblocks:block/cyan_bricks",
+    "top": "litesilverwolfsbuildingblocks:block/cyan_bricks",
+    "side": "litesilverwolfsbuildingblocks:block/cyan_bricks"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_ladders",
+  "pattern": [
+    "x x",
+    "xxx",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "litesilverwolfsbuildingblocks:acacia_stick"
+    }
+  },
+  "result": {
+    "item": "litesilverwolfsbuildingblocks:acacia_ladder",
+    "count": 3
+  }
+}

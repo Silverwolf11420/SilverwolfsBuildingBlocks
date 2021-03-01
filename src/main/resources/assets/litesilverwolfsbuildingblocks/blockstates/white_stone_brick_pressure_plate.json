@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "litesilverwolfsbuildingblocks:block/white_stone_brick_pressure_plate" },
+        "powered=true": { "model": "litesilverwolfsbuildingblocks:block/white_stone_brick_pressure_plate_down" }
+    }
+}

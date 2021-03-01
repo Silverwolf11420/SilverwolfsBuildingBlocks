@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:brown_oak_door",
+      "litesilverwolfsbuildingblocks:brown_oak_slab",
+      "litesilverwolfsbuildingblocks:brown_oak_stairs",
+      "litesilverwolfsbuildingblocks:brown_oak_button",
+      "litesilverwolfsbuildingblocks:brown_oak_pressure_plate",
+      "litesilverwolfsbuildingblocks:brown_oak_stick",
+      "litesilverwolfsbuildingblocks:brown_oak_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_brown_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:brown_oak_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:brown_oak_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_brown_oak_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

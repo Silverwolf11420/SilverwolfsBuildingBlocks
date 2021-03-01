@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_birch_fence_gates",
+  "pattern": [
+    "xyx",
+    "xyx"
+  ],
+  "key": {
+    "x": {
+      "item": "litesilverwolfsbuildingblocks:magenta_birch_planks"
+    },
+    "y": {
+      "item": "litesilverwolfsbuildingblocks:magenta_birch_stick"
+    }
+  },
+  "result": {
+    "item": "litesilverwolfsbuildingblocks:magenta_birch_fence_gate"
+  }
+}

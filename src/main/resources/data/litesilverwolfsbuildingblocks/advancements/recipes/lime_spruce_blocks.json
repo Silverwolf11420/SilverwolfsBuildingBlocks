@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:lime_spruce_door",
+      "litesilverwolfsbuildingblocks:lime_spruce_slab",
+      "litesilverwolfsbuildingblocks:lime_spruce_stairs",
+      "litesilverwolfsbuildingblocks:lime_spruce_button",
+      "litesilverwolfsbuildingblocks:lime_spruce_pressure_plate",
+      "litesilverwolfsbuildingblocks:lime_spruce_stick",
+      "litesilverwolfsbuildingblocks:lime_spruce_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_lime_spruce_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:lime_spruce_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:lime_spruce_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lime_spruce_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

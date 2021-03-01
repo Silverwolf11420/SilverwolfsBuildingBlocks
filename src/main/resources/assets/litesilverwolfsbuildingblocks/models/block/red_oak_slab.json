@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "litesilverwolfsbuildingblocks:block/red_oak_planks",
+    "top": "litesilverwolfsbuildingblocks:block/red_oak_planks",
+    "side": "litesilverwolfsbuildingblocks:block/red_oak_planks"
+  }
+}

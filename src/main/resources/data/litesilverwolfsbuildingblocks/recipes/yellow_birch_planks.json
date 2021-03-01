@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "colored_birch_planks",
+  "ingredients": [
+    {
+      "item": "litesilverwolfsbuildingblocks:yellow_birch_log"
+    }
+  ],
+  "result":
+  {
+    "item": "litesilverwolfsbuildingblocks:yellow_birch_planks",
+    "count": 4
+  }
+}

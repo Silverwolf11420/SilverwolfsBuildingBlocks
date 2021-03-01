@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "litesilverwolfsbuildingblocks:block/magenta_bricks",
+    "top": "litesilverwolfsbuildingblocks:block/magenta_bricks",
+    "side": "litesilverwolfsbuildingblocks:block/magenta_bricks"
+  }
+}

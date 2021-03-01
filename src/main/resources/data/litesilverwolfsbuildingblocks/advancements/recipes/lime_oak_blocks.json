@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:lime_oak_door",
+      "litesilverwolfsbuildingblocks:lime_oak_slab",
+      "litesilverwolfsbuildingblocks:lime_oak_stairs",
+      "litesilverwolfsbuildingblocks:lime_oak_button",
+      "litesilverwolfsbuildingblocks:lime_oak_pressure_plate",
+      "litesilverwolfsbuildingblocks:lime_oak_stick",
+      "litesilverwolfsbuildingblocks:lime_oak_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_lime_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:lime_oak_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:lime_oak_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lime_oak_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

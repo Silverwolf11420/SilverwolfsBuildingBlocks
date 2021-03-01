@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:acacia_beam_down",
+      "litesilverwolfsbuildingblocks:acacia_beam_middle",
+      "litesilverwolfsbuildingblocks:acacia_beam_up",
+      "litesilverwolfsbuildingblocks:stick_acacia",
+      "litesilverwolfsbuildingblocks:acacia_ladder"
+    ]
+  },
+  "criteria": {
+    "has_acacia_sticks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:acacia_stick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:acacia_beam_down"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_acacia_sticks",
+      "has_the_recipe"
+    ]
+  ]
+}

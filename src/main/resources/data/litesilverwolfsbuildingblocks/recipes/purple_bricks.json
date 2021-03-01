@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_bricks_block",
+  "pattern":
+  [
+    "xx ",
+    "xx ",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "litesilverwolfsbuildingblocks:purple_brick"
+    }
+  },
+  "result":
+  {
+    "item": "litesilverwolfsbuildingblocks:purple_bricks",
+    "count": 1
+  }
+}

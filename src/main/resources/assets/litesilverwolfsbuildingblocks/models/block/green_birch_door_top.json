@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "litesilverwolfsbuildingblocks:block/green_birch_door_bottom",
+    "top": "litesilverwolfsbuildingblocks:block/green_birch_door_top"
+  }
+}

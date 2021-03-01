@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_spruce_sticks",
+  "pattern":
+  [
+    "x  ",
+    "x  ",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "litesilverwolfsbuildingblocks:red_spruce_planks"
+    }
+  },
+  "result":
+  {
+    "item": "litesilverwolfsbuildingblocks:red_spruce_stick",
+    "count": 4
+  }
+}

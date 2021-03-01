@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:black_clay",
+      "litesilverwolfsbuildingblocks:blue_clay",
+      "litesilverwolfsbuildingblocks:brown_clay",
+      "litesilverwolfsbuildingblocks:cyan_clay",
+      "litesilverwolfsbuildingblocks:gray_clay",
+      "litesilverwolfsbuildingblocks:green_clay",
+      "litesilverwolfsbuildingblocks:light_blue_clay",
+      "litesilverwolfsbuildingblocks:light_gray_clay",
+      "litesilverwolfsbuildingblocks:lime_clay",
+      "litesilverwolfsbuildingblocks:magenta_clay",
+      "litesilverwolfsbuildingblocks:orange_clay",
+      "litesilverwolfsbuildingblocks:pink_clay",
+      "litesilverwolfsbuildingblocks:purple_clay",
+      "litesilverwolfsbuildingblocks:red_clay",
+      "litesilverwolfsbuildingblocks:white_clay",
+      "litesilverwolfsbuildingblocks:yellow_clay"
+    ]
+  },
+  "criteria": {
+    "has_clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:clay"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:clay"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_clay",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_birch_fence",
+  "pattern": [
+    "xyx",
+    "xyx"
+  ],
+  "key": {
+    "x": {
+      "item": "litesilverwolfsbuildingblocks:orange_birch_planks"
+    },
+    "y": {
+      "item": "litesilverwolfsbuildingblocks:orange_birch_stick"
+    }
+  },
+  "result": {
+    "item": "litesilverwolfsbuildingblocks:orange_birch_fence",
+    "count": 3
+  }
+}

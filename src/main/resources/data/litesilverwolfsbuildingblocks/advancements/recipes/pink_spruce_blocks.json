@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:pink_spruce_door",
+      "litesilverwolfsbuildingblocks:pink_spruce_slab",
+      "litesilverwolfsbuildingblocks:pink_spruce_stairs",
+      "litesilverwolfsbuildingblocks:pink_spruce_button",
+      "litesilverwolfsbuildingblocks:pink_spruce_pressure_plate",
+      "litesilverwolfsbuildingblocks:pink_spruce_stick",
+      "litesilverwolfsbuildingblocks:pink_spruce_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_pink_spruce_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:pink_spruce_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:pink_spruce_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pink_spruce_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

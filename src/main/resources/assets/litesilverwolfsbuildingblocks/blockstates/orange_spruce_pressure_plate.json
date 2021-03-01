@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "litesilverwolfsbuildingblocks:block/orange_spruce_pressure_plate" },
+        "powered=true": { "model": "litesilverwolfsbuildingblocks:block/orange_spruce_pressure_plate_down" }
+    }
+}

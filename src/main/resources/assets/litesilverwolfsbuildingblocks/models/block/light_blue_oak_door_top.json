@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "litesilverwolfsbuildingblocks:block/light_blue_oak_door_bottom",
+    "top": "litesilverwolfsbuildingblocks:block/light_blue_oak_door_top"
+  }
+}

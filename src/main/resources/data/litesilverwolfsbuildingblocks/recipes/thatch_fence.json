@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xyx",
+    "xyx"
+  ],
+  "key": {
+    "x": {
+      "item": "litesilverwolfsbuildingblocks:thatch_block"
+    },
+    "y": {
+      "item": "litesilverwolfsbuildingblocks:thatch"
+    }
+  },
+  "result": {
+    "item": "litesilverwolfsbuildingblocks:thatch_fence",
+    "count": 3
+  }
+}

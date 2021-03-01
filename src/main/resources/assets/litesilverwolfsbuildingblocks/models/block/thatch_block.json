@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube",
+	"textures": {
+	    "particle": "litesilverwolfsbuildingblocks:block/thatch_block",
+		"down": "litesilverwolfsbuildingblocks:block/thatch_block_top",
+		"up": "litesilverwolfsbuildingblocks:block/thatch_block_top",
+		"north": "litesilverwolfsbuildingblocks:block/thatch_block",
+		"east": "litesilverwolfsbuildingblocks:block/thatch_block",
+		"south": "litesilverwolfsbuildingblocks:block/thatch_block",
+		"west": "litesilverwolfsbuildingblocks:block/thatch_block"
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_oak_buttons",
+  "pattern": [
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "litesilverwolfsbuildingblocks:gray_oak_planks"
+    }
+  },
+  "result": {
+    "item": "litesilverwolfsbuildingblocks:gray_oak_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "litesilverwolfsbuildingblocks:block/magenta_spruce_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "litesilverwolfsbuildingblocks:block/magenta_spruce_ladder"
+    },
+    "facing=south": {
+      "model": "litesilverwolfsbuildingblocks:block/magenta_spruce_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "litesilverwolfsbuildingblocks:block/magenta_spruce_ladder",
+      "y": 270
+    }
+  }
+}

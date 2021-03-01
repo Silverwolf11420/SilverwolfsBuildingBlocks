@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_rh",
+  "textures": {
+    "bottom": "litesilverwolfsbuildingblocks:block/yellow_spruce_door_bottom",
+    "top": "litesilverwolfsbuildingblocks:block/yellow_spruce_door_top"
+  }
+}

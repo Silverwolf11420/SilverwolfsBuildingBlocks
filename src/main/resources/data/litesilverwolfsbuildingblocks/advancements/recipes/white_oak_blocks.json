@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:white_oak_door",
+      "litesilverwolfsbuildingblocks:white_oak_slab",
+      "litesilverwolfsbuildingblocks:white_oak_stairs",
+      "litesilverwolfsbuildingblocks:white_oak_button",
+      "litesilverwolfsbuildingblocks:white_oak_pressure_plate",
+      "litesilverwolfsbuildingblocks:white_oak_stick",
+      "litesilverwolfsbuildingblocks:white_oak_trapdoor"
+    ]
+  },
+  "criteria": {
+    "has_white_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:white_oak_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "litesilverwolfsbuildingblocks:white_oak_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_white_oak_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

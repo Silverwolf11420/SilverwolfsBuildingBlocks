@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "litesilverwolfsbuildingblocks:thatch_button",
+      "litesilverwolfsbuildingblocks:thatch_door",
+      "litesilverwolfsbuildingblocks:thatch_pressure_plate",
+      "litesilverwolfsbuildingblocks:thatch_slab",
+      "litesilverwolfsbuildingblocks:thatch_stairs",
+      "litesilverwolfsbuildingblocks:thatch_fence",
+      "litesilverwolfsbuildingblocks:thatch_fence_gate"
+    ]
+  },
+  "criteria": {
+    "has_thatch_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "litesilverwolfsbuildingblocks:thatch_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuldingblocks:thatch_button"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_thatch_block",
+      "has_the_recipe"
+    ]
+  ]
+}
