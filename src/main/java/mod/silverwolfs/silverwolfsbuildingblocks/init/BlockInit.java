@@ -9,6 +9,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.DyeColor;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.particles.ParticleTypes;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
@@ -128,6 +129,9 @@ public class BlockInit {
     public static final RegistryObject<Block> MORE_MOSSY_ANDESITE_SLAB = BLOCKS.register("more_mossy_andesite_slab", () -> new SlabBlock(AbstractBlock.Properties.from(BlockInit.MORE_MOSSY_ANDESITE.get())));
     public static final RegistryObject<Block> MORE_MOSSY_ANDESITE_STAIRS = BLOCKS.register("more_mossy_andesite_stairs", () -> new StairsBlock(() -> BlockInit.MORE_MOSSY_ANDESITE.get().getDefaultState() , AbstractBlock.Properties.from(BlockInit.MORE_MOSSY_ANDESITE.get())));
 
+    public static final RegistryObject<TorchBlock> ACACIA_TORCH = BLOCKS.register("acacia_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 14), ParticleTypes.FLAME));
+    public static final RegistryObject<WallTorchBlock> ACACIA_WALL_TORCH = BLOCKS.register("acacia_wall_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 14), ParticleTypes.FLAME));
+
     //block items
     public static final RegistryObject<BlockItem> THATCH_BLOCK_ITEM = ItemInit.ITEMS.register("thatch_block", () -> new BlockItem(THATCH_BLOCK.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> THATCH_BUTTON_ITEM = ItemInit.ITEMS.register("thatch_button", () -> new BlockItem(THATCH_BUTTON.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
@@ -203,6 +207,8 @@ public class BlockInit {
     public static final RegistryObject<BlockItem> MORE_MOSSY_ANDESITE_PRESSURE_PLATE_ITEM = ItemInit.ITEMS.register("more_mossy_andesite_pressure_plate", () -> new BlockItem(MORE_MOSSY_ANDESITE_PRESSURE_PLATE.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> MORE_MOSSY_ANDESITE_SLAB_ITEM = ItemInit.ITEMS.register("more_mossy_andesite_slab", () -> new BlockItem(MORE_MOSSY_ANDESITE_SLAB.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> MORE_MOSSY_ANDESITE_STAIRS_ITEM = ItemInit.ITEMS.register("more_mossy_andesite_stairs", () -> new BlockItem(MORE_MOSSY_ANDESITE_STAIRS.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
+
+    public static final RegistryObject<BlockItem> ACACIA_TORCH_ITEM = ItemInit.ITEMS.register("acacia_torch", () -> new BlockItem(ACACIA_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
 
     //lists
     public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> LOGS = new EnumMap<>(WoodenPlank.class);

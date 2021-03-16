@@ -1565,5 +1565,8 @@
   "block.silverwolfsbuildingblocks.purple_clay": "Purple Clay",
   "block.silverwolfsbuildingblocks.red_clay": "Red Clay",
   "block.silverwolfsbuildingblocks.white_clay": "White Clay",
-  "block.silverwolfsbuildingblocks.yellow_clay": "Yellow Clay"
+  "block.silverwolfsbuildingblocks.yellow_clay": "Yellow Clay",
+
+  "block.silverwolfsbuildingblocks.acacia_torch": "Acacia Torch"
+
 }

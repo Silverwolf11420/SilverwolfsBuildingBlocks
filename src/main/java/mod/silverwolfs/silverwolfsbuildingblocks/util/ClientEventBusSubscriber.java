@@ -22,6 +22,8 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(BlockInit.THATCH_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(BlockInit.BAMBOO_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(BlockInit.THATCH_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.ACACIA_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.ACACIA_WALL_TORCH.get(), RenderType.getCutout());
 
         for (DyeColor color : DyeColor.values()) {
 
