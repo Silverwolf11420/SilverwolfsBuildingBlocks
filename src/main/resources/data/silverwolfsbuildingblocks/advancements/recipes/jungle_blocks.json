@@ -6,7 +6,8 @@
       "silverwolfsbuildingblocks:jungle_beam_middle",
       "silverwolfsbuildingblocks:jungle_beam_up",
       "silverwolfsbuildingblocks:stick_jungle",
-      "silverwolfsbuildingblocks:jungle_ladder"
+      "silverwolfsbuildingblocks:jungle_ladder",
+      "silverwolfsbuildingblocks:jungle_torch"
     ]
   },
   "criteria": {

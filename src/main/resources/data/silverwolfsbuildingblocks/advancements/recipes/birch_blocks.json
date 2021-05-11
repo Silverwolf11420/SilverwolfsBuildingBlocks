@@ -6,7 +6,8 @@
       "silverwolfsbuildingblocks:birch_beam_middle",
       "silverwolfsbuildingblocks:birch_beam_up",
       "silverwolfsbuildingblocks:stick_birch",
-      "silverwolfsbuildingblocks:birch_ladder"
+      "silverwolfsbuildingblocks:birch_ladder",
+      "silverwolfsbuildingblocks:birch_torch"
     ]
   },
   "criteria": {

@@ -5,6 +5,7 @@ import mod.silverwolfs.silverwolfsbuildingblocks.util.RegistryHandler;
 import mod.silverwolfs.silverwolfsbuildingblocks.util.WoodenPlank;
 import net.minecraft.block.Block;
 import net.minecraft.item.*;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -40,22 +41,24 @@ public class SilverwolfsBuildingBlocks {
     }
 
     //creative tabs
-    public static class SilverwolfsBlocksItemGroup extends ItemGroup{
+    public static class SilverwolfsBlocksItemGroup extends ItemGroup {
         public static final SilverwolfsBlocksItemGroup instance = new SilverwolfsBlocksItemGroup(ItemGroup.GROUPS.length, "itemtab");
-        private SilverwolfsBlocksItemGroup(int index, String label)
-        {
+
+        private SilverwolfsBlocksItemGroup(int index, String label) {
             super(index, label);
         }
+
         @Override
         public ItemStack createIcon() {
             return new ItemStack(ItemInit.RED_BRICK.get());
         }
+
         @Override
         public boolean hasSearchBar() {
             return true;
         }
-    }
 
+    }
 }
 
 

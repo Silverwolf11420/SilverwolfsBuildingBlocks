@@ -6,7 +6,8 @@
       "silverwolfsbuildingblocks:spruce_beam_middle",
       "silverwolfsbuildingblocks:spruce_beam_up",
       "silverwolfsbuildingblocks:stick_spruce",
-      "silverwolfsbuildingblocks:spruce_ladder"
+      "silverwolfsbuildingblocks:spruce_ladder",
+      "silverwolfsbuildingblocks:spruce_torch"
     ]
   },
   "criteria": {

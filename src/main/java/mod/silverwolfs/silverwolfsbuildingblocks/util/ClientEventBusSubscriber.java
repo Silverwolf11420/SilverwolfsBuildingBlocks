@@ -24,13 +24,35 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(BlockInit.THATCH_TRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(BlockInit.ACACIA_TORCH.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(BlockInit.ACACIA_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.BIRCH_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.BIRCH_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.DARK_OAK_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.DARK_OAK_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.JUNGLE_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.JUNGLE_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.SPRUCE_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.SPRUCE_WALL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.ACACIA_SOUL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.ACACIA_WALL_SOUL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.BIRCH_SOUL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.BIRCH_WALL_SOUL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.DARK_OAK_SOUL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.DARK_OAK_WALL_SOUL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.JUNGLE_SOUL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.JUNGLE_WALL_SOUL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.SPRUCE_SOUL_TORCH.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.SPRUCE_WALL_SOUL_TORCH.get(), RenderType.getCutout());
 
         for (DyeColor color : DyeColor.values()) {
 
             for (WoodenPlank plank : WoodenPlank.values()) {
-                RenderTypeLookup.setRenderLayer(BlockInit.DOORS.get(plank).get(color.getId()).get(), RenderType.getCutout()); //not called
+                RenderTypeLookup.setRenderLayer(BlockInit.DOORS.get(plank).get(color.getId()).get(), RenderType.getCutout());
                 RenderTypeLookup.setRenderLayer(BlockInit.LADDERS.get(plank).get(color.getId()).get(), RenderType.getCutout());
                 RenderTypeLookup.setRenderLayer(BlockInit.TRAPDOORS.get(plank).get(color.getId()).get(), RenderType.getCutout());
+                RenderTypeLookup.setRenderLayer(BlockInit.TORCHES.get(plank).get(color.getId()).get(), RenderType.getCutout());
+                RenderTypeLookup.setRenderLayer(BlockInit.WALL_TORCHES.get(plank).get(color.getId()).get(), RenderType.getCutout());
+                RenderTypeLookup.setRenderLayer(BlockInit.SOUL_TORCHES.get(plank).get(color.getId()).get(), RenderType.getCutout());
+                RenderTypeLookup.setRenderLayer(BlockInit.WALL_SOUL_TORCHES.get(plank).get(color.getId()).get(), RenderType.getCutout());
             }
         }
     }
