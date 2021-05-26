@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "silverwolfsbuildingblocks:block/white_light_log_top",
+    "side": "silverwolfsbuildingblocks:block/white_light_log"
+  }
+}
