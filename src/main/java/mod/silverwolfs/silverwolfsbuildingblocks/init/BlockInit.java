@@ -237,7 +237,7 @@ public class BlockInit {
     public static final RegistryObject<BlockItem> SPRUCE_SOUL_TORCH_ITEM = ItemInit.ITEMS.register("spruce_soul_torch", () -> new WallOrFloorItem(SPRUCE_SOUL_TORCH.get(), SPRUCE_WALL_SOUL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
 
     //lists
-    public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> LOGS = new EnumMap<>(WoodenPlank.class);
+    /*public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> LOGS = new EnumMap<>(WoodenPlank.class);
     public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> PLANKS = new EnumMap<>(WoodenPlank.class);
     public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> BUTTONS = new EnumMap<>(WoodenPlank.class);
     public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> DOORS = new EnumMap<>(WoodenPlank.class);
@@ -251,44 +251,63 @@ public class BlockInit {
     public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> TORCHES = new EnumMap<>(WoodenPlank.class);
     public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> WALL_TORCHES = new EnumMap<>(WoodenPlank.class);
     public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> SOUL_TORCHES = new EnumMap<>(WoodenPlank.class);
-    public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> WALL_SOUL_TORCHES = new EnumMap<>(WoodenPlank.class);
+    public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> WALL_SOUL_TORCHES = new EnumMap<>(WoodenPlank.class);*/
 
-    public static ArrayList<RegistryObject<Block>> BRICKS = new ArrayList<>();
-    public static ArrayList<RegistryObject<Block>> BRICK_BUTTONS = new ArrayList<>();
-    public static ArrayList<RegistryObject<Block>> BRICK_WALLS = new ArrayList<>();
-    public static ArrayList<RegistryObject<Block>> BRICK_PRESSURE_PLATES = new ArrayList<>();
-    public static ArrayList<RegistryObject<Block>> BRICK_SLABS = new ArrayList<>();
-    public static ArrayList<RegistryObject<Block>> BRICK_STAIRS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_BRICKS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_BRICKS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_BRICKS = new ArrayList<>();
+    //public static ArrayList<RegistryObject<Block>> BRICK_BUTTONS = new ArrayList<>();
+    //public static ArrayList<RegistryObject<Block>> BRICK_WALLS = new ArrayList<>();
+    //public static ArrayList<RegistryObject<Block>> BRICK_PRESSURE_PLATES = new ArrayList<>();
+    //public static ArrayList<RegistryObject<Block>> BRICK_SLABS = new ArrayList<>();
+    //public static ArrayList<RegistryObject<Block>> BRICK_STAIRS = new ArrayList<>();
 
-    public static ArrayList<RegistryObject<Block>> STONE_BRICKS = new ArrayList<>();
-    public static ArrayList<RegistryObject<Block>> STONE_BRICK_BUTTONS = new ArrayList<>();
-    public static ArrayList<RegistryObject<Block>> STONE_BRICK_WALLS = new ArrayList<>();
-    public static ArrayList<RegistryObject<Block>> STONE_BRICK_PRESSURE_PLATES = new ArrayList<>();
-    public static ArrayList<RegistryObject<Block>> STONE_BRICK_SLABS = new ArrayList<>();
-    public static ArrayList<RegistryObject<Block>> STONE_BRICK_STAIRS = new ArrayList<>();
+    //public static ArrayList<RegistryObject<Block>> STONE_BRICKS = new ArrayList<>();
+    //public static ArrayList<RegistryObject<Block>> STONE_BRICK_BUTTONS = new ArrayList<>();
+    //public static ArrayList<RegistryObject<Block>> STONE_BRICK_WALLS = new ArrayList<>();
+    //public static ArrayList<RegistryObject<Block>> STONE_BRICK_PRESSURE_PLATES = new ArrayList<>();
+    //public static ArrayList<RegistryObject<Block>> STONE_BRICK_SLABS = new ArrayList<>();
+    //public static ArrayList<RegistryObject<Block>> STONE_BRICK_STAIRS = new ArrayList<>();
 
-    public static ArrayList<RegistryObject<Block>> CLAY_BLOCKS = new ArrayList<>();
+    //public static ArrayList<RegistryObject<Block>> CLAY_BLOCKS = new ArrayList<>();
+
+    public static ArrayList<RegistryObject<Block>> LIGHT_LOGS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_LOGS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_LOGS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_PLANKS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_PLANKS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_PLANKS = new ArrayList<>();
 
     static {
         for (DyeColor color : DyeColor.values()) {
 
-            BRICKS.add(register(color.getTranslationKey() + "_bricks", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
-            BRICK_BUTTONS.add(register(color.getTranslationKey() + "_brick_button", () -> new ModStoneButtonBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
-            BRICK_WALLS.add(register(color.getTranslationKey() + "_brick_wall", () -> new WallBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
-            BRICK_PRESSURE_PLATES.add(register(color.getTranslationKey() + "_brick_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
-            BRICK_SLABS.add(register(color.getTranslationKey() + "_brick_slab", () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
-            BRICK_STAIRS.add(register(color.getTranslationKey() + "_brick_stairs", () -> new StairsBlock(Blocks.BRICKS.getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            LIGHT_BRICKS.add(register(color.getTranslationKey() + "_light_bricks", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            MEDIUM_BRICKS.add(register(color.getTranslationKey() + "_medium_bricks", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            DARK_BRICKS.add(register(color.getTranslationKey() + "_dark_bricks", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
 
-            STONE_BRICKS.add(register(color.getTranslationKey() + "_stone_bricks", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
-            STONE_BRICK_BUTTONS.add(register(color.getTranslationKey() + "_stone_brick_button", () -> new ModStoneButtonBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
-            STONE_BRICK_WALLS.add(register(color.getTranslationKey() + "_stone_brick_wall", () -> new WallBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
-            STONE_BRICK_PRESSURE_PLATES.add(register(color.getTranslationKey() + "_stone_brick_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
-            STONE_BRICK_SLABS.add(register(color.getTranslationKey() + "_stone_brick_slab", () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
-            STONE_BRICK_STAIRS.add(register(color.getTranslationKey() + "_stone_brick_stairs", () -> new StairsBlock(Blocks.STONE_BRICKS.getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            //BRICK_BUTTONS.add(register(color.getTranslationKey() + "_brick_button", () -> new ModStoneButtonBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            //BRICK_WALLS.add(register(color.getTranslationKey() + "_brick_wall", () -> new WallBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            //BRICK_PRESSURE_PLATES.add(register(color.getTranslationKey() + "_brick_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            //BRICK_SLABS.add(register(color.getTranslationKey() + "_brick_slab", () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            //BRICK_STAIRS.add(register(color.getTranslationKey() + "_brick_stairs", () -> new StairsBlock(Blocks.BRICKS.getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
 
-            CLAY_BLOCKS.add(register(color.getTranslationKey() + "_clay", () -> new Block(AbstractBlock.Properties.create(Material.CLAY).sound(SoundType.GROUND).hardnessAndResistance(0.6F, 0.6F).harvestTool(ToolType.SHOVEL).harvestLevel(0))));
+            //STONE_BRICKS.add(register(color.getTranslationKey() + "_stone_bricks", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            //STONE_BRICK_BUTTONS.add(register(color.getTranslationKey() + "_stone_brick_button", () -> new ModStoneButtonBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            //STONE_BRICK_WALLS.add(register(color.getTranslationKey() + "_stone_brick_wall", () -> new WallBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            //STONE_BRICK_PRESSURE_PLATES.add(register(color.getTranslationKey() + "_stone_brick_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            //STONE_BRICK_SLABS.add(register(color.getTranslationKey() + "_stone_brick_slab", () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            //STONE_BRICK_STAIRS.add(register(color.getTranslationKey() + "_stone_brick_stairs", () -> new StairsBlock(Blocks.STONE_BRICKS.getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
 
-            for (WoodenPlank plank : WoodenPlank.values()) {
+            //CLAY_BLOCKS.add(register(color.getTranslationKey() + "_clay", () -> new Block(AbstractBlock.Properties.create(Material.CLAY).sound(SoundType.GROUND).hardnessAndResistance(0.6F, 0.6F).harvestTool(ToolType.SHOVEL).harvestLevel(0))));
+
+            LIGHT_LOGS.add(register(color.getTranslationKey() + "_light_log", () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            MEDIUM_LOGS.add(register(color.getTranslationKey() + "_medium_log", () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            DARK_LOGS.add(register(color.getTranslationKey() + "_dark_log", () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            LIGHT_PLANKS.add(register(color.getTranslationKey() + "_light_planks", () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            MEDIUM_PLANKS.add(register(color.getTranslationKey() + "_medium_planks", () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            DARK_PLANKS.add(register(color.getTranslationKey() + "_dark_planks", () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+
+            /*for (WoodenPlank plank : WoodenPlank.values()) {
                 LOGS.getOrDefault(plank, new ArrayList<>())
                         .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_log",
                                 () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
@@ -352,7 +371,7 @@ public class BlockInit {
                         .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_wall_soul_torch",
                                 () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(SOUL_TORCHES.get()).setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME)
                         ));
-            }
+            }*/
         }
     }
 }
