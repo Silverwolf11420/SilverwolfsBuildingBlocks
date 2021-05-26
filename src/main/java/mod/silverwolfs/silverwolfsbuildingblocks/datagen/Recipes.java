@@ -18,7 +18,7 @@ public class Recipes extends RecipeProvider {
 	@Override
 	protected void registerRecipes(Consumer<IFinishedRecipe> consumer) {
 		super.registerRecipes(consumer);
-		for (DyeColor color : DyeColor.values()) {
+		/*for (DyeColor color : DyeColor.values()) {
 			// Loop add items, which only has 16 colours.
 
 			ShapelessRecipeBuilder.shapelessRecipe(BlockInit.CLAY_BLOCKS.get(color.getId()).get(), 1).addIngredient(Blocks.CLAY).addIngredient(DyeItem.getItem(color)).setGroup("colored_clay").build(consumer);
@@ -28,6 +28,6 @@ public class Recipes extends RecipeProvider {
 
 				//ShapedRecipeBuilder.shapedRecipe(FencesWallsInit.FENCES.get(plank).get(color.getId()).get(), 3).key('x', BlockInit.BLACK_STAINED_ACACIA_PLANKS.get()).key('y', ItemInit.BLACK_ACACIA_STICK.get()).patternLine("xyx").patternLine("xyx").setGroup("coloured_" + plank.name().toLowerCase() + "_fence").build(consumer);
 			}
-		}
+		}*/
 	}
 }
