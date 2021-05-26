@@ -1,7 +1,0 @@
-{
-  "parent": "block/door_bottom",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/purple_acacia_door_bottom",
-    "top": "silverwolfsbuildingblocks:block/purple_acacia_door_top"
-  }
-}

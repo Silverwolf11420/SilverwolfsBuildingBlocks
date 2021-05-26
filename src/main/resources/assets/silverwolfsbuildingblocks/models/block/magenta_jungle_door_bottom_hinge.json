@@ -1,7 +1,0 @@
-{
-  "parent": "block/door_bottom_rh",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/magenta_jungle_door_bottom",
-    "top": "silverwolfsbuildingblocks:block/magenta_jungle_door_top"
-  }
-}

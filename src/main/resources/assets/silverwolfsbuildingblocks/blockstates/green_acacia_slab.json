@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "type=bottom": { "model": "silverwolfsbuildingblocks:block/green_acacia_slab" },
-    "type=top": { "model": "silverwolfsbuildingblocks:block/green_acacia_slab_top" },
-    "type=double": { "model": "silverwolfsbuildingblocks:block/green_acacia_planks" }
-  }
-}

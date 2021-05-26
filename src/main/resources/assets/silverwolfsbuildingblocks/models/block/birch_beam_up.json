@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "particle": "silverwolfsbuildingblocks:block/birch_beam_up",
-    "all": "silverwolfsbuildingblocks:block/birch_beam_up"
-  }
-}

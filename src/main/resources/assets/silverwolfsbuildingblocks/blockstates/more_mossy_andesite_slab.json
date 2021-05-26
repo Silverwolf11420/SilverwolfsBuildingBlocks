@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "type=bottom": { "model": "silverwolfsbuildingblocks:block/more_mossy_andesite_slab" },
-    "type=top": { "model": "silverwolfsbuildingblocks:block/more_mossy_andesite_slab_top" },
-    "type=double": { "model": "silverwolfsbuildingblocks:block/more_mossy_andesite" }
-  }
-}

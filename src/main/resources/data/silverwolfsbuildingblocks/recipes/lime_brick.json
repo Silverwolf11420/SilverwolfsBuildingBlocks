@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "silverwolfsbuildingblocks:lime_clay_ball"
-  },
-  "result": "silverwolfsbuildingblocks:lime_brick",
-  "experience": 0.3,
-  "cookingtime": 200
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/lime_oak_planks",
-    "top": "silverwolfsbuildingblocks:block/lime_oak_planks",
-    "side": "silverwolfsbuildingblocks:block/lime_oak_planks"
-  }
-}

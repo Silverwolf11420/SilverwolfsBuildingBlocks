@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "silverwolfsbuildingblocks:block/brown_acacia_log_top",
-    "side": "silverwolfsbuildingblocks:block/brown_acacia_log"
-  }
-}

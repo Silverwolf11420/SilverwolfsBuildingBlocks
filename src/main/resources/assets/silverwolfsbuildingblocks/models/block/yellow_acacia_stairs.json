@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/yellow_acacia_planks",
-    "top": "silverwolfsbuildingblocks:block/yellow_acacia_planks",
-    "side": "silverwolfsbuildingblocks:block/yellow_acacia_planks"
-  }
-}
