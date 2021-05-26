@@ -43,7 +43,7 @@ public class ClientEventBusSubscriber {
         RenderTypeLookup.setRenderLayer(BlockInit.SPRUCE_SOUL_TORCH.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(BlockInit.SPRUCE_WALL_SOUL_TORCH.get(), RenderType.getCutout());
 
-        for (DyeColor color : DyeColor.values()) {
+        /*for (DyeColor color : DyeColor.values()) {
 
             for (WoodenPlank plank : WoodenPlank.values()) {
                 RenderTypeLookup.setRenderLayer(BlockInit.DOORS.get(plank).get(color.getId()).get(), RenderType.getCutout());
@@ -54,6 +54,6 @@ public class ClientEventBusSubscriber {
                 RenderTypeLookup.setRenderLayer(BlockInit.SOUL_TORCHES.get(plank).get(color.getId()).get(), RenderType.getCutout());
                 RenderTypeLookup.setRenderLayer(BlockInit.WALL_SOUL_TORCHES.get(plank).get(color.getId()).get(), RenderType.getCutout());
             }
-        }
+        }*/
     }
 }
