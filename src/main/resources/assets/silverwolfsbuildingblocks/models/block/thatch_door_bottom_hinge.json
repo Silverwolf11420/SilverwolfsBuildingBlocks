@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_rh",
+  "textures": {
+    "top": "silverwolfsbuildingblocks:block/thatch_door_top",
+    "bottom": "silverwolfsbuildingblocks:block/thatch_door_bottom"
+  }
+}

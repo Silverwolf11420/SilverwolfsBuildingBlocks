@@ -1,5 +1,18 @@
 {
   "itemGroup.itemtab": "SBB",
+
+  "item.silverwolfsbuildingblocks.thatch": "Thatch",
+  "block.silverwolfsbuildingblocks.thatch_block": "Thatch Block",
+  "block.silverwolfsbuildingblocks.thatch_button": "Thatch Button",
+  "block.silverwolfsbuildingblocks.thatch_door": "Thatch Door",
+  "block.silverwolfsbuildingblocks.thatch_fence": "Thatch Fence",
+  "block.silverwolfsbuildingblocks.thatch_fence_gate": "Thatch Fence Gate",
+  "block.silverwolfsbuildingblocks.thatch_ladder": "Thatch Ladder",
+  "block.silverwolfsbuildingblocks.thatch_pressure_plate": "Thatch Pressure Plate",
+  "block.silverwolfsbuildingblocks.thatch_slab": "Thatch Slab",
+  "block.silverwolfsbuildingblocks.thatch_stairs": "Thatch Stairs",
+  "block.silverwolfsbuildingblocks.thatch_trapdoor": "Thatch Trapdoor",
+
   "block.silverwolfsbuildingblocks.black_light_log": "Black Log (light)",
   "block.silverwolfsbuildingblocks.blue_light_log": "Blue Log (light)",
   "block.silverwolfsbuildingblocks.brown_light_log": "Brown Log (light)",
