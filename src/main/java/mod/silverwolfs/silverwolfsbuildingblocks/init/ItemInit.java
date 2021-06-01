@@ -14,7 +14,7 @@ public class ItemInit {
         ITEMS.register(modBus);
     }
     public static final RegistryObject<Item> THATCH = ITEMS.register("thatch", () -> new Item(new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
-
+/*
     public static final RegistryObject<Item> ACACIA_STICK = ITEMS.register("acacia_stick", () -> new Item(new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<Item> BIRCH_STICK = ITEMS.register("birch_stick", () -> new Item(new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<Item> OAK_STICK = ITEMS.register("oak_stick", () -> new Item(new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
@@ -157,5 +157,5 @@ public class ItemInit {
     public static final RegistryObject<Item> RED_SPRUCE_STICK = ITEMS.register("red_spruce_stick", () -> new Item(new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<Item> WHITE_SPRUCE_STICK = ITEMS.register("white_spruce_stick", () -> new Item(new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<Item> YELLOW_SPRUCE_STICK = ITEMS.register("yellow_spruce_stick", () -> new Item(new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
-
+*/
 }
