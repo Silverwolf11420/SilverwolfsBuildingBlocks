@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "minecraft:nether_brick_fence"
+    "minecraft:nether_brick_fence",
+    "silverwolfsbuildingblocks:thatch_fence",
+    "silverwolfsbuildingblocks:bamboo_fence"
   ]
 }
