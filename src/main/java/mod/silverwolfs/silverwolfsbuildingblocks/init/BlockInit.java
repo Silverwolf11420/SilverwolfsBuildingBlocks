@@ -72,7 +72,7 @@ public class BlockInit {
     public static final RegistryObject<Block> BAMBOO_SLAB = BLOCKS.register("bamboo_slab", () -> new SlabBlock(AbstractBlock.Properties.from(BlockInit.BAMBOO_BLOCK.get())));
     public static final RegistryObject<Block> BAMBOO_STAIRS = BLOCKS.register("bamboo_stairs", () -> new StairsBlock(() -> BlockInit.BAMBOO_BLOCK.get().getDefaultState() , AbstractBlock.Properties.from(BlockInit.BAMBOO_BLOCK.get())));
     public static final RegistryObject<Block> BAMBOO_TRAPDOOR = BLOCKS.register("bamboo_trapdoor", () -> new TrapDoorBlock(AbstractBlock.Properties.create(Material.BAMBOO).sound(SoundType.BAMBOO_SAPLING).hardnessAndResistance(0.5F,0.5F).notSolid()));
-
+/*
     public static final RegistryObject<Block> ACACIA_BEAM_UP = BLOCKS.register("acacia_beam_up", () -> new Block(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE)));
     public static final RegistryObject<Block> ACACIA_BEAM_MIDDLE = BLOCKS.register("acacia_beam_middle", () -> new Block(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE)));
     public static final RegistryObject<Block> ACACIA_BEAM_DOWN = BLOCKS.register("acacia_beam_down", () -> new Block(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE)));
@@ -97,7 +97,7 @@ public class BlockInit {
     public static final RegistryObject<ModLadderBlock> DARK_OAK_LADDER = BLOCKS.register("dark_oak_ladder", () -> new ModLadderBlock(AbstractBlock.Properties.from(Blocks.LADDER)));
     public static final RegistryObject<ModLadderBlock> JUNGLE_LADDER = BLOCKS.register("jungle_ladder", () -> new ModLadderBlock(AbstractBlock.Properties.from(Blocks.LADDER)));
     public static final RegistryObject<ModLadderBlock> SPRUCE_LADDER = BLOCKS.register("spruce_ladder", () -> new ModLadderBlock(AbstractBlock.Properties.from(Blocks.LADDER)));
-
+*/
     public static final RegistryObject<Block> MOSSY_STONE = BLOCKS.register("mossy_stone", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool()));
     public static final RegistryObject<Block> MOSSY_STONE_BUTTON = BLOCKS.register("mossy_stone_button", () -> new ModStoneButtonBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool()));
     public static final RegistryObject<Block> MOSSY_STONE_WALL = BLOCKS.register("mossy_stone_wall", () -> new WallBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5F,6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool()));
@@ -125,7 +125,7 @@ public class BlockInit {
     public static final RegistryObject<Block> MORE_MOSSY_ANDESITE_PRESSURE_PLATE = BLOCKS.register("more_mossy_andesite_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5F,6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool()));
     public static final RegistryObject<Block> MORE_MOSSY_ANDESITE_SLAB = BLOCKS.register("more_mossy_andesite_slab", () -> new SlabBlock(AbstractBlock.Properties.from(BlockInit.MORE_MOSSY_ANDESITE.get())));
     public static final RegistryObject<Block> MORE_MOSSY_ANDESITE_STAIRS = BLOCKS.register("more_mossy_andesite_stairs", () -> new StairsBlock(() -> BlockInit.MORE_MOSSY_ANDESITE.get().getDefaultState() , AbstractBlock.Properties.from(BlockInit.MORE_MOSSY_ANDESITE.get())));
-
+/*
     public static final RegistryObject<TorchBlock> ACACIA_TORCH = BLOCKS.register("acacia_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 14), ParticleTypes.FLAME));
     public static final RegistryObject<WallTorchBlock> ACACIA_WALL_TORCH = BLOCKS.register("acacia_wall_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(ACACIA_TORCH.get()).setLightLevel((state) -> 14), ParticleTypes.FLAME));
     public static final RegistryObject<TorchBlock> BIRCH_TORCH = BLOCKS.register("birch_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 14), ParticleTypes.FLAME));
@@ -147,7 +147,7 @@ public class BlockInit {
     public static final RegistryObject<WallTorchBlock> JUNGLE_WALL_SOUL_TORCH = BLOCKS.register("jungle_wall_soul_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(JUNGLE_SOUL_TORCH.get()).setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME));
     public static final RegistryObject<TorchBlock> SPRUCE_SOUL_TORCH = BLOCKS.register("spruce_soul_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME));
     public static final RegistryObject<WallTorchBlock> SPRUCE_WALL_SOUL_TORCH = BLOCKS.register("spruce_wall_soul_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(SPRUCE_SOUL_TORCH.get()).setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME));
-
+*/
     //block items
     public static final RegistryObject<BlockItem> THATCH_BLOCK_ITEM = ItemInit.ITEMS.register("thatch_block", () -> new BlockItem(THATCH_BLOCK.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> THATCH_BUTTON_ITEM = ItemInit.ITEMS.register("thatch_button", () -> new BlockItem(THATCH_BUTTON.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
@@ -170,7 +170,7 @@ public class BlockInit {
     public static final RegistryObject<BlockItem> BAMBOO_SLAB_ITEM = ItemInit.ITEMS.register("bamboo_slab", () -> new BlockItem(BAMBOO_SLAB.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> BAMBOO_STAIRS_ITEM = ItemInit.ITEMS.register("bamboo_stairs", () -> new BlockItem(BAMBOO_STAIRS.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> BAMBOO_TRAPDOOR_ITEM = ItemInit.ITEMS.register("bamboo_trapdoor", () -> new BlockItem(BAMBOO_TRAPDOOR.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
-
+/*
     public static final RegistryObject<BlockItem> ACACIA_BEAM_UP_ITEM = ItemInit.ITEMS.register("acacia_beam_up", () -> new BlockItem(ACACIA_BEAM_UP.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> ACACIA_BEAM_MIDDLE_ITEM = ItemInit.ITEMS.register("acacia_beam_middle", () -> new BlockItem(ACACIA_BEAM_MIDDLE.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> ACACIA_BEAM_DOWN_ITEM = ItemInit.ITEMS.register("acacia_beam_down", () -> new BlockItem(ACACIA_BEAM_DOWN.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
@@ -195,7 +195,7 @@ public class BlockInit {
     public static final RegistryObject<BlockItem> DARK_OAK_LADDER_ITEM = ItemInit.ITEMS.register("dark_oak_ladder", () -> new BlockItem(DARK_OAK_LADDER.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> JUNGLE_LADDER_ITEM = ItemInit.ITEMS.register("jungle_ladder", () -> new BlockItem(JUNGLE_LADDER.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> SPRUCE_LADDER_ITEM = ItemInit.ITEMS.register("spruce_ladder", () -> new BlockItem(SPRUCE_LADDER.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
-
+*/
     public static final RegistryObject<BlockItem> MOSSY_STONE_BLOCK_ITEM = ItemInit.ITEMS.register("mossy_stone", () -> new BlockItem(MOSSY_STONE.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> MOSSY_STONE_BUTTON_ITEM = ItemInit.ITEMS.register("mossy_stone_button", () -> new BlockItem(MOSSY_STONE_BUTTON.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> MOSSY_STONE_WALL_ITEM = ItemInit.ITEMS.register("mossy_stone_wall", () -> new BlockItem(MOSSY_STONE_WALL.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
@@ -223,7 +223,7 @@ public class BlockInit {
     public static final RegistryObject<BlockItem> MORE_MOSSY_ANDESITE_PRESSURE_PLATE_ITEM = ItemInit.ITEMS.register("more_mossy_andesite_pressure_plate", () -> new BlockItem(MORE_MOSSY_ANDESITE_PRESSURE_PLATE.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> MORE_MOSSY_ANDESITE_SLAB_ITEM = ItemInit.ITEMS.register("more_mossy_andesite_slab", () -> new BlockItem(MORE_MOSSY_ANDESITE_SLAB.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> MORE_MOSSY_ANDESITE_STAIRS_ITEM = ItemInit.ITEMS.register("more_mossy_andesite_stairs", () -> new BlockItem(MORE_MOSSY_ANDESITE_STAIRS.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
-
+/*
     public static final RegistryObject<BlockItem> ACACIA_TORCH_ITEM = ItemInit.ITEMS.register("acacia_torch", () -> new WallOrFloorItem(ACACIA_TORCH.get(), ACACIA_WALL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> BIRCH_TORCH_ITEM = ItemInit.ITEMS.register("birch_torch", () -> new WallOrFloorItem(BIRCH_TORCH.get(), BIRCH_WALL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> DARK_OAK_TORCH_ITEM = ItemInit.ITEMS.register("dark_oak_torch", () -> new WallOrFloorItem(DARK_OAK_TORCH.get(), DARK_OAK_WALL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
@@ -235,10 +235,9 @@ public class BlockInit {
     public static final RegistryObject<BlockItem> DARK_OAK_SOUL_TORCH_ITEM = ItemInit.ITEMS.register("dark_oak_soul_torch", () -> new WallOrFloorItem(DARK_OAK_SOUL_TORCH.get(), DARK_OAK_WALL_SOUL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> JUNGLE_SOUL_TORCH_ITEM = ItemInit.ITEMS.register("jungle_soul_torch", () -> new WallOrFloorItem(JUNGLE_SOUL_TORCH.get(), JUNGLE_WALL_SOUL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> SPRUCE_SOUL_TORCH_ITEM = ItemInit.ITEMS.register("spruce_soul_torch", () -> new WallOrFloorItem(SPRUCE_SOUL_TORCH.get(), SPRUCE_WALL_SOUL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
-
+*/
     //lists
-    /*public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> LOGS = new EnumMap<>(WoodenPlank.class);
-    public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> PLANKS = new EnumMap<>(WoodenPlank.class);
+    /*
     public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> BUTTONS = new EnumMap<>(WoodenPlank.class);
     public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> DOORS = new EnumMap<>(WoodenPlank.class);
     public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> FENCES = new EnumMap<>(WoodenPlank.class);
@@ -308,14 +307,6 @@ public class BlockInit {
             DARK_PLANKS.add(register(color.getTranslationKey() + "_dark_planks", () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
 
             /*for (WoodenPlank plank : WoodenPlank.values()) {
-                LOGS.getOrDefault(plank, new ArrayList<>())
-                        .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_log",
-                                () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
-                        ));
-                PLANKS.getOrDefault(plank, new ArrayList<>())
-                        .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_planks",
-                                () -> new Block(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
-                        ));
                 BUTTONS.getOrDefault(plank, new ArrayList<>())
                         .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_button",
                                 () -> new ModWoodButtonBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
