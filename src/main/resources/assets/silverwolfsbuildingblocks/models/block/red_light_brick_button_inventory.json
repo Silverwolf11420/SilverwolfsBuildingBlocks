@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "silverwolfsbuildingblocks:block/red_light_bricks"
+  }
+}

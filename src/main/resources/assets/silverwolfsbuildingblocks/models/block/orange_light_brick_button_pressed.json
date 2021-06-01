@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "silverwolfsbuildingblocks:block/orange_light_bricks"
+  }
+}
