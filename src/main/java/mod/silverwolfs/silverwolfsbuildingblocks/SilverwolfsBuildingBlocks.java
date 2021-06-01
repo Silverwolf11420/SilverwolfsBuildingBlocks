@@ -50,7 +50,7 @@ public class SilverwolfsBuildingBlocks {
 
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ItemInit.RED_BRICK.get());
+            return new ItemStack(BlockInit.THATCH_BLOCK.get());
         }
 
         @Override
