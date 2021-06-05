@@ -270,14 +270,25 @@ public class BlockInit {
     public static ArrayList<RegistryObject<Block>> LIGHT_BRICK_PRESSURE_PLATE = new ArrayList<>();
     public static ArrayList<RegistryObject<Block>> MEDIUM_BRICK_PRESSURE_PLATE = new ArrayList<>();
     public static ArrayList<RegistryObject<Block>> DARK_BRICK_PRESSURE_PLATE = new ArrayList<>();
-    //public static ArrayList<RegistryObject<Block>> BRICK_PRESSURE_PLATES = new ArrayList<>();
 
-    //public static ArrayList<RegistryObject<Block>> STONE_BRICKS = new ArrayList<>();
-    //public static ArrayList<RegistryObject<Block>> STONE_BRICK_BUTTONS = new ArrayList<>();
-    //public static ArrayList<RegistryObject<Block>> STONE_BRICK_WALLS = new ArrayList<>();
-    //public static ArrayList<RegistryObject<Block>> STONE_BRICK_PRESSURE_PLATES = new ArrayList<>();
-    //public static ArrayList<RegistryObject<Block>> STONE_BRICK_SLABS = new ArrayList<>();
-    //public static ArrayList<RegistryObject<Block>> STONE_BRICK_STAIRS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_STONE_BRICKS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_STONE_BRICKS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_STONE_BRICKS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_STONE_BRICK_BUTTON = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_STONE_BRICK_BUTTON = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_STONE_BRICK_BUTTON = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_STONE_BRICK_WALL = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_STONE_BRICK_WALL = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_STONE_BRICK_WALL = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_STONE_BRICK_SLAB = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_STONE_BRICK_SLAB = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_STONE_BRICK_SLAB = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_STONE_BRICK_STAIRS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_STONE_BRICK_STAIRS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_STONE_BRICK_STAIRS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_STONE_BRICK_PRESSURE_PLATE = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_STONE_BRICK_PRESSURE_PLATE = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_STONE_BRICK_PRESSURE_PLATE = new ArrayList<>();
 
     //public static ArrayList<RegistryObject<Block>> CLAY_BLOCKS = new ArrayList<>();
 
@@ -310,12 +321,24 @@ public class BlockInit {
             MEDIUM_BRICK_PRESSURE_PLATE.add(register(color.getTranslationKey() + "_medium_brick_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
             DARK_BRICK_PRESSURE_PLATE.add(register(color.getTranslationKey() + "_dark_brick_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
 
-            //STONE_BRICKS.add(register(color.getTranslationKey() + "_stone_bricks", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
-            //STONE_BRICK_BUTTONS.add(register(color.getTranslationKey() + "_stone_brick_button", () -> new ModStoneButtonBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
-            //STONE_BRICK_WALLS.add(register(color.getTranslationKey() + "_stone_brick_wall", () -> new WallBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
-            //STONE_BRICK_PRESSURE_PLATES.add(register(color.getTranslationKey() + "_stone_brick_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
-            //STONE_BRICK_SLABS.add(register(color.getTranslationKey() + "_stone_brick_slab", () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
-            //STONE_BRICK_STAIRS.add(register(color.getTranslationKey() + "_stone_brick_stairs", () -> new StairsBlock(Blocks.STONE_BRICKS.getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            LIGHT_STONE_BRICKS.add(register(color.getTranslationKey() + "_light_stone_bricks", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            MEDIUM_STONE_BRICKS.add(register(color.getTranslationKey() + "_medium_stone_bricks", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            DARK_STONE_BRICKS.add(register(color.getTranslationKey() + "_dark_stone_bricks", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            LIGHT_STONE_BRICK_BUTTON.add(register(color.getTranslationKey() + "_light_stone_brick_button", () -> new ModStoneButtonBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            MEDIUM_STONE_BRICK_BUTTON.add(register(color.getTranslationKey() + "_medium_stone_brick_button", () -> new ModStoneButtonBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            DARK_STONE_BRICK_BUTTON.add(register(color.getTranslationKey() + "_dark_stone_brick_button", () -> new ModStoneButtonBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            LIGHT_STONE_BRICK_WALL.add(register(color.getTranslationKey() + "_light_stone_brick_wall", () -> new WallBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            MEDIUM_STONE_BRICK_WALL.add(register(color.getTranslationKey() + "_medium_stone_brick_wall", () -> new WallBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            DARK_STONE_BRICK_WALL.add(register(color.getTranslationKey() + "_dark_stone_brick_wall", () -> new WallBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            LIGHT_STONE_BRICK_SLAB.add(register(color.getTranslationKey() + "_light_stone_brick_slab", () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            MEDIUM_STONE_BRICK_SLAB.add(register(color.getTranslationKey() + "_medium_stone_brick_slab", () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            DARK_STONE_BRICK_SLAB.add(register(color.getTranslationKey() + "_dark_stone_brick_slab", () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            LIGHT_STONE_BRICK_STAIRS.add(register(color.getTranslationKey() + "_light_stone_brick_stairs", () -> new StairsBlock(Blocks.STONE_BRICKS.getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            MEDIUM_STONE_BRICK_STAIRS.add(register(color.getTranslationKey() + "_medium_stone_brick_stairs", () -> new StairsBlock(Blocks.STONE_BRICKS.getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            DARK_STONE_BRICK_STAIRS.add(register(color.getTranslationKey() + "_dark_stone_brick_stairs", () -> new StairsBlock(Blocks.STONE_BRICKS.getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            LIGHT_STONE_BRICK_PRESSURE_PLATE.add(register(color.getTranslationKey() + "_light_stone_brick_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            MEDIUM_STONE_BRICK_PRESSURE_PLATE.add(register(color.getTranslationKey() + "_medium_stone_brick_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
+            DARK_STONE_BRICK_PRESSURE_PLATE.add(register(color.getTranslationKey() + "_dark_stone_brick_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
 
             //CLAY_BLOCKS.add(register(color.getTranslationKey() + "_clay", () -> new Block(AbstractBlock.Properties.create(Material.CLAY).sound(SoundType.GROUND).hardnessAndResistance(0.6F, 0.6F).harvestTool(ToolType.SHOVEL).harvestLevel(0))));
 

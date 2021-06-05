@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side_tall",
+  "textures": {
+    "wall": "silverwolfsbuildingblocks:block/green_medium_stone_bricks"
+  }
+}

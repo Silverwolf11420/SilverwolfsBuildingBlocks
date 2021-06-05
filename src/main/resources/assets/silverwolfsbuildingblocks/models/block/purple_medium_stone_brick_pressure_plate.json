@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "silverwolfsbuildingblocks:block/purple_medium_stone_bricks"
+  }
+}

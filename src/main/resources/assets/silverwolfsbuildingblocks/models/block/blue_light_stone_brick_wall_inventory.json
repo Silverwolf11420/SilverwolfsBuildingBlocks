@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "silverwolfsbuildingblocks:block/blue_light_stone_bricks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "silverwolfsbuildingblocks:block/white_dark_stone_bricks",
+    "top": "silverwolfsbuildingblocks:block/white_dark_stone_bricks",
+    "side": "silverwolfsbuildingblocks:block/white_dark_stone_bricks"
+  }
+}

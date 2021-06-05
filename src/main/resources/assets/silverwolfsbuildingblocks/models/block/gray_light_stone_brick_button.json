@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "silverwolfsbuildingblocks:block/gray_light_stone_bricks"
+  }
+}
