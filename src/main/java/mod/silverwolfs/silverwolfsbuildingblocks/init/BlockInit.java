@@ -290,7 +290,9 @@ public class BlockInit {
     public static ArrayList<RegistryObject<Block>> MEDIUM_STONE_BRICK_PRESSURE_PLATE = new ArrayList<>();
     public static ArrayList<RegistryObject<Block>> DARK_STONE_BRICK_PRESSURE_PLATE = new ArrayList<>();
 
-    //public static ArrayList<RegistryObject<Block>> CLAY_BLOCKS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_CLAY_BLOCKS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_CLAY_BLOCKS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_CLAY_BLOCKS = new ArrayList<>();
 
     public static ArrayList<RegistryObject<Block>> LIGHT_LOGS = new ArrayList<>();
     public static ArrayList<RegistryObject<Block>> MEDIUM_LOGS = new ArrayList<>();
@@ -340,7 +342,9 @@ public class BlockInit {
             MEDIUM_STONE_BRICK_PRESSURE_PLATE.add(register(color.getTranslationKey() + "_medium_stone_brick_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
             DARK_STONE_BRICK_PRESSURE_PLATE.add(register(color.getTranslationKey() + "_dark_stone_brick_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool())));
 
-            //CLAY_BLOCKS.add(register(color.getTranslationKey() + "_clay", () -> new Block(AbstractBlock.Properties.create(Material.CLAY).sound(SoundType.GROUND).hardnessAndResistance(0.6F, 0.6F).harvestTool(ToolType.SHOVEL).harvestLevel(0))));
+            LIGHT_CLAY_BLOCKS.add(register(color.getTranslationKey() + "_light_clay_block", () -> new Block(AbstractBlock.Properties.create(Material.CLAY).sound(SoundType.GROUND).hardnessAndResistance(0.6F, 0.6F).harvestTool(ToolType.SHOVEL).harvestLevel(0))));
+            MEDIUM_CLAY_BLOCKS.add(register(color.getTranslationKey() + "_medium_clay_block", () -> new Block(AbstractBlock.Properties.create(Material.CLAY).sound(SoundType.GROUND).hardnessAndResistance(0.6F, 0.6F).harvestTool(ToolType.SHOVEL).harvestLevel(0))));
+            DARK_CLAY_BLOCKS.add(register(color.getTranslationKey() + "_dark_clay_block", () -> new Block(AbstractBlock.Properties.create(Material.CLAY).sound(SoundType.GROUND).hardnessAndResistance(0.6F, 0.6F).harvestTool(ToolType.SHOVEL).harvestLevel(0))));
 
             LIGHT_LOGS.add(register(color.getTranslationKey() + "_light_log", () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
             MEDIUM_LOGS.add(register(color.getTranslationKey() + "_medium_log", () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
