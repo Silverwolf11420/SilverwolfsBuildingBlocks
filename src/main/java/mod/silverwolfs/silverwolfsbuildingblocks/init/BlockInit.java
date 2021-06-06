@@ -294,6 +294,9 @@ public class BlockInit {
     public static ArrayList<RegistryObject<Block>> MEDIUM_CLAY_BLOCKS = new ArrayList<>();
     public static ArrayList<RegistryObject<Block>> DARK_CLAY_BLOCKS = new ArrayList<>();
 
+    public static ArrayList<RegistryObject<Block>> WOOL_SLAB = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> WOOL_STAIRS = new ArrayList<>();
+
     public static ArrayList<RegistryObject<Block>> LIGHT_LOGS = new ArrayList<>();
     public static ArrayList<RegistryObject<Block>> MEDIUM_LOGS = new ArrayList<>();
     public static ArrayList<RegistryObject<Block>> DARK_LOGS = new ArrayList<>();
@@ -345,6 +348,9 @@ public class BlockInit {
             LIGHT_CLAY_BLOCKS.add(register(color.getTranslationKey() + "_light_clay_block", () -> new Block(AbstractBlock.Properties.create(Material.CLAY).sound(SoundType.GROUND).hardnessAndResistance(0.6F, 0.6F).harvestTool(ToolType.SHOVEL).harvestLevel(0))));
             MEDIUM_CLAY_BLOCKS.add(register(color.getTranslationKey() + "_medium_clay_block", () -> new Block(AbstractBlock.Properties.create(Material.CLAY).sound(SoundType.GROUND).hardnessAndResistance(0.6F, 0.6F).harvestTool(ToolType.SHOVEL).harvestLevel(0))));
             DARK_CLAY_BLOCKS.add(register(color.getTranslationKey() + "_dark_clay_block", () -> new Block(AbstractBlock.Properties.create(Material.CLAY).sound(SoundType.GROUND).hardnessAndResistance(0.6F, 0.6F).harvestTool(ToolType.SHOVEL).harvestLevel(0))));
+
+            WOOL_SLAB.add(register(color.getTranslationKey() + "_wool_slab", () -> new SlabBlock(AbstractBlock.Properties.create(Material.WOOL).sound(SoundType.CLOTH).hardnessAndResistance(0.8F, 0.8F))));
+            WOOL_STAIRS.add(register(color.getTranslationKey() + "_wool_stairs", () -> new StairsBlock(Blocks.BLACK_WOOL.getDefaultState(), AbstractBlock.Properties.create(Material.WOOL).sound(SoundType.CLOTH).hardnessAndResistance(0.8F, 0.8F))));
 
             LIGHT_LOGS.add(register(color.getTranslationKey() + "_light_log", () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
             MEDIUM_LOGS.add(register(color.getTranslationKey() + "_medium_log", () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
