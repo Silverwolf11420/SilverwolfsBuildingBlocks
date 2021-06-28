@@ -72,7 +72,7 @@ public class BlockInit {
     public static final RegistryObject<Block> BAMBOO_SLAB = BLOCKS.register("bamboo_slab", () -> new SlabBlock(AbstractBlock.Properties.from(BlockInit.BAMBOO_BLOCK.get())));
     public static final RegistryObject<Block> BAMBOO_STAIRS = BLOCKS.register("bamboo_stairs", () -> new StairsBlock(() -> BlockInit.BAMBOO_BLOCK.get().getDefaultState() , AbstractBlock.Properties.from(BlockInit.BAMBOO_BLOCK.get())));
     public static final RegistryObject<Block> BAMBOO_TRAPDOOR = BLOCKS.register("bamboo_trapdoor", () -> new TrapDoorBlock(AbstractBlock.Properties.create(Material.BAMBOO).sound(SoundType.BAMBOO_SAPLING).hardnessAndResistance(0.5F,0.5F).notSolid()));
-/*
+
     public static final RegistryObject<Block> ACACIA_BEAM_UP = BLOCKS.register("acacia_beam_up", () -> new Block(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE)));
     public static final RegistryObject<Block> ACACIA_BEAM_MIDDLE = BLOCKS.register("acacia_beam_middle", () -> new Block(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE)));
     public static final RegistryObject<Block> ACACIA_BEAM_DOWN = BLOCKS.register("acacia_beam_down", () -> new Block(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE)));
@@ -96,8 +96,9 @@ public class BlockInit {
     public static final RegistryObject<ModLadderBlock> BIRCH_LADDER = BLOCKS.register("birch_ladder", () -> new ModLadderBlock(AbstractBlock.Properties.from(Blocks.LADDER)));
     public static final RegistryObject<ModLadderBlock> DARK_OAK_LADDER = BLOCKS.register("dark_oak_ladder", () -> new ModLadderBlock(AbstractBlock.Properties.from(Blocks.LADDER)));
     public static final RegistryObject<ModLadderBlock> JUNGLE_LADDER = BLOCKS.register("jungle_ladder", () -> new ModLadderBlock(AbstractBlock.Properties.from(Blocks.LADDER)));
+    public static final RegistryObject<ModLadderBlock> OAK_LADDER = BLOCKS.register("oak_ladder", () -> new ModLadderBlock(AbstractBlock.Properties.from(Blocks.LADDER)));
     public static final RegistryObject<ModLadderBlock> SPRUCE_LADDER = BLOCKS.register("spruce_ladder", () -> new ModLadderBlock(AbstractBlock.Properties.from(Blocks.LADDER)));
-*/
+
     public static final RegistryObject<Block> MOSSY_STONE = BLOCKS.register("mossy_stone", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool()));
     public static final RegistryObject<Block> MOSSY_STONE_BUTTON = BLOCKS.register("mossy_stone_button", () -> new ModStoneButtonBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5F, 6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool()));
     public static final RegistryObject<Block> MOSSY_STONE_WALL = BLOCKS.register("mossy_stone_wall", () -> new WallBlock(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5F,6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool()));
@@ -170,7 +171,7 @@ public class BlockInit {
     public static final RegistryObject<BlockItem> BAMBOO_SLAB_ITEM = ItemInit.ITEMS.register("bamboo_slab", () -> new BlockItem(BAMBOO_SLAB.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> BAMBOO_STAIRS_ITEM = ItemInit.ITEMS.register("bamboo_stairs", () -> new BlockItem(BAMBOO_STAIRS.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> BAMBOO_TRAPDOOR_ITEM = ItemInit.ITEMS.register("bamboo_trapdoor", () -> new BlockItem(BAMBOO_TRAPDOOR.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
-/*
+
     public static final RegistryObject<BlockItem> ACACIA_BEAM_UP_ITEM = ItemInit.ITEMS.register("acacia_beam_up", () -> new BlockItem(ACACIA_BEAM_UP.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> ACACIA_BEAM_MIDDLE_ITEM = ItemInit.ITEMS.register("acacia_beam_middle", () -> new BlockItem(ACACIA_BEAM_MIDDLE.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> ACACIA_BEAM_DOWN_ITEM = ItemInit.ITEMS.register("acacia_beam_down", () -> new BlockItem(ACACIA_BEAM_DOWN.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
@@ -194,8 +195,9 @@ public class BlockInit {
     public static final RegistryObject<BlockItem> BIRCH_LADDER_ITEM = ItemInit.ITEMS.register("birch_ladder", () -> new BlockItem(BIRCH_LADDER.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> DARK_OAK_LADDER_ITEM = ItemInit.ITEMS.register("dark_oak_ladder", () -> new BlockItem(DARK_OAK_LADDER.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> JUNGLE_LADDER_ITEM = ItemInit.ITEMS.register("jungle_ladder", () -> new BlockItem(JUNGLE_LADDER.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
+    public static final RegistryObject<BlockItem> OAK_LADDER_ITEM = ItemInit.ITEMS.register("oak_ladder", () -> new BlockItem(OAK_LADDER.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> SPRUCE_LADDER_ITEM = ItemInit.ITEMS.register("spruce_ladder", () -> new BlockItem(SPRUCE_LADDER.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
-*/
+
     public static final RegistryObject<BlockItem> MOSSY_STONE_BLOCK_ITEM = ItemInit.ITEMS.register("mossy_stone", () -> new BlockItem(MOSSY_STONE.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> MOSSY_STONE_BUTTON_ITEM = ItemInit.ITEMS.register("mossy_stone_button", () -> new BlockItem(MOSSY_STONE_BUTTON.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> MOSSY_STONE_WALL_ITEM = ItemInit.ITEMS.register("mossy_stone_wall", () -> new BlockItem(MOSSY_STONE_WALL.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
@@ -303,6 +305,33 @@ public class BlockInit {
     public static ArrayList<RegistryObject<Block>> LIGHT_PLANKS = new ArrayList<>();
     public static ArrayList<RegistryObject<Block>> MEDIUM_PLANKS = new ArrayList<>();
     public static ArrayList<RegistryObject<Block>> DARK_PLANKS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_PLANK_STAIRS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_PLANK_STAIRS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_PLANK_STAIRS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_PLANK_SLABS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_PLANK_SLABS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_PLANK_SLABS = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_PLANK_BUTTON = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_PLANK_BUTTON = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_PLANK_BUTTON = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_PLANK_DOOR = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_PLANK_DOOR = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_PLANK_DOOR = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_PLANK_FENCE = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_PLANK_FENCE = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_PLANK_FENCE = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_PLANK_PRESSURE_PLATE = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_PLANK_PRESSURE_PLATE = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_PLANK_PRESSURE_PLATE = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_PLANK_FENCE_GATE = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_PLANK_FENCE_GATE = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_PLANK_FENCE_GATE = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_PLANK_LADDER = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_PLANK_LADDER = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_PLANK_LADDER = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_PLANK_TRAPDOOR = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_PLANK_TRAPDOOR = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_PLANK_TRAPDOOR = new ArrayList<>();
 
     static {
         for (DyeColor color : DyeColor.values()) {
@@ -358,47 +387,35 @@ public class BlockInit {
             LIGHT_PLANKS.add(register(color.getTranslationKey() + "_light_planks", () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
             MEDIUM_PLANKS.add(register(color.getTranslationKey() + "_medium_planks", () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
             DARK_PLANKS.add(register(color.getTranslationKey() + "_dark_planks", () -> new RotatedPillarBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            LIGHT_PLANK_STAIRS.add(register(color.getTranslationKey() + "_light_plank_stairs", () -> new StairsBlock(Blocks.OAK_WOOD.getDefaultState(), AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            MEDIUM_PLANK_STAIRS.add(register(color.getTranslationKey() + "_medium_plank_stairs", () -> new StairsBlock(Blocks.OAK_WOOD.getDefaultState(), AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            DARK_PLANK_STAIRS.add(register(color.getTranslationKey() + "_dark_plank_stairs", () -> new StairsBlock(Blocks.OAK_WOOD.getDefaultState(), AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            LIGHT_PLANK_SLABS.add(register(color.getTranslationKey() + "_light_plank_slab", () -> new SlabBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            MEDIUM_PLANK_SLABS.add(register(color.getTranslationKey() + "_medium_plank_slab", () -> new SlabBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            DARK_PLANK_SLABS.add(register(color.getTranslationKey() + "_dark_plank_slab", () -> new SlabBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            LIGHT_PLANK_TRAPDOOR.add(register(color.getTranslationKey() + "_light_plank_trapdoor", () -> new TrapDoorBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            MEDIUM_PLANK_TRAPDOOR.add(register(color.getTranslationKey() + "_medium_plank_trapdoor", () -> new TrapDoorBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            DARK_PLANK_TRAPDOOR.add(register(color.getTranslationKey() + "_dark_plank_trapdoor", () -> new TrapDoorBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            LIGHT_PLANK_DOOR.add(register(color.getTranslationKey() + "_light_plank_door", () -> new ModDoors(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            MEDIUM_PLANK_DOOR.add(register(color.getTranslationKey() + "_medium_plank_door", () -> new ModDoors(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            DARK_PLANK_DOOR.add(register(color.getTranslationKey() + "_dark_plank_door", () -> new ModDoors(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            LIGHT_PLANK_FENCE.add(register(color.getTranslationKey() + "_light_plank_fence", () -> new FenceBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            MEDIUM_PLANK_FENCE.add(register(color.getTranslationKey() + "_medium_plank_fence", () -> new FenceBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            DARK_PLANK_FENCE.add(register(color.getTranslationKey() + "_dark_plank_fence", () -> new FenceBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            LIGHT_PLANK_FENCE_GATE.add(register(color.getTranslationKey() + "_light_plank_fence_gate", () -> new FenceGateBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            MEDIUM_PLANK_FENCE_GATE.add(register(color.getTranslationKey() + "_medium_plank_fence_gate", () -> new FenceGateBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            DARK_PLANK_FENCE_GATE.add(register(color.getTranslationKey() + "_dark_plank_fence_gate", () -> new FenceGateBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            LIGHT_PLANK_BUTTON.add(register(color.getTranslationKey() + "_light_plank_button", () -> new ModWoodButtonBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            MEDIUM_PLANK_BUTTON.add(register(color.getTranslationKey() + "_medium_plank_button", () -> new ModWoodButtonBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            DARK_PLANK_BUTTON.add(register(color.getTranslationKey() + "_dark_plank_button", () -> new ModWoodButtonBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            LIGHT_PLANK_PRESSURE_PLATE.add(register(color.getTranslationKey() + "_light_plank_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            MEDIUM_PLANK_PRESSURE_PLATE.add(register(color.getTranslationKey() + "_medium_plank_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            DARK_PLANK_PRESSURE_PLATE.add(register(color.getTranslationKey() + "_dark_plank_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            LIGHT_PLANK_LADDER.add(register(color.getTranslationKey() + "_light_plank_ladder", () -> new ModLadderBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            MEDIUM_PLANK_LADDER.add(register(color.getTranslationKey() + "_medium_plank_ladder", () -> new ModLadderBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
+            DARK_PLANK_LADDER.add(register(color.getTranslationKey() + "_dark_plank_ladder", () -> new ModLadderBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
 
             /*for (WoodenPlank plank : WoodenPlank.values()) {
-                BUTTONS.getOrDefault(plank, new ArrayList<>())
-                        .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_button",
-                                () -> new ModWoodButtonBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
-                        ));
-                ArrayList<RegistryObject<Block>> doors = DOORS.getOrDefault(plank, new ArrayList<>());
-                doors.add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_door",
-                        () -> new ModDoors(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
-                ));
-                DOORS.put(plank, doors);
-                FENCES.getOrDefault(plank, new ArrayList<>())
-                        .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_fence",
-                                () -> new FenceBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
-                        ));
-                FENCE_GATES.getOrDefault(plank, new ArrayList<>())
-                        .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_fence_gate",
-                                () -> new FenceGateBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
-                        ));
-                ArrayList<RegistryObject<Block>> ladders = LADDERS.getOrDefault(plank, new ArrayList<>());
-                ladders.add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_ladder",
-                        () -> new ModLadderBlock(AbstractBlock.Properties.from(Blocks.LADDER))
-                ));
-                LADDERS.put(plank, ladders);
-                PRESSURE_PLATES.getOrDefault(plank, new ArrayList<>())
-                        .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_pressure_plate",
-                                () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
-                        ));
-                SLABS.getOrDefault(plank, new ArrayList<>())
-                        .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_slab",
-                                () -> new SlabBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
-                        ));
-                STAIRS.getOrDefault(plank, new ArrayList<>())
-                        .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_stairs",
-                                () -> new StairsBlock(Blocks.OAK_WOOD.getDefaultState(), Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE)))
-                        );
-                ArrayList<RegistryObject<Block>> trapdoors = TRAPDOORS.getOrDefault(plank, new ArrayList<>());
-                trapdoors.add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_trapdoor",
-                        () -> new TrapDoorBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))
-                ));
-                TRAPDOORS.put(plank, trapdoors);
                 TORCHES.getOrDefault(plank, new ArrayList<>())
                         .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_torch",
                                 () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 14), ParticleTypes.FLAME)
