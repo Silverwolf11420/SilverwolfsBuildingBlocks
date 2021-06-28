@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silverwolfsbuildingblocks:block/black_dark_plank_slab"
+    },
+    "type=double": {
+      "model": "silverwolfsbuildingblocks:block/black_dark_planks"
+    },
+    "type=top": {
+      "model": "silverwolfsbuildingblocks:block/black_dark_plank_slab_top"
+    }
+  }
+}
