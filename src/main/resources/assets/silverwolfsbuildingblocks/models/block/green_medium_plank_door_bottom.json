@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom",
+  "textures": {
+    "top": "silverwolfsbuildingblocks:block/green_medium_plank_door_top",
+    "bottom": "silverwolfsbuildingblocks:block/green_medium_plank_door_bottom"
+  }
+}
