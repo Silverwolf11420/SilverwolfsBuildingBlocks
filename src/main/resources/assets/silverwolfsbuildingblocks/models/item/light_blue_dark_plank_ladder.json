@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "silverwolfsbuildingblocks:block/light_blue_dark_plank_ladder"
+  }
+}
