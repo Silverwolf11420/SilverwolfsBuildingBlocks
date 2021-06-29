@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "silverwolfsbuildingblocks:block/lime_light_plank_block"
+  }
+}
