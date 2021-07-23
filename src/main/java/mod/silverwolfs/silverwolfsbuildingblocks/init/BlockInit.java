@@ -126,7 +126,7 @@ public class BlockInit {
     public static final RegistryObject<Block> MORE_MOSSY_ANDESITE_PRESSURE_PLATE = BLOCKS.register("more_mossy_andesite_pressure_plate", () -> new ModPressurePlateBlock(PressurePlateBlock.Sensitivity.MOBS, AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5F,6.0F).harvestTool(ToolType.PICKAXE).harvestLevel(0).setRequiresTool()));
     public static final RegistryObject<Block> MORE_MOSSY_ANDESITE_SLAB = BLOCKS.register("more_mossy_andesite_slab", () -> new SlabBlock(AbstractBlock.Properties.from(BlockInit.MORE_MOSSY_ANDESITE.get())));
     public static final RegistryObject<Block> MORE_MOSSY_ANDESITE_STAIRS = BLOCKS.register("more_mossy_andesite_stairs", () -> new StairsBlock(() -> BlockInit.MORE_MOSSY_ANDESITE.get().getDefaultState() , AbstractBlock.Properties.from(BlockInit.MORE_MOSSY_ANDESITE.get())));
-/*
+
     public static final RegistryObject<TorchBlock> ACACIA_TORCH = BLOCKS.register("acacia_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 14), ParticleTypes.FLAME));
     public static final RegistryObject<WallTorchBlock> ACACIA_WALL_TORCH = BLOCKS.register("acacia_wall_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(ACACIA_TORCH.get()).setLightLevel((state) -> 14), ParticleTypes.FLAME));
     public static final RegistryObject<TorchBlock> BIRCH_TORCH = BLOCKS.register("birch_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 14), ParticleTypes.FLAME));
@@ -135,7 +135,9 @@ public class BlockInit {
     public static final RegistryObject<WallTorchBlock> DARK_OAK_WALL_TORCH = BLOCKS.register("dark_oak_wall_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(DARK_OAK_TORCH.get()).setLightLevel((state) -> 14), ParticleTypes.FLAME));
     public static final RegistryObject<TorchBlock> JUNGLE_TORCH = BLOCKS.register("jungle_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 14), ParticleTypes.FLAME));
     public static final RegistryObject<WallTorchBlock> JUNGLE_WALL_TORCH = BLOCKS.register("jungle_wall_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(JUNGLE_TORCH.get()).setLightLevel((state) -> 14), ParticleTypes.FLAME));
-    public static final RegistryObject<TorchBlock> SPRUCE_TORCH = BLOCKS.register("spruce_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 14), ParticleTypes.FLAME));
+    public static final RegistryObject<TorchBlock> OAK_TORCH = BLOCKS.register("oak_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 14), ParticleTypes.FLAME));
+    public static final RegistryObject<WallTorchBlock> OAK_WALL_TORCH = BLOCKS.register("oak_wall_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(OAK_TORCH.get()).setLightLevel((state) -> 14), ParticleTypes.FLAME));
+    static final RegistryObject<TorchBlock> SPRUCE_TORCH = BLOCKS.register("spruce_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 14), ParticleTypes.FLAME));
     public static final RegistryObject<WallTorchBlock> SPRUCE_WALL_TORCH = BLOCKS.register("spruce_wall_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(SPRUCE_TORCH.get()).setLightLevel((state) -> 14), ParticleTypes.FLAME));
 
     public static final RegistryObject<TorchBlock> ACACIA_SOUL_TORCH = BLOCKS.register("acacia_soul_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME));
@@ -146,9 +148,11 @@ public class BlockInit {
     public static final RegistryObject<WallTorchBlock> DARK_OAK_WALL_SOUL_TORCH = BLOCKS.register("dark_oak_wall_soul_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(DARK_OAK_SOUL_TORCH.get()).setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME));
     public static final RegistryObject<TorchBlock> JUNGLE_SOUL_TORCH = BLOCKS.register("jungle_soul_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME));
     public static final RegistryObject<WallTorchBlock> JUNGLE_WALL_SOUL_TORCH = BLOCKS.register("jungle_wall_soul_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(JUNGLE_SOUL_TORCH.get()).setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME));
+    public static final RegistryObject<TorchBlock> OAK_SOUL_TORCH = BLOCKS.register("oak_soul_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME));
+    public static final RegistryObject<WallTorchBlock> OAK_WALL_SOUL_TORCH = BLOCKS.register("oak_wall_soul_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(OAK_SOUL_TORCH.get()).setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME));
     public static final RegistryObject<TorchBlock> SPRUCE_SOUL_TORCH = BLOCKS.register("spruce_soul_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME));
     public static final RegistryObject<WallTorchBlock> SPRUCE_WALL_SOUL_TORCH = BLOCKS.register("spruce_wall_soul_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(SPRUCE_SOUL_TORCH.get()).setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME));
-*/
+
     //block items
     public static final RegistryObject<BlockItem> THATCH_BLOCK_ITEM = ItemInit.ITEMS.register("thatch_block", () -> new BlockItem(THATCH_BLOCK.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> THATCH_BUTTON_ITEM = ItemInit.ITEMS.register("thatch_button", () -> new BlockItem(THATCH_BUTTON.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
@@ -225,19 +229,21 @@ public class BlockInit {
     public static final RegistryObject<BlockItem> MORE_MOSSY_ANDESITE_PRESSURE_PLATE_ITEM = ItemInit.ITEMS.register("more_mossy_andesite_pressure_plate", () -> new BlockItem(MORE_MOSSY_ANDESITE_PRESSURE_PLATE.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> MORE_MOSSY_ANDESITE_SLAB_ITEM = ItemInit.ITEMS.register("more_mossy_andesite_slab", () -> new BlockItem(MORE_MOSSY_ANDESITE_SLAB.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> MORE_MOSSY_ANDESITE_STAIRS_ITEM = ItemInit.ITEMS.register("more_mossy_andesite_stairs", () -> new BlockItem(MORE_MOSSY_ANDESITE_STAIRS.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
-/*
+
     public static final RegistryObject<BlockItem> ACACIA_TORCH_ITEM = ItemInit.ITEMS.register("acacia_torch", () -> new WallOrFloorItem(ACACIA_TORCH.get(), ACACIA_WALL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> BIRCH_TORCH_ITEM = ItemInit.ITEMS.register("birch_torch", () -> new WallOrFloorItem(BIRCH_TORCH.get(), BIRCH_WALL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> DARK_OAK_TORCH_ITEM = ItemInit.ITEMS.register("dark_oak_torch", () -> new WallOrFloorItem(DARK_OAK_TORCH.get(), DARK_OAK_WALL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> JUNGLE_TORCH_ITEM = ItemInit.ITEMS.register("jungle_torch", () -> new WallOrFloorItem(JUNGLE_TORCH.get(), JUNGLE_WALL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
+    public static final RegistryObject<BlockItem> OAK_TORCH_ITEM = ItemInit.ITEMS.register("oak_torch", () -> new WallOrFloorItem(OAK_TORCH.get(), OAK_WALL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> SPRUCE_TORCH_ITEM = ItemInit.ITEMS.register("spruce_torch", () -> new WallOrFloorItem(SPRUCE_TORCH.get(), SPRUCE_WALL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
 
     public static final RegistryObject<BlockItem> ACACIA_SOUL_TORCH_ITEM = ItemInit.ITEMS.register("acacia_soul_torch", () -> new WallOrFloorItem(ACACIA_SOUL_TORCH.get(), ACACIA_WALL_SOUL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> BIRCH_SOUL_TORCH_ITEM = ItemInit.ITEMS.register("birch_soul_torch", () -> new WallOrFloorItem(BIRCH_SOUL_TORCH.get(), BIRCH_WALL_SOUL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> DARK_OAK_SOUL_TORCH_ITEM = ItemInit.ITEMS.register("dark_oak_soul_torch", () -> new WallOrFloorItem(DARK_OAK_SOUL_TORCH.get(), DARK_OAK_WALL_SOUL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> JUNGLE_SOUL_TORCH_ITEM = ItemInit.ITEMS.register("jungle_soul_torch", () -> new WallOrFloorItem(JUNGLE_SOUL_TORCH.get(), JUNGLE_WALL_SOUL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
+    public static final RegistryObject<BlockItem> OAK_SOUL_TORCH_ITEM = ItemInit.ITEMS.register("oak_soul_torch", () -> new WallOrFloorItem(OAK_SOUL_TORCH.get(), OAK_WALL_SOUL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
     public static final RegistryObject<BlockItem> SPRUCE_SOUL_TORCH_ITEM = ItemInit.ITEMS.register("spruce_soul_torch", () -> new WallOrFloorItem(SPRUCE_SOUL_TORCH.get(), SPRUCE_WALL_SOUL_TORCH.get(), new Item.Properties().group(SilverwolfsBuildingBlocks.SilverwolfsBlocksItemGroup.instance)));
-*/
+
     //lists
     /*
     public static Map<WoodenPlank, ArrayList<RegistryObject<Block>>> BUTTONS = new EnumMap<>(WoodenPlank.class);
@@ -333,6 +339,19 @@ public class BlockInit {
     public static ArrayList<RegistryObject<Block>> MEDIUM_PLANK_TRAPDOOR = new ArrayList<>();
     public static ArrayList<RegistryObject<Block>> DARK_PLANK_TRAPDOOR = new ArrayList<>();
 
+    public static ArrayList<RegistryObject<Block>> LIGHT_TORCH = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_TORCH = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_TORCH = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_WALL_TORCH = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_WALL_TORCH = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_WALL_TORCH = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_SOUL_TORCH = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_SOUL_TORCH = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_SOUL_TORCH = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> LIGHT_WALL_SOUL_TORCH = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> MEDIUM_WALL_SOUL_TORCH = new ArrayList<>();
+    public static ArrayList<RegistryObject<Block>> DARK_WALL_SOUL_TORCH = new ArrayList<>();
+
     static {
         for (DyeColor color : DyeColor.values()) {
 
@@ -415,24 +434,19 @@ public class BlockInit {
             MEDIUM_PLANK_LADDER.add(register(color.getTranslationKey() + "_medium_plank_ladder", () -> new ModLadderBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
             DARK_PLANK_LADDER.add(register(color.getTranslationKey() + "_dark_plank_ladder", () -> new ModLadderBlock(AbstractBlock.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2.0F, 3.0F).harvestTool(ToolType.AXE))));
 
-            /*for (WoodenPlank plank : WoodenPlank.values()) {
-                TORCHES.getOrDefault(plank, new ArrayList<>())
-                        .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_torch",
-                                () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 14), ParticleTypes.FLAME)
-                        ));
-                WALL_TORCHES.getOrDefault(plank, new ArrayList<>())
-                        .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_wall_torch",
-                                () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(TORCHES.get()).setLightLevel((state) -> 14), ParticleTypes.FLAME)
-                        ));
-                SOUL_TORCHES.getOrDefault(plank, new ArrayList<>())
-                        .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_soul_torch",
-                                () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME)
-                        ));
-                WALL_SOUL_TORCHES.getOrDefault(plank, new ArrayList<>())
-                        .add(register(color.getTranslationKey() + "_" + plank.name().toLowerCase() + "_wall_soul_torch",
-                                () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(SOUL_TORCHES.get()).setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME)
-                        ));
-            }*/
+            LIGHT_TORCH.add(register(color.getTranslationKey() + "_light_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 14), ParticleTypes.FLAME)));
+            MEDIUM_TORCH.add(register(color.getTranslationKey() + "_medium_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 14), ParticleTypes.FLAME)));
+            DARK_TORCH.add(register(color.getTranslationKey() + "_dark_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 14), ParticleTypes.FLAME)));
+            LIGHT_WALL_TORCH.add(register(color.getTranslationKey() + "_light_wall_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(LIGHT_TORCH.get()).setLightLevel((state) -> 14), ParticleTypes.FLAME)));
+            MEDIUM_WALL_TORCH.add(register(color.getTranslationKey() + "_medium_wall_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(MEDIUM_TORCH.get()).setLightLevel((state) -> 14), ParticleTypes.FLAME)));
+            DARK_WALL_TORCH.add(register(color.getTranslationKey() + "_dark_wall_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(DARK_TORCH.get()).setLightLevel((state) -> 14), ParticleTypes.FLAME)));
+            LIGHT_SOUL_TORCH.add(register(color.getTranslationKey() + "_light_soul_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME)));
+            MEDIUM_SOUL_TORCH.add(register(color.getTranslationKey() + "_medium_soul_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME)));
+            DARK_SOUL_TORCH.add(register(color.getTranslationKey() + "_dark_soul_torch", () -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME)));
+            LIGHT_WALL_SOUL_TORCH.add(register(color.getTranslationKey() + "_light_wall_soul_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(LIGHT_SOUL_TORCH.get()).setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME)));
+            MEDIUM_WALL_SOUL_TORCH.add(register(color.getTranslationKey() + "_medium_wall_soul_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(MEDIUM_SOUL_TORCH.get()).setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME)));
+            DARK_WALL_SOUL_TORCH.add(register(color.getTranslationKey() + "_dark_wall_soul_torch", () -> new WallTorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).sound(SoundType.WOOD).doesNotBlockMovement().zeroHardnessAndResistance().lootFrom(DARK_SOUL_TORCH.get()).setLightLevel((state) -> 10), ParticleTypes.SOUL_FIRE_FLAME)));
+
         }
     }
 }

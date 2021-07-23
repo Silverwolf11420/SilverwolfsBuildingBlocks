@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_torch_wall",
+  "textures": {
+    "torch": "silverwolfsbuildingblocks:block/light_blue_medium_torch"
+  }
+}

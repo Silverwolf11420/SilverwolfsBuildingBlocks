@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "silverwolfsbuildingblocks:block/green_light_soul_wall_torch"
+    },
+    "facing=north": {
+      "model": "silverwolfsbuildingblocks:block/green_light_soul_wall_torch",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "silverwolfsbuildingblocks:block/green_light_soul_wall_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "silverwolfsbuildingblocks:block/green_light_soul_wall_torch",
+      "y": 180
+    }
+  }
+}
