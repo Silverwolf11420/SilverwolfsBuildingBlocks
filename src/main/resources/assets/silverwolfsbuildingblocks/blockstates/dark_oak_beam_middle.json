@@ -1,3 +1,7 @@
 {
-  "parent": "silverwolfsbuildingblocks:block/dark_oak_beam_middle"
+  "variants": {
+    "": {
+      "model": "silverwolfsbuildingblocks:block/dark_oak_beam_middle"
+    }
+  }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "silverwolfsbuildingblocks:item/cyan_medium_plank_door"
+    "layer0": "silverwolfsbuildingblocks:items/cyan_medium_plank_door"
   }
 }

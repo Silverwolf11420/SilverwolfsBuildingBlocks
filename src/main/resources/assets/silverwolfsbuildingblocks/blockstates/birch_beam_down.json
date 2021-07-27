@@ -1,3 +1,7 @@
 {
-  "parent": "silverwolfsbuildingblocks:block/birch_beam_down"
+  "variants": {
+    "": {
+      "model": "silverwolfsbuildingblocks:block/birch_beam_down"
+    }
+  }
 }

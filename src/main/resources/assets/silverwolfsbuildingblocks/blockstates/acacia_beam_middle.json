@@ -1,3 +1,7 @@
 {
-  "parent": "silverwolfsbuildingblocks:block/acacia_beam_middle"
+  "variants": {
+    "": {
+      "model": "silverwolfsbuildingblocks:block/acacia_beam_middle"
+    }
+  }
 }

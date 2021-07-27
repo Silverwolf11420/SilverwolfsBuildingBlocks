@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "silverwolfsbuildingblocks:item/magenta_light_plank_door"
+    "layer0": "silverwolfsbuildingblocks:items/magenta_light_plank_door"
   }
 }
