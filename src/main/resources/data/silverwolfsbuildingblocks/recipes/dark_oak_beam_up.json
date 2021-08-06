@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "beam_up",
+  "pattern": [
+    "yyy",
+    "yxy",
+	"yxy"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:dark_oak_stick"
+    },
+	"y": {
+      "item": "minecraft:dark_oak_plank"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:dark_oak_beam_up"
+  }
+}

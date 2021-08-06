@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "light_stone_brick_slab",
+  "pattern": [
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:yellow_light_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:yellow_light_stone_brick_slab",
+    "count": 6
+  }
+}

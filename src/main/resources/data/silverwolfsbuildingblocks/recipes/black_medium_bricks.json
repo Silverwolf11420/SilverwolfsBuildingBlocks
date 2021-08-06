@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "medium_bricks",
+  "pattern": [
+    "xx ",
+    "xx "
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:black_medium_brick"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:black_medium_bricks"
+  }
+}

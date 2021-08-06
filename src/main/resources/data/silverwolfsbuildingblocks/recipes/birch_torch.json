@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wood_torchs",
+  "pattern": [
+    "x",
+    "y"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:birch_stick"
+    },
+    "y": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ]
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:birch_torch",
+    "count": 4
+  }
+}

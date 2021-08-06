@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dark_sticks",
+  "pattern": [
+    "x",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "tag": "silverwolfsbuildingblocks:purple_dark_planks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:purple_dark_stick",
+    "count": 4
+  }
+}

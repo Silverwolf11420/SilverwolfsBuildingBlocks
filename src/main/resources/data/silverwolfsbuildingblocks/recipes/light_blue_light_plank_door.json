@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "light_door",
+  "pattern": [
+    "xx ",
+	"xx ",
+	"xx "
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:light_blue_light_planks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:light_blue_light_plank_door",
+    "count": 3
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "light_bricks",
+  "pattern": [
+    "xx ",
+    "xx "
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:pink_light_brick"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:pink_light_bricks"
+  }
+}

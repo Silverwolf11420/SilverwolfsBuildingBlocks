@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "light_trapdoor",
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:pink_light_planks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:pink_light_plank_trapdoor",
+    "count": 2
+  }
+}

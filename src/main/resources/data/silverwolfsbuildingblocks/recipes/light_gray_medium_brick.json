@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "medium_brick",
+  "ingredient": {
+    "item": "silverwolfsbuildingblocks:light_gray_medium_clay_ball"
+  },
+  "result": "silverwolfsbuildingblocks:light_gray_medium_brick",
+  "experience": 0.3,
+  "cookingtime": 200
+}

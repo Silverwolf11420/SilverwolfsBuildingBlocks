@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dark_clay_block",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_block"
+    },
+    {
+      "item": "minecraft:magenta_dye"
+    },
+    {
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "result": {
+    "item": "silverwolfsbuildingblocks:magenta_dark_clay_block"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bamboo"
+    }
+  ],
+  "result": {
+    "item": "silverwolfsbuildingblocks:bamboo_button"
+  }
+}
