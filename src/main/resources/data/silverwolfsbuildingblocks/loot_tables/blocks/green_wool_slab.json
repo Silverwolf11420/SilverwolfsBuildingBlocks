@@ -12,7 +12,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "silverwolfbuildingblocks:green_wool_slab",
+                  "block": "silverwolfsbuildingblocks:green_wool_slab",
                   "properties": {
                     "type": "double"
                   }
@@ -24,7 +24,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "silverwolfbuildingblocks:green_wool_slab"
+          "name": "silverwolfsbuildingblocks:green_wool_slab"
         }
       ]
     }

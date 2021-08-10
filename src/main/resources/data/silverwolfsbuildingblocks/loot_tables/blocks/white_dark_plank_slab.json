@@ -12,7 +12,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "silverwolfbuildingblocks:white_dark_plank_slab",
+                  "block": "silverwolfsbuildingblocks:white_dark_plank_slab",
                   "properties": {
                     "type": "double"
                   }
@@ -24,7 +24,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "silverwolfbuildingblocks:white_dark_plank_slab"
+          "name": "silverwolfsbuildingblocks:white_dark_plank_slab"
         }
       ]
     }

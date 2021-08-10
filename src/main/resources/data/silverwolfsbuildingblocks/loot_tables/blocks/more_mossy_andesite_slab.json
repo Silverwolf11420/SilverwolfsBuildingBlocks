@@ -12,7 +12,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "silverwolfbuildingblocks:more_mossy_andesite_slab",
+                  "block": "silverwolfsbuildingblocks:more_mossy_andesite_slab",
                   "properties": {
                     "type": "double"
                   }
@@ -24,7 +24,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "silverwolfbuildingblocks:more_mossy_andesite_slab"
+          "name": "silverwolfsbuildingblocks:more_mossy_andesite_slab"
         }
       ]
     }

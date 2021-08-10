@@ -12,7 +12,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "silverwolfbuildingblocks:red_medium_stone_brick_slab",
+                  "block": "silverwolfsbuildingblocks:red_medium_stone_brick_slab",
                   "properties": {
                     "type": "double"
                   }
@@ -24,7 +24,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "silverwolfbuildingblocks:red_medium_stone_brick_slab"
+          "name": "silverwolfsbuildingblocks:red_medium_stone_brick_slab"
         }
       ]
     }
