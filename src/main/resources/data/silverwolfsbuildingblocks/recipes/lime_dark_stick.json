@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "group": "dark_sticks",
   "pattern": [
-    "x",
+    "x  ",
     " x "
   ],
   "key": {
     "x": {
-      "tag": "silverwolfsbuildingblocks:lime_dark_planks"
+      "item": "silverwolfsbuildingblocks:lime_dark_planks"
     }
   },
   "result": {

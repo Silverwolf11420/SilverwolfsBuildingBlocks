@@ -3,7 +3,7 @@
   "group": "dark_log",
   "ingredients": [
     {
-      "tag": "minecraft:logs"
+      "tag": "minecraft:logs_that_burn"
     },
     {
       "item": "minecraft:pink_dye"

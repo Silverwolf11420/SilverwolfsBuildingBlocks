@@ -7,11 +7,11 @@
 	"yxy"
   ],
   "key": {
-    "x": {
+    "y": {
       "item": "silverwolfsbuildingblocks:spruce_stick"
     },
-	"y": {
-      "item": "minecraft:spruce_plank"
+	"x": {
+      "item": "minecraft:spruce_planks"
     }
   },
   "result": {

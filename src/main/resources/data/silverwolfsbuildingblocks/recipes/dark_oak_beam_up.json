@@ -7,11 +7,11 @@
 	"yxy"
   ],
   "key": {
-    "x": {
+    "y": {
       "item": "silverwolfsbuildingblocks:dark_oak_stick"
     },
-	"y": {
-      "item": "minecraft:dark_oak_plank"
+	"x": {
+      "item": "minecraft:dark_oak_planks"
     }
   },
   "result": {

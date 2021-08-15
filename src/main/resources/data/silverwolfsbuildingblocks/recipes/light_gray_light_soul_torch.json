@@ -7,7 +7,7 @@
     "z"
   ],
   "key": {
-    "X": [
+    "x": [
       {
         "item": "minecraft:coal"
       },
@@ -23,7 +23,7 @@
     }
   },
   "result": {
-    "item": "minecraft:light_gray_light_soul_torch",
+    "item": "silverwolfsbuildingblocks:light_gray_light_soul_torch",
     "count": 4
   }
 }

@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "group": "light_sticks",
   "pattern": [
-    "x",
+    "x  ",
     " x "
   ],
   "key": {
     "x": {
-      "tag": "silverwolfsbuildingblocks:gray_light_planks"
+      "item": "silverwolfsbuildingblocks:gray_light_planks"
     }
   },
   "result": {

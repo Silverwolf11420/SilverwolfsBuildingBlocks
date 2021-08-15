@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "group": "beam_middle",
   "pattern": [
-    "yyy",
     "yxy",
-	"yyy"
+    "yxy",
+	"yxy"
   ],
   "key": {
-    "x": {
+    "y": {
       "item": "silverwolfsbuildingblocks:birch_stick"
     },
-	"y": {
-      "item": "minecraft:birch_plank"
+	"x": {
+      "item": "minecraft:birch_planks"
     }
   },
   "result": {

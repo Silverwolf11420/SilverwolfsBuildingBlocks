@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "group": "beam_middle",
   "pattern": [
-    "yyy",
     "yxy",
-	"yyy"
+    "yxy",
+	"yxy"
   ],
   "key": {
-    "x": {
+    "y": {
       "item": "silverwolfsbuildingblocks:jungle_stick"
     },
-	"y": {
-      "item": "minecraft:jungle_plank"
+	"x": {
+      "item": "minecraft:jungle_planks"
     }
   },
   "result": {

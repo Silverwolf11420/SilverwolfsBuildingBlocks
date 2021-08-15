@@ -6,10 +6,10 @@
     "y"
   ],
   "key": {
-    "x": {
+    "y": {
       "item": "silverwolfsbuildingblocks:spruce_stick"
     },
-    "y": [
+    "x": [
       {
         "item": "minecraft:coal"
       },
