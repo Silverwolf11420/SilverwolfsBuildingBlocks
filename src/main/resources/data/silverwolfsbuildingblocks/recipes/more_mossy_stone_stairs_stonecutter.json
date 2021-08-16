@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "silverwolfsbuildingblocks:more_mossy_stone"
+  },
+  "result": "silverwolfsbuildingblocks:more_mossy_stone_stairs",
+  "count": 1
+}
