@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "light_bricks",
+  "pattern": [
+    "xx ",
+    "xx "
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:yellow_light_brick"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:yellow_light_bricks"
+  }
+}

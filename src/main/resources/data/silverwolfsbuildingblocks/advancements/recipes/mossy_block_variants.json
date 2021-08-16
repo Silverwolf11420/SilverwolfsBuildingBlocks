@@ -1,0 +1,51 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:more_mossy_andesite_button",
+      "silverwolfsbuildingblocks:more_mossy_andesite_pressure_plate",
+      "silverwolfsbuildingblocks:more_mossy_andesite_slab",
+      "silverwolfsbuildingblocks:more_mossy_andesite_stairs",
+      "silverwolfsbuildingblocks:more_mossy_andesite_wall",
+      "silverwolfsbuildingblocks:more_mossy_stone_button",
+      "silverwolfsbuildingblocks:more_mossy_stone_pressure_plate",
+      "silverwolfsbuildingblocks:more_mossy_stone_slab",
+      "silverwolfsbuildingblocks:more_mossy_stone_stairs",
+      "silverwolfsbuildingblocks:more_mossy_stone_wall",
+      "silverwolfsbuildingblocks:mossy_andesite_button",
+      "silverwolfsbuildingblocks:mossy_andesite_pressure_plate",
+      "silverwolfsbuildingblocks:mossy_andesite_slab",
+      "silverwolfsbuildingblocks:mossy_andesite_stairs",
+      "silverwolfsbuildingblocks:mossy_andesite_wall",
+      "silverwolfsbuildingblocks:mossy_stone_button",
+      "silverwolfsbuildingblocks:mossy_stone_pressure_plate",
+      "silverwolfsbuildingblocks:mossy_stone_slab",
+      "silverwolfsbuildingblocks:mossy_stone_stairs",
+      "silverwolfsbuildingblocks:mossy_stone_wall"
+    ]
+  },
+  "criteria": {
+    "has_mossy_variants": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "silverwolfsbuildingblocks:mossy_variants"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:more_mossy_andesite_button"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mossy_variants",
+      "has_the_recipe"
+    ]
+  ]
+}

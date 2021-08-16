@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "silverwolfsbuildingblocks:block/orange_medium_planks",
+    "top": "silverwolfsbuildingblocks:block/orange_medium_planks",
+    "side": "silverwolfsbuildingblocks:block/orange_medium_planks"
+  }
+}

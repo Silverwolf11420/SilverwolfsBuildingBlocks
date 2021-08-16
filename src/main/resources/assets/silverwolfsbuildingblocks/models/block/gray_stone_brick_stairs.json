@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/gray_stone_bricks",
-    "top": "silverwolfsbuildingblocks:block/gray_stone_bricks",
-    "side": "silverwolfsbuildingblocks:block/gray_stone_bricks"
-  }
-}

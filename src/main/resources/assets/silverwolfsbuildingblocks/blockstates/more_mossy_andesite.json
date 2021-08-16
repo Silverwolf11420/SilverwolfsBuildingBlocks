@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "silverwolfsbuildingblocks:block/more_mossy_andesite"}
+    "": {
+      "model": "silverwolfsbuildingblocks:block/more_mossy_andesite"
+    }
   }
 }

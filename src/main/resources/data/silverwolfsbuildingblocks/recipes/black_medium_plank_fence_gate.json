@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "medium_fence_gate",
+  "pattern": [
+    "yxy",
+    "yxy"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:black_medium_planks"
+    },
+	"y": {
+      "item": "silverwolfsbuildingblocks:black_medium_stick"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:black_medium_plank_fence_gate"
+  }
+}

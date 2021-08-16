@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dark_plank_slab",
+  "pattern": [
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:gray_dark_planks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:gray_dark_plank_slab",
+    "count": 6
+  }
+}

@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "particle": "silverwolfsbuildingblocks:block/bamboo_block",
-    "down": "silverwolfsbuildingblocks:block/bamboo_block_top",
-    "up": "silverwolfsbuildingblocks:block/bamboo_block_top",
-    "north": "silverwolfsbuildingblocks:block/bamboo_block",
-    "east": "silverwolfsbuildingblocks:block/bamboo_block",
-    "south": "silverwolfsbuildingblocks:block/bamboo_block",
-    "west": "silverwolfsbuildingblocks:block/bamboo_block"
+    "end": "silverwolfsbuildingblocks:block/bamboo_block_top",
+    "side": "silverwolfsbuildingblocks:block/bamboo_block"
   }
 }

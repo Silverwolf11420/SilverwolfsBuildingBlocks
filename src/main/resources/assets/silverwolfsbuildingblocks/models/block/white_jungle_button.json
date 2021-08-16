@@ -1,6 +1,0 @@
-{
-    "parent": "block/button",
-    "textures": {
-        "texture": "silverwolfsbuildingblocks:block/white_stained_jungle_planks"
-    }
-}

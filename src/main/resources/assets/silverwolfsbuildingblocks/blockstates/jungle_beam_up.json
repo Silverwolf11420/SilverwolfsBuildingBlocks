@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "silverwolfsbuildingblocks:block/jungle_beam_up"}
+    "": {
+      "model": "silverwolfsbuildingblocks:block/jungle_beam_up"
+    }
   }
 }

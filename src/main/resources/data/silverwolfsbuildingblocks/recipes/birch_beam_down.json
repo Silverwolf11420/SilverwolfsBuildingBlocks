@@ -1,26 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "plank_beam_down",
-  "pattern":
-  [
-    "sxs",
-    "sxs",
-    "sss"
+  "group": "beam_down",
+  "pattern": [
+    "yxy",
+    "yxy",
+	"yyy"
   ],
-  "key":
-  {
-    "s":
-    {
+  "key": {
+    "y": {
       "item": "silverwolfsbuildingblocks:birch_stick"
     },
-    "x":
-    {
+	"x": {
       "item": "minecraft:birch_planks"
     }
   },
-  "result":
-  {
-    "item": "silverwolfsbuildingblocks:birch_beam_down",
-    "count": 1
+  "result": {
+    "item": "silverwolfsbuildingblocks:birch_beam_down"
   }
 }

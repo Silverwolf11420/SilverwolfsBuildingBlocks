@@ -11,7 +11,7 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 modId="silverwolfsbuildingblocks" #mandatory
 
-version="${file.jarVersion}" #mandatory
+version="1.16.3_1.0.7" #mandatory
 
 displayName="Silverwolf's Building Blocks" #mandatory
 
@@ -21,7 +21,7 @@ displayURL="https://www.curseforge.com/minecraft/mc-mods/silverwolfs-building-bl
 
 logoFile="examplemod.png" #optional
 
-credits="Thanks to Sekelsta" #optional
+credits="Thanks to Sekelsta and SWEM Team" #optional
 
 authors="Silverwolf" #optional
 

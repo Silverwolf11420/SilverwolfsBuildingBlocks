@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "medium_clay_block",
+  "ingredients": [
+    {
+      "item": "minecraft:clay"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    }
+  ],
+  "result": {
+    "item": "silverwolfsbuildingblocks:purple_medium_clay_block"
+  }
+}

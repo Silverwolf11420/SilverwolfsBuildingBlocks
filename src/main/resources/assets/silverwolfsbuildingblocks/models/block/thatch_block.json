@@ -1,12 +1,7 @@
 {
-	"parent": "block/cube",
-	"textures": {
-	    "particle": "silverwolfsbuildingblocks:block/thatch_block",
-		"down": "silverwolfsbuildingblocks:block/thatch_block_top",
-		"up": "silverwolfsbuildingblocks:block/thatch_block_top",
-		"north": "silverwolfsbuildingblocks:block/thatch_block",
-		"east": "silverwolfsbuildingblocks:block/thatch_block",
-		"south": "silverwolfsbuildingblocks:block/thatch_block",
-		"west": "silverwolfsbuildingblocks:block/thatch_block"
-	}
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "silverwolfsbuildingblocks:block/thatch_block_top",
+    "side": "silverwolfsbuildingblocks:block/thatch_block"
+  }
 }

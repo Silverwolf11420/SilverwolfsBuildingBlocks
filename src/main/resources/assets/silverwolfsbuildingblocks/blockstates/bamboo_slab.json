@@ -1,7 +1,13 @@
 {
   "variants": {
-    "type=bottom": { "model": "silverwolfsbuildingblocks:block/bamboo_slab" },
-    "type=top": { "model": "silverwolfsbuildingblocks:block/bamboo_slab_top" },
-    "type=double": { "model": "silverwolfsbuildingblocks:block/bamboo_block" }
+    "type=bottom": {
+      "model": "silverwolfsbuildingblocks:block/bamboo_slab"
+    },
+    "type=double": {
+      "model": "silverwolfsbuildingblocks:block/extra_bamboo_block"
+    },
+    "type=top": {
+      "model": "silverwolfsbuildingblocks:block/bamboo_slab_top"
+    }
   }
 }

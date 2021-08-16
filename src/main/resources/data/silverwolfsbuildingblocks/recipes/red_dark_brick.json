@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "dark_brick",
+  "ingredient": {
+    "item": "silverwolfsbuildingblocks:red_dark_clay_ball"
+  },
+  "result": "silverwolfsbuildingblocks:red_dark_brick",
+  "experience": 0.3,
+  "cookingtime": 200
+}

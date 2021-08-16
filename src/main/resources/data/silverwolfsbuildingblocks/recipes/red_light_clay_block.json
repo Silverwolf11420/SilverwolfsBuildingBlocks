@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "light_clay_block",
+  "ingredients": [
+    {
+      "item": "minecraft:clay"
+    },
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "result": {
+    "item": "silverwolfsbuildingblocks:red_light_clay_block"
+  }
+}

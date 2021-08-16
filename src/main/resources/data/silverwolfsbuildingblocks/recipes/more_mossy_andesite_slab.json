@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "mossy_variants_slabs",
+  "group": "mossy_slab",
   "pattern": [
     "xxx"
   ],

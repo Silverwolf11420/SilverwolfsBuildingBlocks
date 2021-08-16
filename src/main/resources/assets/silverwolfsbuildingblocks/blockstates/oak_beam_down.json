@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "silverwolfsbuildingblocks:block/oak_beam_down"}
+    "": {
+      "model": "silverwolfsbuildingblocks:block/oak_beam_down"
+    }
   }
 }

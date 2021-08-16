@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "silverwolfsbuildingblocks:block/birch_beam_up"}
+    "": {
+      "model": "silverwolfsbuildingblocks:block/birch_beam_up"
+    }
   }
 }

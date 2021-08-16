@@ -1,0 +1,79 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:black_dark_brick",
+      "silverwolfsbuildingblocks:black_light_brick",
+      "silverwolfsbuildingblocks:black_medium_brick",
+      "silverwolfsbuildingblocks:blue_dark_brick",
+      "silverwolfsbuildingblocks:blue_light_brick",
+      "silverwolfsbuildingblocks:blue_medium_brick",
+      "silverwolfsbuildingblocks:brown_dark_brick",
+      "silverwolfsbuildingblocks:brown_light_brick",
+      "silverwolfsbuildingblocks:brown_medium_brick",
+      "silverwolfsbuildingblocks:cyan_dark_brick",
+      "silverwolfsbuildingblocks:cyan_light_brick",
+      "silverwolfsbuildingblocks:cyan_medium_brick",
+      "silverwolfsbuildingblocks:gray_dark_brick",
+      "silverwolfsbuildingblocks:gray_light_brick",
+      "silverwolfsbuildingblocks:gray_medium_brick",
+      "silverwolfsbuildingblocks:green_dark_brick",
+      "silverwolfsbuildingblocks:green_light_brick",
+      "silverwolfsbuildingblocks:green_medium_brick",
+      "silverwolfsbuildingblocks:light_blue_dark_brick",
+      "silverwolfsbuildingblocks:light_blue_light_brick",
+      "silverwolfsbuildingblocks:light_blue_medium_brick",
+      "silverwolfsbuildingblocks:light_gray_dark_brick",
+      "silverwolfsbuildingblocks:light_gray_light_brick",
+      "silverwolfsbuildingblocks:light_gray_medium_brick",
+      "silverwolfsbuildingblocks:lime_dark_brick",
+      "silverwolfsbuildingblocks:lime_light_brick",
+      "silverwolfsbuildingblocks:lime_medium_brick",
+      "silverwolfsbuildingblocks:magenta_dark_brick",
+      "silverwolfsbuildingblocks:magenta_light_brick",
+      "silverwolfsbuildingblocks:magenta_medium_brick",
+      "silverwolfsbuildingblocks:orange_dark_brick",
+      "silverwolfsbuildingblocks:orange_light_brick",
+      "silverwolfsbuildingblocks:orange_medium_brick",
+      "silverwolfsbuildingblocks:pink_dark_brick",
+      "silverwolfsbuildingblocks:pink_light_brick",
+      "silverwolfsbuildingblocks:pink_medium_brick",
+      "silverwolfsbuildingblocks:purple_dark_brick",
+      "silverwolfsbuildingblocks:purple_light_brick",
+      "silverwolfsbuildingblocks:purple_medium_brick",
+      "silverwolfsbuildingblocks:red_dark_brick",
+      "silverwolfsbuildingblocks:red_light_brick",
+      "silverwolfsbuildingblocks:red_medium_brick",
+      "silverwolfsbuildingblocks:white_dark_brick",
+      "silverwolfsbuildingblocks:white_light_brick",
+      "silverwolfsbuildingblocks:white_medium_brick",
+      "silverwolfsbuildingblocks:yellow_dark_brick",
+      "silverwolfsbuildingblocks:yellow_light_brick",
+      "silverwolfsbuildingblocks:yellow_medium_brick"
+    ]
+  },
+  "criteria": {
+    "has_colored_clay_balls": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "silverwolfsbuildingblocks:colored_clay_balls"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:black_dark_brick"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_clay_balls",
+      "has_the_recipe"
+    ]
+  ]
+}

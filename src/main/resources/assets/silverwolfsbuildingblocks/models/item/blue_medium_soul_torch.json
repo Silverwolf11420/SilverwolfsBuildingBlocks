@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "silverwolfsbuildingblocks:block/blue_medium_soul_torch"
+  }
+}

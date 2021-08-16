@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wool_slab",
+  "pattern": [
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:magenta_wool"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:magenta_wool_slab",
+    "count": 6
+  }
+}

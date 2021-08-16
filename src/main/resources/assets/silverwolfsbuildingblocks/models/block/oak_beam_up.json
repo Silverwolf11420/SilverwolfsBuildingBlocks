@@ -1,7 +1,6 @@
 {
-  "parent": "block/cube_all",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "particle": "silverwolfsbuildingblocks:block/oak_beam_up",
     "all": "silverwolfsbuildingblocks:block/oak_beam_up"
   }
 }

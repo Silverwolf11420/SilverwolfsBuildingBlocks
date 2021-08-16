@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dark_plank_stairs",
+  "pattern": [
+    "x  ",
+	"xx ",
+	"xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:black_dark_planks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:black_dark_plank_stairs",
+    "count": 4
+  }
+}

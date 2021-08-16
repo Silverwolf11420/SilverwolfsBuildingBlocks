@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "silverwolfsbuildingblocks:block/black_light_bricks",
+    "top": "silverwolfsbuildingblocks:block/black_light_bricks",
+    "side": "silverwolfsbuildingblocks:block/black_light_bricks"
+  }
+}

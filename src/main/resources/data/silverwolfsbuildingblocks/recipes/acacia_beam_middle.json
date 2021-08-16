@@ -1,26 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "plank_beam_middle",
-  "pattern":
-  [
-    "sxs",
-    "sxs",
-    "sxs"
+  "group": "beam_middle",
+  "pattern": [
+    "yxy",
+    "yxy",
+	"yxy"
   ],
-  "key":
-  {
-    "s":
-    {
+  "key": {
+    "y": {
       "item": "silverwolfsbuildingblocks:acacia_stick"
     },
-    "x":
-    {
+	"x": {
       "item": "minecraft:acacia_planks"
     }
   },
-  "result":
-  {
-    "item": "silverwolfsbuildingblocks:acacia_beam_middle",
-    "count": 1
+  "result": {
+    "item": "silverwolfsbuildingblocks:acacia_beam_middle"
   }
 }

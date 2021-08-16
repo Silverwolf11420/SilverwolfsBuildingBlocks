@@ -1,0 +1,63 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:black_wool_stairs",
+      "silverwolfsbuildingblocks:blue_wool_stairs",
+      "silverwolfsbuildingblocks:brown_wool_stairs",
+      "silverwolfsbuildingblocks:cyan_wool_stairs",
+      "silverwolfsbuildingblocks:gray_wool_stairs",
+      "silverwolfsbuildingblocks:green_wool_stairs",
+      "silverwolfsbuildingblocks:light_blue_wool_stairs",
+      "silverwolfsbuildingblocks:light_gray_wool_stairs",
+      "silverwolfsbuildingblocks:lime_wool_stairs",
+      "silverwolfsbuildingblocks:magenta_wool_stairs",
+      "silverwolfsbuildingblocks:orange_wool_stairs",
+      "silverwolfsbuildingblocks:pink_wool_stairs",
+      "silverwolfsbuildingblocks:purple_wool_stairs",
+      "silverwolfsbuildingblocks:red_wool_stairs",
+      "silverwolfsbuildingblocks:white_wool_stairs",
+      "silverwolfsbuildingblocks:yellow_wool_stairs",
+      "silverwolfsbuildingblocks:black_wool_slab",
+      "silverwolfsbuildingblocks:blue_wool_slab",
+      "silverwolfsbuildingblocks:brown_wool_slab",
+      "silverwolfsbuildingblocks:cyan_wool_slab",
+      "silverwolfsbuildingblocks:gray_wool_slab",
+      "silverwolfsbuildingblocks:green_wool_slab",
+      "silverwolfsbuildingblocks:light_blue_wool_slab",
+      "silverwolfsbuildingblocks:light_gray_wool_slab",
+      "silverwolfsbuildingblocks:lime_wool_slab",
+      "silverwolfsbuildingblocks:magenta_wool_slab",
+      "silverwolfsbuildingblocks:orange_wool_slab",
+      "silverwolfsbuildingblocks:pink_wool_slab",
+      "silverwolfsbuildingblocks:purple_wool_slab",
+      "silverwolfsbuildingblocks:red_wool_slab",
+      "silverwolfsbuildingblocks:white_wool_slab",
+      "silverwolfsbuildingblocks:yellow_wool_slab"
+    ]
+  },
+  "criteria": {
+    "has_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:wool"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:black_wool_stairs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wool",
+      "has_the_recipe"
+    ]
+  ]
+}

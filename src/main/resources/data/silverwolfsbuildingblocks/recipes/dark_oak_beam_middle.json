@@ -1,26 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "plank_beam_middle",
-  "pattern":
-  [
-    "sxs",
-    "sxs",
-    "sxs"
+  "group": "beam_middle",
+  "pattern": [
+    "yxy",
+    "yxy",
+	"yxy"
   ],
-  "key":
-  {
-    "s":
-    {
+  "key": {
+    "y": {
       "item": "silverwolfsbuildingblocks:dark_oak_stick"
     },
-    "x":
-    {
+	"x": {
       "item": "minecraft:dark_oak_planks"
     }
   },
-  "result":
-  {
-    "item": "silverwolfsbuildingblocks:dark_oak_beam_middle",
-    "count": 1
+  "result": {
+    "item": "silverwolfsbuildingblocks:dark_oak_beam_middle"
   }
 }

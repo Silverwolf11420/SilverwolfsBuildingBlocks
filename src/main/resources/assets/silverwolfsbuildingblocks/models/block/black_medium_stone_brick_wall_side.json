@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "silverwolfsbuildingblocks:block/black_medium_stone_bricks"
+  }
+}

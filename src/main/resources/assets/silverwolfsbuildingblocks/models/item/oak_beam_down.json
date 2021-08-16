@@ -1,7 +1,3 @@
 {
-  "parent": "block/cube_all",
-  "textures": {
-    "particle": "silverwolfsbuildingblocks:block/oak_beam_down",
-    "all": "silverwolfsbuildingblocks:block/oak_beam_down"
-  }
+  "parent": "silverwolfsbuildingblocks:block/oak_beam_down"
 }

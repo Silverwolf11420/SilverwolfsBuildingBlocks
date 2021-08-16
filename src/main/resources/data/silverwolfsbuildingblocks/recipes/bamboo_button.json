@@ -1,16 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "x  ",
-    "x  "
-  ],
-  "key": {
-    "x": {
-      "item": "silverwolfsbuildingblocks:bamboo_block"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bamboo"
     }
-  },
+  ],
   "result": {
-    "item": "silverwolfsbuildingblocks:bamboo_button",
-    "count": 2
+    "item": "silverwolfsbuildingblocks:bamboo_button"
   }
 }

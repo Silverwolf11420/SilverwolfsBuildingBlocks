@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "mossy_variants",
+  "group": "mossy_stones",
   "ingredients": [
     {
       "item": "minecraft:andesite"
@@ -10,7 +10,6 @@
     }
   ],
   "result": {
-    "item": "silverwolfsbuildingblocks:mossy_andesite",
-    "count": 1
+    "item": "silverwolfsbuildingblocks:mossy_andesite"
   }
 }

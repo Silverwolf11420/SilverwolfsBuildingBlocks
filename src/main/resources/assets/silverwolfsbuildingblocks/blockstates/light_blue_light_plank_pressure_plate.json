@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "silverwolfsbuildingblocks:block/light_blue_light_plank_pressure_plate"
+    },
+    "powered=true": {
+      "model": "silverwolfsbuildingblocks:block/light_blue_light_plank_pressure_plate_down"
+    }
+  }
+}

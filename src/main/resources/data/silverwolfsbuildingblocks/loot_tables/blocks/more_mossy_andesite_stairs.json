@@ -8,6 +8,11 @@
           "type": "minecraft:item",
           "name": "silverwolfsbuildingblocks:more_mossy_andesite_stairs"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
       ]
     }
   ]

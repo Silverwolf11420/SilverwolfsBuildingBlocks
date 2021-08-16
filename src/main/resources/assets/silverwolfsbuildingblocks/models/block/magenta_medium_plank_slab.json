@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "silverwolfsbuildingblocks:block/magenta_medium_planks",
+    "top": "silverwolfsbuildingblocks:block/magenta_medium_planks",
+    "side": "silverwolfsbuildingblocks:block/magenta_medium_planks"
+  }
+}

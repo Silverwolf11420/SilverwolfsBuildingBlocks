@@ -1,7 +1,6 @@
 {
-  "parent": "block/cube_all",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "particle": "silverwolfsbuildingblocks:block/acacia_beam_down",
     "all": "silverwolfsbuildingblocks:block/acacia_beam_down"
   }
 }

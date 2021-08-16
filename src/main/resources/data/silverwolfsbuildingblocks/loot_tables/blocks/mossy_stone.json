@@ -8,6 +8,11 @@
           "type": "minecraft:item",
           "name": "silverwolfsbuildingblocks:mossy_stone"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
       ]
     }
   ]

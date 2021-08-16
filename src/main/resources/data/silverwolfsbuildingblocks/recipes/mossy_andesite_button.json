@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "mossy_button",
   "pattern": [
     "x  "
   ],
@@ -9,7 +10,6 @@
     }
   },
   "result": {
-    "item": "silverwolfsbuildingblocks:mossy_andesite_button",
-    "count": 1
+    "item": "silverwolfsbuildingblocks:mossy_andesite_button"
   }
 }

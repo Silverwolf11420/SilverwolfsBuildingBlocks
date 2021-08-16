@@ -8,6 +8,11 @@
           "type": "minecraft:item",
           "name": "silverwolfsbuildingblocks:acacia_beam_middle"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
       ]
     }
   ]

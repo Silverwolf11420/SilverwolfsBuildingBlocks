@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "x  ",
-    "xx ",
-    "xxx"
+	"xx ",
+	"xxx"
   ],
   "key": {
     "x": {
@@ -12,6 +12,6 @@
   },
   "result": {
     "item": "silverwolfsbuildingblocks:bamboo_stairs",
-    "count": 6
+    "count": 4
   }
 }

@@ -1,7 +1,6 @@
 {
-  "parent": "block/cube_all",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "particle": "silverwolfsbuildingblocks:block/mossy_andesite",
     "all": "silverwolfsbuildingblocks:block/mossy_andesite"
   }
 }

@@ -1,0 +1,73 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:acacia_beam_down",
+      "silverwolfsbuildingblocks:acacia_beam_middle",
+      "silverwolfsbuildingblocks:acacia_beam_up",
+      "silverwolfsbuildingblocks:acacia_ladder",
+      "silverwolfsbuildingblocks:acacia_soul_torch",
+      "silverwolfsbuildingblocks:acacia_stick",
+      "silverwolfsbuildingblocks:acacia_torch",
+      "silverwolfsbuildingblocks:birch_beam_down",
+      "silverwolfsbuildingblocks:birch_beam_middle",
+      "silverwolfsbuildingblocks:birch_beam_up",
+      "silverwolfsbuildingblocks:birch_ladder",
+      "silverwolfsbuildingblocks:birch_soul_torch",
+      "silverwolfsbuildingblocks:birch_stick",
+      "silverwolfsbuildingblocks:birch_torch",
+      "silverwolfsbuildingblocks:dark_oak_beam_down",
+      "silverwolfsbuildingblocks:dark_oak_beam_middle",
+      "silverwolfsbuildingblocks:dark_oak_beam_up",
+      "silverwolfsbuildingblocks:dark_oak_ladder",
+      "silverwolfsbuildingblocks:dark_oak_soul_torch",
+      "silverwolfsbuildingblocks:dark_oak_stick",
+      "silverwolfsbuildingblocks:dark_oak_torch",
+      "silverwolfsbuildingblocks:jungle_beam_down",
+      "silverwolfsbuildingblocks:jungle_beam_middle",
+      "silverwolfsbuildingblocks:jungle_beam_up",
+      "silverwolfsbuildingblocks:jungle_ladder",
+      "silverwolfsbuildingblocks:jungle_soul_torch",
+      "silverwolfsbuildingblocks:jungle_stick",
+      "silverwolfsbuildingblocks:jungle_torch",
+      "silverwolfsbuildingblocks:oak_beam_down",
+      "silverwolfsbuildingblocks:oak_beam_middle",
+      "silverwolfsbuildingblocks:oak_beam_up",
+      "silverwolfsbuildingblocks:oak_ladder",
+      "silverwolfsbuildingblocks:oak_soul_torch",
+      "silverwolfsbuildingblocks:oak_stick",
+      "silverwolfsbuildingblocks:oak_torch",
+      "silverwolfsbuildingblocks:spruce_beam_down",
+      "silverwolfsbuildingblocks:spruce_beam_middle",
+      "silverwolfsbuildingblocks:spruce_beam_up",
+      "silverwolfsbuildingblocks:spruce_ladder",
+      "silverwolfsbuildingblocks:spruce_soul_torch",
+      "silverwolfsbuildingblocks:spruce_stick",
+      "silverwolfsbuildingblocks:spruce_torch"
+    ]
+  },
+  "criteria": {
+    "has_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:acacia_beam_down"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/black_stained_jungle_planks",
-    "top": "silverwolfsbuildingblocks:block/black_stained_jungle_planks",
-    "side": "silverwolfsbuildingblocks:block/black_stained_jungle_planks"
-  }
-}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "silverwolfsbuildingblocks:block/yellow_medium_stone_bricks"
+  }
+}

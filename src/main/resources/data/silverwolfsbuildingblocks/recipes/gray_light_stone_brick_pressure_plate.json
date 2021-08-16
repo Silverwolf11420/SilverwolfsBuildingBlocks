@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "light_stone_brick_pressure_plate",
+  "pattern": [
+    "xx "
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:gray_light_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:gray_light_stone_brick_pressure_plate"
+  }
+}

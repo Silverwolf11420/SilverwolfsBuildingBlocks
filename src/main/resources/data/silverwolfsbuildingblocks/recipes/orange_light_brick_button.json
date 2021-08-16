@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "light_brick_button",
+  "pattern": [
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:orange_light_bricks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:orange_light_brick_button"
+  }
+}

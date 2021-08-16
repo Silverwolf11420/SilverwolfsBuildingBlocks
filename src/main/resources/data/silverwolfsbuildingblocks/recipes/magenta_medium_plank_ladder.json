@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "medium_ladder",
+  "pattern": [
+    "x x",
+    "xxx",
+	"x x"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:magenta_medium_stick"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:magenta_medium_plank_ladder",
+    "count": 3
+  }
+}

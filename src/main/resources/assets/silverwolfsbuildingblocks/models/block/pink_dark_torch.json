@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_torch",
+  "textures": {
+    "torch": "silverwolfsbuildingblocks:block/pink_dark_torch"
+  }
+}

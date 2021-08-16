@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "silverwolfsbuildingblocks:gray_dark_bricks"
+  },
+  "result": "silverwolfsbuildingblocks:gray_dark_brick_slab",
+  "count": 2
+}

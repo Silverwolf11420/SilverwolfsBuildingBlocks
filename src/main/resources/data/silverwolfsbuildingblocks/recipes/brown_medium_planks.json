@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "medium_planks",
+  "ingredients": [
+    {
+      "item": "silverwolfsbuildingblocks:brown_medium_log"
+    }
+  ],
+  "result": {
+    "item": "silverwolfsbuildingblocks:brown_medium_planks",
+	"count": 4
+  }
+}

@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "silverwolfsbuildingblocks:block/dark_oak_beam_up"}
+    "": {
+      "model": "silverwolfsbuildingblocks:block/dark_oak_beam_up"
+    }
   }
 }

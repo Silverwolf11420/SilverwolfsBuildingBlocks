@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dark_planks",
+  "ingredients": [
+    {
+      "item": "silverwolfsbuildingblocks:orange_dark_log"
+    }
+  ],
+  "result": {
+    "item": "silverwolfsbuildingblocks:orange_dark_planks",
+	"count": 4
+  }
+}

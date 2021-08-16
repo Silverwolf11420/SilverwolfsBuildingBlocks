@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "silverwolfsbuildingblocks:block/spruce_beam_down"}
+    "": {
+      "model": "silverwolfsbuildingblocks:block/spruce_beam_down"
+    }
   }
 }

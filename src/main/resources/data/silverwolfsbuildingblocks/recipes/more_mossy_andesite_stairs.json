@@ -1,10 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "mossy_variants_stairs",
+  "group": "mossy_stairs",
   "pattern": [
     "x  ",
-    "xx ",
-    "xxx"
+	"xx ",
+	"xxx"
   ],
   "key": {
     "x": {
@@ -13,6 +13,6 @@
   },
   "result": {
     "item": "silverwolfsbuildingblocks:more_mossy_andesite_stairs",
-    "count": 6
+    "count": 4
   }
 }

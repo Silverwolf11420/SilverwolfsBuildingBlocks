@@ -8,6 +8,11 @@
           "type": "minecraft:item",
           "name": "silverwolfsbuildingblocks:thatch_stairs"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
       ]
     }
   ]

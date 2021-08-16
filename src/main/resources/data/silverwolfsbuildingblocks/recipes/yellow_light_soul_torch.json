@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "light_soul_torchs",
+  "pattern": [
+    "x",
+    "y",
+    "z"
+  ],
+  "key": {
+    "x": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "y": {
+      "item": "silverwolfsbuildingblocks:yellow_light_stick"
+    },
+    "z": {
+      "tag": "minecraft:soul_fire_base_blocks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:yellow_light_soul_torch",
+    "count": 4
+  }
+}

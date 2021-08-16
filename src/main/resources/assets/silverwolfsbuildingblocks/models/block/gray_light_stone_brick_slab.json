@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "silverwolfsbuildingblocks:block/gray_light_stone_bricks",
+    "top": "silverwolfsbuildingblocks:block/gray_light_stone_bricks",
+    "side": "silverwolfsbuildingblocks:block/gray_light_stone_bricks"
+  }
+}

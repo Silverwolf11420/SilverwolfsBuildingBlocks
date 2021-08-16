@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dark_fence_gate",
+  "pattern": [
+    "yxy",
+    "yxy"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:red_dark_planks"
+    },
+	"y": {
+      "item": "silverwolfsbuildingblocks:red_dark_stick"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:red_dark_plank_fence_gate"
+  }
+}

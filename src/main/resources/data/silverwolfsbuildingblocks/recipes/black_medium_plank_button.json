@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "medium_button",
+  "pattern": [
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:black_medium_planks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:black_medium_plank_button"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silverwolfsbuildingblocks:block/blue_medium_stone_brick_slab"
+    },
+    "type=double": {
+      "model": "silverwolfsbuildingblocks:block/blue_medium_stone_bricks"
+    },
+    "type=top": {
+      "model": "silverwolfsbuildingblocks:block/blue_medium_stone_brick_slab_top"
+    }
+  }
+}

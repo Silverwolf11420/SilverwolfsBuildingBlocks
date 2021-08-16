@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "light_torchs",
+  "pattern": [
+    "y",
+    "x"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:lime_light_stick"
+    },
+    "y": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ]
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:lime_light_torch",
+    "count": 4
+  }
+}

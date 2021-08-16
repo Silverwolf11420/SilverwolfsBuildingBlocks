@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "silverwolfsbuildingblocks:items/orange_dark_plank_door"
+  }
+}

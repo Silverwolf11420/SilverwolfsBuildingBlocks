@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "medium_fence",
+  "pattern": [
+    "xyx",
+    "xyx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:black_medium_planks"
+    },
+	"y": {
+      "item": "silverwolfsbuildingblocks:black_medium_stick"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:black_medium_plank_fence",
+    "count": 3
+  }
+}

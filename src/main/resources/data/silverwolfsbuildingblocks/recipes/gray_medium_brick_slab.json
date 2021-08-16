@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "medium_brick_slab",
+  "pattern": [
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:gray_medium_bricks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:gray_medium_brick_slab",
+    "count": 6
+  }
+}

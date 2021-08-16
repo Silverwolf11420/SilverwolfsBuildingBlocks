@@ -1,6 +1,0 @@
-{
-    "parent": "block/button_inventory",
-    "textures": {
-        "texture": "silverwolfsbuildingblocks:block/white_stained_oak_planks"
-    }
-}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "light_button",
+  "pattern": [
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:yellow_light_planks"
+    }
+  },
+  "result": {
+    "item": "silverwolfsbuildingblocks:yellow_light_plank_button"
+  }
+}

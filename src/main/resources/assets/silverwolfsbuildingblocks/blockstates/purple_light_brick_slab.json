@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silverwolfsbuildingblocks:block/purple_light_brick_slab"
+    },
+    "type=double": {
+      "model": "silverwolfsbuildingblocks:block/purple_light_bricks"
+    },
+    "type=top": {
+      "model": "silverwolfsbuildingblocks:block/purple_light_brick_slab_top"
+    }
+  }
+}

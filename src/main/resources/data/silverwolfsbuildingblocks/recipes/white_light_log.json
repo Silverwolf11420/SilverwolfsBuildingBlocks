@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "light_log",
+  "ingredients": [
+    {
+      "tag": "minecraft:logs_that_burn"
+    },
+    {
+      "item": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "result": {
+    "item": "silverwolfsbuildingblocks:white_light_log"
+  }
+}

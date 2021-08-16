@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "mossy_pressure_plate",
   "pattern": [
     "xx "
   ],
@@ -9,7 +10,6 @@
     }
   },
   "result": {
-    "item": "silverwolfsbuildingblocks:more_mossy_stone_pressure_plate",
-    "count": 1
+    "item": "silverwolfsbuildingblocks:more_mossy_stone_pressure_plate"
   }
 }
