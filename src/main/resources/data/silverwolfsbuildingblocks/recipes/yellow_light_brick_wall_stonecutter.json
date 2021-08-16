@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "silverwolfsbuildingblocks:yellow_light_bricks"
+  },
+  "result": "silverwolfsbuildingblocks:yellow_light_brick_wall",
+  "count": 1
+}

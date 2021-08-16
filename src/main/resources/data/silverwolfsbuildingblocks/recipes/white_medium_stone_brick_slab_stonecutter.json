@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "silverwolfsbuildingblocks:white_medium_stone_bricks"
+  },
+  "result": "silverwolfsbuildingblocks:white_medium_stone_brick_slab",
+  "count": 2
+}
