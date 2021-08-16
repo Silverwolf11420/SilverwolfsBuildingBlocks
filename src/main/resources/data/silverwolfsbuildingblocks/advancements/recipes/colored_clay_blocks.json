@@ -1,0 +1,79 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silverwolfsbuildingblocks:black_dark_clay_block",
+      "silverwolfsbuildingblocks:black_light_clay_block",
+      "silverwolfsbuildingblocks:black_medium_clay_block",
+      "silverwolfsbuildingblocks:blue_dark_clay_block",
+      "silverwolfsbuildingblocks:blue_light_clay_block",
+      "silverwolfsbuildingblocks:blue_medium_clay_block",
+      "silverwolfsbuildingblocks:brown_dark_clay_block",
+      "silverwolfsbuildingblocks:brown_light_clay_block",
+      "silverwolfsbuildingblocks:brown_medium_clay_block",
+      "silverwolfsbuildingblocks:cyan_dark_clay_block",
+      "silverwolfsbuildingblocks:cyan_light_clay_block",
+      "silverwolfsbuildingblocks:cyan_medium_clay_block",
+      "silverwolfsbuildingblocks:gray_dark_clay_block",
+      "silverwolfsbuildingblocks:gray_light_clay_block",
+      "silverwolfsbuildingblocks:gray_medium_clay_block",
+      "silverwolfsbuildingblocks:green_dark_clay_block",
+      "silverwolfsbuildingblocks:green_light_clay_block",
+      "silverwolfsbuildingblocks:green_medium_clay_block",
+      "silverwolfsbuildingblocks:light_blue_dark_clay_block",
+      "silverwolfsbuildingblocks:light_blue_light_clay_block",
+      "silverwolfsbuildingblocks:light_blue_medium_clay_block",
+      "silverwolfsbuildingblocks:light_gray_dark_clay_block",
+      "silverwolfsbuildingblocks:light_gray_light_clay_block",
+      "silverwolfsbuildingblocks:light_gray_medium_clay_block",
+      "silverwolfsbuildingblocks:lime_dark_clay_block",
+      "silverwolfsbuildingblocks:lime_light_clay_block",
+      "silverwolfsbuildingblocks:lime_medium_clay_block",
+      "silverwolfsbuildingblocks:magenta_dark_clay_block",
+      "silverwolfsbuildingblocks:magenta_light_clay_block",
+      "silverwolfsbuildingblocks:magenta_medium_clay_block",
+      "silverwolfsbuildingblocks:orange_dark_clay_block",
+      "silverwolfsbuildingblocks:orange_light_clay_block",
+      "silverwolfsbuildingblocks:orange_medium_clay_block",
+      "silverwolfsbuildingblocks:pink_dark_clay_block",
+      "silverwolfsbuildingblocks:pink_light_clay_block",
+      "silverwolfsbuildingblocks:pink_medium_clay_block",
+      "silverwolfsbuildingblocks:purple_dark_clay_block",
+      "silverwolfsbuildingblocks:purple_light_clay_block",
+      "silverwolfsbuildingblocks:purple_medium_clay_block",
+      "silverwolfsbuildingblocks:red_dark_clay_block",
+      "silverwolfsbuildingblocks:red_light_clay_block",
+      "silverwolfsbuildingblocks:red_medium_clay_block",
+      "silverwolfsbuildingblocks:white_dark_clay_block",
+      "silverwolfsbuildingblocks:white_light_clay_block",
+      "silverwolfsbuildingblocks:white_medium_clay_block",
+      "silverwolfsbuildingblocks:yellow_dark_clay_block",
+      "silverwolfsbuildingblocks:yellow_light_clay_block",
+      "silverwolfsbuildingblocks:yellow_medium_clay_block"
+    ]
+  },
+  "criteria": {
+    "has_clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:clay"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "silverwolfsbuildingblocks:black_dark_clay_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_clay",
+      "has_the_recipe"
+    ]
+  ]
+}
