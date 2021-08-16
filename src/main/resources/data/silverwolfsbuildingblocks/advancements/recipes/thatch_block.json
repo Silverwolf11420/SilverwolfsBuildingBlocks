@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_thatch_block",
+      "has_thatch",
       "has_the_recipe"
     ]
   ]

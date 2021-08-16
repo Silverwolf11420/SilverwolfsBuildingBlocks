@@ -30,7 +30,7 @@
       "conditions": {
         "items": [
           {
-            "item": "silverwolfsbuildingblocks:mossy_variants"
+            "tag": "silverwolfsbuildingblocks:mossy_variants"
           }
         ]
       }
