@@ -30,14 +30,13 @@ public class SilverwolfsBuildingBlocks {
 
     //creative tabs
     public static class SilverwolfsBlocksItemGroup extends ItemGroup {
-        public static final SilverwolfsBlocksItemGroup instance = new SilverwolfsBlocksItemGroup(ItemGroup.GROUPS.length, "itemtab");
+        public static final SilverwolfsBlocksItemGroup instance = new SilverwolfsBlocksItemGroup(ItemGroup.TABS.length, "itemtab");
 
         private SilverwolfsBlocksItemGroup(int index, String label) {
             super(index, label);
         }
 
-        @Override
-        public ItemStack createIcon() {
+        public ItemStack makeIcon() {
             return new ItemStack(BlockInit.THATCH_BLOCK.get());
         }
 
