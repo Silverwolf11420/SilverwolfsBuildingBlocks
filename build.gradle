@@ -12,7 +12,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.16.5_1.0.7'
+version = '1.16.5_1.0.8_1'
 group = 'mod.silverwolf.silverwolfsbuildingblocks' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'silverwolfsbuildingblocks'
 
@@ -99,7 +99,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'silverwolfsbuildingblocks', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            //args '--mod', 'silverwolfsbuildingblocks', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
                 examplemod {

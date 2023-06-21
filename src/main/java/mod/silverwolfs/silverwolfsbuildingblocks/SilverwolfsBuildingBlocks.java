@@ -3,6 +3,7 @@ package mod.silverwolfs.silverwolfsbuildingblocks;
 import mod.silverwolfs.silverwolfsbuildingblocks.init.*;
 import mod.silverwolfs.silverwolfsbuildingblocks.util.RegistryHandler;
 import net.minecraft.item.*;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -29,23 +30,16 @@ public class SilverwolfsBuildingBlocks {
     }
 
     //creative tabs
-    public static class SilverwolfsBlocksItemGroup extends ItemGroup {
-        public static final SilverwolfsBlocksItemGroup instance = new SilverwolfsBlocksItemGroup(ItemGroup.TABS.length, "itemtab");
-
-        private SilverwolfsBlocksItemGroup(int index, String label) {
-            super(index, label);
-        }
-
+    public static final ItemGroup TAB = new ItemGroup("SBBTab") {
+        @Override
         public ItemStack makeIcon() {
             return new ItemStack(BlockInit.THATCH_BLOCK.get());
         }
-
         @Override
         public boolean hasSearchBar() {
             return true;
         }
-
-    }
+    }.setBackgroundImage(new ResourceLocation("minecraft", "textures/gui/container/creative_inventory/tab_item_search.png"));
 }
 
 
