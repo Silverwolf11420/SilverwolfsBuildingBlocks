@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/red_medium_planks",
-    "top": "silverwolfsbuildingblocks:block/red_medium_planks",
-    "side": "silverwolfsbuildingblocks:block/red_medium_planks"
-  }
-}

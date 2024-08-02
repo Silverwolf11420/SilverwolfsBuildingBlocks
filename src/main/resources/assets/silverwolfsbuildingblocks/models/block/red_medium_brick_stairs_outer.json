@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/red_medium_bricks",
-    "top": "silverwolfsbuildingblocks:block/red_medium_bricks",
-    "side": "silverwolfsbuildingblocks:block/red_medium_bricks"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "silverwolfsbuildingblocks:magenta_medium_bricks"
-  },
-  "result": "silverwolfsbuildingblocks:magenta_medium_brick_stairs",
-  "count": 1
-}

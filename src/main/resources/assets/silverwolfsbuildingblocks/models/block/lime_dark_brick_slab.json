@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/lime_dark_bricks",
-    "top": "silverwolfsbuildingblocks:block/lime_dark_bricks",
-    "side": "silverwolfsbuildingblocks:block/lime_dark_bricks"
-  }
-}

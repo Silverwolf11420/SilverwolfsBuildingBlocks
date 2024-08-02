@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "silverwolfsbuildingblocks:more_mossy_andesite"
-  },
-  "result": "silverwolfsbuildingblocks:more_mossy_andesite_wall",
-  "count": 1
-}

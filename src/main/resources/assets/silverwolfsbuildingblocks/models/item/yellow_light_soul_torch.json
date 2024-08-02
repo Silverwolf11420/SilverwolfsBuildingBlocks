@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "silverwolfsbuildingblocks:block/yellow_light_soul_torch"
-  }
-}

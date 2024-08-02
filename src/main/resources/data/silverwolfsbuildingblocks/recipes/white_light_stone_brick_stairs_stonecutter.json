@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "silverwolfsbuildingblocks:white_light_stone_bricks"
-  },
-  "result": "silverwolfsbuildingblocks:white_light_stone_brick_stairs",
-  "count": 1
-}

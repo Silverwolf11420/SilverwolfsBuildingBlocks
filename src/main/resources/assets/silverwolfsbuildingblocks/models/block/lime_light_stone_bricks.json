@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "silverwolfsbuildingblocks:block/lime_light_stone_bricks"
-  }
-}

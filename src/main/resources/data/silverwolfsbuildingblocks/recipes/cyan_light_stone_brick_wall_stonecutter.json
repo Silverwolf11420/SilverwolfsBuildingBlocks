@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "silverwolfsbuildingblocks:cyan_light_stone_bricks"
-  },
-  "result": "silverwolfsbuildingblocks:cyan_light_stone_brick_wall",
-  "count": 1
-}

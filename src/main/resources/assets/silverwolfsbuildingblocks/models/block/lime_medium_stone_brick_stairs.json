@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/lime_medium_stone_bricks",
-    "top": "silverwolfsbuildingblocks:block/lime_medium_stone_bricks",
-    "side": "silverwolfsbuildingblocks:block/lime_medium_stone_bricks"
-  }
-}

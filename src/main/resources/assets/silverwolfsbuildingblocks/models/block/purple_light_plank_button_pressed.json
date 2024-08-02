@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/button_pressed",
-  "textures": {
-    "texture": "silverwolfsbuildingblocks:block/purple_light_planks"
-  }
-}

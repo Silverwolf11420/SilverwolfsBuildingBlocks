@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "silverwolfsbuildingblocks:block/purple_light_clay_block"
-  }
-}

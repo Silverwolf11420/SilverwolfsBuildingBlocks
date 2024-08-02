@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_bottom",
-  "textures": {
-    "top": "silverwolfsbuildingblocks:block/light_blue_medium_plank_door_top",
-    "bottom": "silverwolfsbuildingblocks:block/light_blue_medium_plank_door_bottom"
-  }
-}

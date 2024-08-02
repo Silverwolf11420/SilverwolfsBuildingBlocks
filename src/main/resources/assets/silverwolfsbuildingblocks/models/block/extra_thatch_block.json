@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "silverwolfsbuildingblocks:block/extra_thatch_block",
-    "side": "silverwolfsbuildingblocks:block/thatch_block"
-  }
-}

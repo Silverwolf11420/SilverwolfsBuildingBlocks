@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/button_inventory",
-  "textures": {
-    "texture": "silverwolfsbuildingblocks:block/brown_medium_planks"
-  }
-}

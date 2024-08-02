@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "silverwolfsbuildingblocks:lime_medium_stone_bricks"
-  },
-  "result": "silverwolfsbuildingblocks:lime_medium_stone_brick_slab",
-  "count": 2
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "silverwolfsbuildingblocks:items/green_medium_clay_ball"
-  }
-}

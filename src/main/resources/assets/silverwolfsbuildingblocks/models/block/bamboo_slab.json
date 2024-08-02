@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/bamboo_block",
-    "top": "silverwolfsbuildingblocks:block/bamboo_block",
-    "side": "silverwolfsbuildingblocks:block/bamboo_block"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/brown_medium_stone_bricks",
-    "top": "silverwolfsbuildingblocks:block/brown_medium_stone_bricks",
-    "side": "silverwolfsbuildingblocks:block/brown_medium_stone_bricks"
-  }
-}

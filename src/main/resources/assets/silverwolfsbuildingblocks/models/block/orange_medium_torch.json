@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/template_torch",
-  "textures": {
-    "torch": "silverwolfsbuildingblocks:block/orange_medium_torch"
-  }
-}

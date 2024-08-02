@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "silverwolfsbuildingblocks:items/pink_light_clay_ball"
-  }
-}

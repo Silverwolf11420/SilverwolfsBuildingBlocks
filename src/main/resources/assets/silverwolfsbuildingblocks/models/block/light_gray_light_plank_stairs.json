@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/light_gray_light_planks",
-    "top": "silverwolfsbuildingblocks:block/light_gray_light_planks",
-    "side": "silverwolfsbuildingblocks:block/light_gray_light_planks"
-  }
-}

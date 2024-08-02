@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "silverwolfsbuildingblocks:block/thatch_block",
-    "top": "silverwolfsbuildingblocks:block/extra_thatch_block",
-    "side": "silverwolfsbuildingblocks:block/thatch_block"
-  }
-}

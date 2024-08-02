@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "silverwolfsbuildingblocks:block/lime_medium_log_top",
-    "side": "silverwolfsbuildingblocks:block/lime_medium_log"
-  }
-}
