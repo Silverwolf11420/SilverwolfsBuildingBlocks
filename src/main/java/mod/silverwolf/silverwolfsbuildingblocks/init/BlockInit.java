@@ -24,5 +24,15 @@ public class BlockInit {
     public static final RegistryObject<StairBlock> BAMBOO_STAIRS = BLOCKS.register("bamboo_stairs", () -> new StairBlock(BlockInit.BAMBOO_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(BAMBOO_BLOCK.get()).strength(0.5f).sound(SoundType.BAMBOO)));
     public static final RegistryObject<TrapDoorBlock> BAMBOO_TRAPDOOR = BLOCKS.register("bamboo_trapdoor", () -> new TrapDoorBlock(BlockSetType.BAMBOO, BlockBehaviour.Properties.ofFullCopy(BAMBOO_BLOCK.get()).strength(0.5f).sound(SoundType.BAMBOO).noOcclusion()));
 
+    public static final RegistryObject<Block> THATCH_BLOCK = BLOCKS.register("thatch_block", () -> new RotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.HAY_BLOCK).strength(0.5f).sound(SoundType.WET_GRASS)));
+    public static final RegistryObject<ButtonBlock> THATCH_BUTTON = BLOCKS.register("thatch_button", () -> new ButtonBlock(BlockSetType.OAK, 30, BlockBehaviour.Properties.ofFullCopy(THATCH_BLOCK.get()).strength(0.5f).sound(SoundType.WET_GRASS).noCollission()));
+    public static final RegistryObject<DoorBlock> THATCH_DOOR = BLOCKS.register("thatch_door", () -> new DoorBlock(new BlockSetType("oak"), BlockBehaviour.Properties.ofFullCopy(THATCH_BLOCK.get()).strength(0.5f).sound(SoundType.WET_GRASS).noOcclusion()));
+    public static final RegistryObject<FenceBlock> THATCH_FENCE = BLOCKS.register("thatch_fence", () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(THATCH_BLOCK.get()).strength(0.5f).sound(SoundType.WET_GRASS)));
+    public static final RegistryObject<FenceGateBlock> THATCH_FENCE_GATE = BLOCKS.register("thatch_fence_gate", () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(THATCH_BLOCK.get()).strength(0.5f).sound(SoundType.WET_GRASS)));
+    public static final RegistryObject<LadderBlock> THATCH_LADDER = BLOCKS.register("thatch_ladder", () -> new LadderBlock(BlockBehaviour.Properties.ofFullCopy(THATCH_BLOCK.get()).strength(0.5f).sound(SoundType.WET_GRASS).noOcclusion()));
+    public static final RegistryObject<PressurePlateBlock>  THATCH_PRESSURE_PLATE = BLOCKS.register("thatch_pressure_plate", () -> new PressurePlateBlock(new BlockSetType("thatch"), BlockBehaviour.Properties.ofFullCopy(THATCH_BLOCK.get()).strength(0.5f).sound(SoundType.WET_GRASS).noCollission()));
+    public static final RegistryObject<SlabBlock>  THATCH_SLAB = BLOCKS.register("thatch_slab", () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(THATCH_BLOCK.get()).strength(0.5f).sound(SoundType.WET_GRASS)));
+    public static final RegistryObject<StairBlock> THATCH_STAIRS = BLOCKS.register("thatch_stairs", () -> new StairBlock(BlockInit.THATCH_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(THATCH_BLOCK.get()).strength(0.5f).sound(SoundType.WET_GRASS)));
+    public static final RegistryObject<TrapDoorBlock> THATCH_TRAPDOOR = BLOCKS.register("thatch_trapdoor", () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(THATCH_BLOCK.get()).strength(0.5f).sound(SoundType.WET_GRASS).noOcclusion()));
 
 }

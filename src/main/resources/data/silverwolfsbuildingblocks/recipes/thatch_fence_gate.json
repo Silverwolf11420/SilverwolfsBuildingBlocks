@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "silverwolfsbuildingblocks:thatch"
+    },
+    "W": {
+      "item": "silverwolfsbuildingblocks:thatch_block"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "silverwolfsbuildingblocks:thatch_fence_gate"
+  }
+}

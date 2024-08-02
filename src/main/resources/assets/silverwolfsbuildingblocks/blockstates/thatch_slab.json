@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silverwolfsbuildingblocks:block/thatch_slab"
+    },
+    "type=double": {
+      "model": "silverwolfsbuildingblocks:block/thatch_block"
+    },
+    "type=top": {
+      "model": "silverwolfsbuildingblocks:block/thatch_slab_top"
+    }
+  }
+}
