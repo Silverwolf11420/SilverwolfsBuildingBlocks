@@ -24,7 +24,7 @@ public class CreativeTabInit {
     public static final RegistryObject<CreativeModeTab> SBB = TABS.register("sbb_tab",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.sbb_tab"))
-                    .icon(ItemInit.THATCH_BLOCK_ITEM.get()::getDefaultInstance)
+                    .icon(ItemInit.BAMBOO_BLOCK_ITEM.get()::getDefaultInstance)
                     .displayItems((displayParams, output) ->
                             TAB_ITEMS.forEach(itemLike -> output.accept(itemLike.get())))
                     .withSearchBar()

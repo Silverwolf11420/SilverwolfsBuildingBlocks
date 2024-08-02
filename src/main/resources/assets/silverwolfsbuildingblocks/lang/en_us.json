@@ -1,0 +1,14 @@
+{
+  "itemGroup.sbb_tab": "SBB",
+
+  "block.silverwolfsbuildingblocks.bamboo_block" : "Bamboo Block",
+  "block.silverwolfsbuildingblocks.bamboo_button" : "Bamboo Button",
+  "block.silverwolfsbuildingblocks.bamboo_door" : "Bamboo Door",
+  "block.silverwolfsbuildingblocks.bamboo_fence" : "Bamboo Fence",
+  "block.silverwolfsbuildingblocks.bamboo_fence_gate" : "Bamboo Fence Gate",
+  "block.silverwolfsbuildingblocks.bamboo_ladder" : "Bamboo Ladder",
+  "block.silverwolfsbuildingblocks.bamboo_pressure_plate" : "Bamboo Pressure Plate",
+  "block.silverwolfsbuildingblocks.bamboo_slab" : "Bamboo Slab",
+  "block.silverwolfsbuildingblocks.bamboo_stairs" : "Bamboo Stairs",
+  "block.silverwolfsbuildingblocks.bamboo_trapdoor" : "Bamboo Trapdoor"
+}
