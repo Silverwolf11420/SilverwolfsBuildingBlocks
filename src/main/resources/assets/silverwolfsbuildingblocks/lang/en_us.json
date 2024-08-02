@@ -1,6 +1,8 @@
 {
   "itemGroup.sbb_tab": "SBB",
 
+  "item.silverwolfsbuildingblocks.thatch" : "Thatch",
+
   "block.silverwolfsbuildingblocks.bamboo_block" : "Bamboo Block",
   "block.silverwolfsbuildingblocks.bamboo_button" : "Bamboo Button",
   "block.silverwolfsbuildingblocks.bamboo_door" : "Bamboo Door",
