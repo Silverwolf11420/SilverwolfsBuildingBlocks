@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "silverwolfsbuildingblocks:clay_ball_pink_light"
+  },
+  "result": {
+    "id": "silverwolfsbuildingblocks:brick_pink_light"
+  }
+}
