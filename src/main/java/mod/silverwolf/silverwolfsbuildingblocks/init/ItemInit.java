@@ -124,6 +124,39 @@ public class ItemInit {
     public static final RegistryObject<Item> BRICK_YELLOW_MEDIUM = addToTab(ITEMS.register("brick_yellow_medium", () -> new Item(new Item.Properties())));
     public static final RegistryObject<Item> BRICK_YELLOW_DARK = addToTab(ITEMS.register("brick_yellow_dark", () -> new Item(new Item.Properties())));
 
+    public static final RegistryObject<Item> DYE_BLACK_LIGHT = addToTab(ITEMS.register("dye_black_light", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_BLACK_DARK = addToTab(ITEMS.register("dye_black_dark", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_BLUE_LIGHT = addToTab(ITEMS.register("dye_blue_light", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_BLUE_DARK = addToTab(ITEMS.register("dye_blue_dark", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_BROWN_LIGHT = addToTab(ITEMS.register("dye_brown_light", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_BROWN_DARK = addToTab(ITEMS.register("dye_brown_dark", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_CYAN_LIGHT = addToTab(ITEMS.register("dye_cyan_light", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_CYAN_DARK = addToTab(ITEMS.register("dye_cyan_dark", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_GRAY_LIGHT = addToTab(ITEMS.register("dye_gray_light", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_GRAY_DARK = addToTab(ITEMS.register("dye_gray_dark", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_GREEN_LIGHT = addToTab(ITEMS.register("dye_green_light", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_GREEN_DARK = addToTab(ITEMS.register("dye_green_dark", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_LIGHT_BLUE_LIGHT = addToTab(ITEMS.register("dye_light_blue_light", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_LIGHT_BLUE_DARK = addToTab(ITEMS.register("dye_light_blue_dark", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_LIGHT_GRAY_LIGHT = addToTab(ITEMS.register("dye_light_gray_light", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_LIGHT_GRAY_DARK = addToTab(ITEMS.register("dye_light_gray_dark", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_LIME_LIGHT = addToTab(ITEMS.register("dye_lime_light", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_LIME_DARK = addToTab(ITEMS.register("dye_lime_dark", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_MAGENTA_LIGHT = addToTab(ITEMS.register("dye_magenta_light", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_MAGENTA_DARK = addToTab(ITEMS.register("dye_magenta_dark", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_ORANGE_LIGHT = addToTab(ITEMS.register("dye_orange_light", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_ORANGE_DARK = addToTab(ITEMS.register("dye_orange_dark", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_PINK_LIGHT = addToTab(ITEMS.register("dye_pink_light", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_PINK_DARK = addToTab(ITEMS.register("dye_pink_dark", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_PURPLE_LIGHT = addToTab(ITEMS.register("dye_purple_light", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_PURPLE_DARK = addToTab(ITEMS.register("dye_purple_dark", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_RED_LIGHT = addToTab(ITEMS.register("dye_red_light", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_RED_DARK = addToTab(ITEMS.register("dye_red_dark", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_WHITE_LIGHT = addToTab(ITEMS.register("dye_white_light", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_WHITE_DARK = addToTab(ITEMS.register("dye_white_dark", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_YELLOW_LIGHT = addToTab(ITEMS.register("dye_yellow_light", () -> new Item(new Item.Properties())));
+    public static final RegistryObject<Item> DYE_YELLOW_DARK = addToTab(ITEMS.register("dye_yellow_dark", () -> new Item(new Item.Properties())));
+
     //Block Items
     public static final RegistryObject<BlockItem> BAMBOO_BLOCK_ITEM = addToTab(ITEMS.register("bamboo_block", () -> new BlockItem(BlockInit.BAMBOO_BLOCK.get(), new Item.Properties())));
     public static final RegistryObject<BlockItem> BAMBOO_BUTTON_ITEM = addToTab(ITEMS.register("bamboo_button", () -> new BlockItem(BlockInit.BAMBOO_BUTTON.get(), new Item.Properties())));
