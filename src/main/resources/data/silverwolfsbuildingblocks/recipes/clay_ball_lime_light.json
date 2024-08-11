@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "silverwolfsbuildingblocks:dye_lime_light"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "silverwolfsbuildingblocks:clay_ball_lime_light"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "y": {
+      "item": "minecraft:cyan_dye"
+    },
+    "z": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "pattern": [
+    "zzz",
+    "zyz",
+    "zzz"
+  ],
+  "result": {
+    "count": 8,
+    "id": "silverwolfsbuildingblocks:clay_ball_cyan_medium"
+  }
+}
