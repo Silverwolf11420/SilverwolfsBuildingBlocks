@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "y": {
+      "item": "minecraft:jungle_planks"
+    },
+    "x": {
+      "item": "silverwolfsbuildingblocks:jungle_stick"
+    }
+  },
+  "pattern": [
+    "xyx",
+    "xyx",
+    "xyx"
+  ],
+  "result": {
+    "count": 4,
+    "id": "silverwolfsbuildingblocks:jungle_beam_middle"
+  }
+}

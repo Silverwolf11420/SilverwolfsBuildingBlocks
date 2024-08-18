@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "y": {
+      "item": "minecraft:spruce_planks"
+    },
+    "x": {
+      "item": "silverwolfsbuildingblocks:spruce_stick"
+    }
+  },
+  "pattern": [
+    "xyx",
+    "xyx",
+    "xxx"
+  ],
+  "result": {
+    "count": 4,
+    "id": "silverwolfsbuildingblocks:spruce_beam_down"
+  }
+}

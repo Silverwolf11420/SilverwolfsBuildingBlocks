@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "silverwolfsbuildingblocks:block/jungle_beam_down",
+    "side": "silverwolfsbuildingblocks:block/jungle_beam_down"
+  }
+}

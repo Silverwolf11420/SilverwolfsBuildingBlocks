@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "silverwolfsbuildingblocks:block/crimson_beam_up",
+    "side": "silverwolfsbuildingblocks:block/crimson_beam_up"
+  }
+}

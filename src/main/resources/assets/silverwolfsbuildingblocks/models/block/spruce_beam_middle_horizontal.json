@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "silverwolfsbuildingblocks:block/spruce_beam_middle",
+    "side": "silverwolfsbuildingblocks:block/spruce_beam_middle"
+  }
+}

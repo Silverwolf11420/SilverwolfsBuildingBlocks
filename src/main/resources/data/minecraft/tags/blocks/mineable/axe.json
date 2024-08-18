@@ -1,5 +1,34 @@
 {
   "values": [
-    "minecraft:note_block"
+    "silverwolfsbuildingblocks:acacia_beam_up",
+    "silverwolfsbuildingblocks:acacia_beam_middle",
+    "silverwolfsbuildingblocks:acacia_beam_down",
+    "silverwolfsbuildingblocks:birch_beam_up",
+    "silverwolfsbuildingblocks:birch_beam_middle",
+    "silverwolfsbuildingblocks:birch_beam_down",
+    "silverwolfsbuildingblocks:cherry_beam_up",
+    "silverwolfsbuildingblocks:cherry_beam_middle",
+    "silverwolfsbuildingblocks:cherry_beam_down",
+    "silverwolfsbuildingblocks:crimson_beam_up",
+    "silverwolfsbuildingblocks:crimson_beam_middle",
+    "silverwolfsbuildingblocks:crimson_beam_down",
+    "silverwolfsbuildingblocks:dark_oak_beam_up",
+    "silverwolfsbuildingblocks:dark_oak_beam_middle",
+    "silverwolfsbuildingblocks:dark_oak_beam_down",
+    "silverwolfsbuildingblocks:jungle_beam_up",
+    "silverwolfsbuildingblocks:jungle_beam_middle",
+    "silverwolfsbuildingblocks:jungle_beam_down",
+    "silverwolfsbuildingblocks:mangrove_beam_up",
+    "silverwolfsbuildingblocks:mangrove_beam_middle",
+    "silverwolfsbuildingblocks:mangrove_beam_down",
+    "silverwolfsbuildingblocks:oak_beam_up",
+    "silverwolfsbuildingblocks:oak_beam_middle",
+    "silverwolfsbuildingblocks:oak_beam_down",
+    "silverwolfsbuildingblocks:spruce_beam_up",
+    "silverwolfsbuildingblocks:spruce_beam_middle",
+    "silverwolfsbuildingblocks:spruce_beam_down",
+    "silverwolfsbuildingblocks:warped_beam_up",
+    "silverwolfsbuildingblocks:warped_beam_middle",
+    "silverwolfsbuildingblocks:warped_beam_down"
   ]
 }

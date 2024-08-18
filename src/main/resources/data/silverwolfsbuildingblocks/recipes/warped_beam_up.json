@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "y": {
+      "item": "minecraft:warped_planks"
+    },
+    "x": {
+      "item": "silverwolfsbuildingblocks:warped_stick"
+    }
+  },
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xyx"
+  ],
+  "result": {
+    "count": 4,
+    "id": "silverwolfsbuildingblocks:warped_beam_up"
+  }
+}

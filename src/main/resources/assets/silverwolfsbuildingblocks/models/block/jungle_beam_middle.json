@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "silverwolfsbuildingblocks:block/jungle_beam_middle",
+    "side": "silverwolfsbuildingblocks:block/jungle_beam_middle"
+  }
+}

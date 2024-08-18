@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "y": {
+      "item": "minecraft:birch_planks"
+    },
+    "x": {
+      "item": "silverwolfsbuildingblocks:birch_stick"
+    }
+  },
+  "pattern": [
+    "xyx",
+    "xyx",
+    "xyx"
+  ],
+  "result": {
+    "count": 4,
+    "id": "silverwolfsbuildingblocks:birch_beam_middle"
+  }
+}

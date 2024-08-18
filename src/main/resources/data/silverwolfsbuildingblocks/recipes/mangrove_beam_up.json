@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "y": {
+      "item": "minecraft:mangrove_planks"
+    },
+    "x": {
+      "item": "silverwolfsbuildingblocks:mangrove_stick"
+    }
+  },
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xyx"
+  ],
+  "result": {
+    "count": 4,
+    "id": "silverwolfsbuildingblocks:mangrove_beam_up"
+  }
+}

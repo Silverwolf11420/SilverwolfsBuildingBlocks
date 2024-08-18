@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "y": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "x": {
+      "item": "silverwolfsbuildingblocks:dark_oak_stick"
+    }
+  },
+  "pattern": [
+    "xyx",
+    "xyx",
+    "xxx"
+  ],
+  "result": {
+    "count": 4,
+    "id": "silverwolfsbuildingblocks:dark_oak_beam_down"
+  }
+}

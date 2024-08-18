@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "silverwolfsbuildingblocks:block/oak_beam_up_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "silverwolfsbuildingblocks:block/oak_beam_up"
+    },
+    "axis=z": {
+      "model": "silverwolfsbuildingblocks:block/oak_beam_up_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "y": {
+      "item": "minecraft:crimson_planks"
+    },
+    "x": {
+      "item": "silverwolfsbuildingblocks:crimson_stick"
+    }
+  },
+  "pattern": [
+    "xyx",
+    "xyx",
+    "xxx"
+  ],
+  "result": {
+    "count": 4,
+    "id": "silverwolfsbuildingblocks:crimson_beam_down"
+  }
+}

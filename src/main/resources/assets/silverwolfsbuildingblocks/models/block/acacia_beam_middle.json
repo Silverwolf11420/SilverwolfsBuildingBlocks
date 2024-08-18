@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "silverwolfsbuildingblocks:block/acacia_beam_middle",
+    "side": "silverwolfsbuildingblocks:block/acacia_beam_middle"
+  }
+}
