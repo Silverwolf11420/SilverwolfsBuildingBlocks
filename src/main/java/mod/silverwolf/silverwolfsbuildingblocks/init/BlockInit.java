@@ -66,4 +66,15 @@ public class BlockInit {
     public static final RegistryObject<Block> WARPED_BEAM_MIDDLE = BLOCKS.register("warped_beam_middle", () -> new RotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_HYPHAE).strength(2.0f, 3.0f).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> WARPED_BEAM_DOWN = BLOCKS.register("warped_beam_down", () -> new RotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_HYPHAE).strength(2.0f, 3.0f).sound(SoundType.WOOD)));
 
+    public static final RegistryObject<LadderBlock> ACACIA_LADDER = BLOCKS.register("acacia_ladder", () -> new LadderBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LADDER).strength(0.5f).sound(SoundType.LADDER).noOcclusion()));
+    public static final RegistryObject<LadderBlock> BIRCH_LADDER = BLOCKS.register("birch_ladder", () -> new LadderBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LADDER).strength(0.5f).sound(SoundType.LADDER).noOcclusion()));
+    public static final RegistryObject<LadderBlock> CHERRY_LADDER = BLOCKS.register("cherry_ladder", () -> new LadderBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LADDER).strength(0.5f).sound(SoundType.LADDER).noOcclusion()));
+    public static final RegistryObject<LadderBlock> CRIMSON_LADDER = BLOCKS.register("crimson_ladder", () -> new LadderBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LADDER).strength(0.5f).sound(SoundType.LADDER).noOcclusion()));
+    public static final RegistryObject<LadderBlock> DARK_OAK_LADDER = BLOCKS.register("dark_oak_ladder", () -> new LadderBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LADDER).strength(0.5f).sound(SoundType.LADDER).noOcclusion()));
+    public static final RegistryObject<LadderBlock> JUNGLE_LADDER = BLOCKS.register("jungle_ladder", () -> new LadderBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LADDER).strength(0.5f).sound(SoundType.LADDER).noOcclusion()));
+    public static final RegistryObject<LadderBlock> MANGROVE_LADDER = BLOCKS.register("mangrove_ladder", () -> new LadderBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LADDER).strength(0.5f).sound(SoundType.LADDER).noOcclusion()));
+    public static final RegistryObject<LadderBlock> OAK_LADDER = BLOCKS.register("oak_ladder", () -> new LadderBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LADDER).strength(0.5f).sound(SoundType.LADDER).noOcclusion()));
+    public static final RegistryObject<LadderBlock> SPRUCE_LADDER = BLOCKS.register("spruce_ladder", () -> new LadderBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LADDER).strength(0.5f).sound(SoundType.LADDER).noOcclusion()));
+    public static final RegistryObject<LadderBlock> WARPED_LADDER = BLOCKS.register("warped_ladder", () -> new LadderBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LADDER).strength(0.5f).sound(SoundType.LADDER).noOcclusion()));
+
 }

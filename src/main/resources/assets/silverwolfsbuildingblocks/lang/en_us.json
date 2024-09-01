@@ -196,6 +196,24 @@
   "block.silverwolfsbuildingblocks.spruce_beam_down" : "Spruce Beam Down",
   "block.silverwolfsbuildingblocks.warped_beam_up" : "Warped Beam Up",
   "block.silverwolfsbuildingblocks.warped_beam_middle" : "Warped Beam Middle",
-  "block.silverwolfsbuildingblocks.warped_beam_down" : "Warped Beam Down"
+  "block.silverwolfsbuildingblocks.warped_beam_down" : "Warped Beam Down",
+
+  "block.silverwolfsbuildingblocks.acacia_ladder" : "Acacia Ladder",
+  "block.silverwolfsbuildingblocks.birch_ladder" : "Birch Ladder",
+  "block.silverwolfsbuildingblocks.cherry_ladder" : "Cherry Ladder",
+  "block.silverwolfsbuildingblocks.crimson_ladder" : "Crimson Ladder",
+  "block.silverwolfsbuildingblocks.dark_oak_ladder" : "Dark Oak Ladder",
+  "block.silverwolfsbuildingblocks.jungle_ladder" : "Jungle Ladder",
+  "block.silverwolfsbuildingblocks.mangrove_ladder" : "Mangrove Ladder",
+  "block.silverwolfsbuildingblocks.oak_ladder" : "Oak Ladder",
+  "block.silverwolfsbuildingblocks.spruce_ladder" : "Spruce Ladder",
+  "block.silverwolfsbuildingblocks.warped_ladder" : "Warped Ladder"
+
+
+
+
+
+
+
 
 }

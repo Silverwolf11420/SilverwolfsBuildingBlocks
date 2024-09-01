@@ -211,5 +211,16 @@ public class ItemInit {
     public static final RegistryObject<BlockItem> WARPED_BEAM_MIDDLE_ITEM = addToTab(ITEMS.register("warped_beam_middle", () -> new BlockItem(BlockInit.WARPED_BEAM_MIDDLE.get(), new Item.Properties())));
     public static final RegistryObject<BlockItem> WARPED_BEAM_DOWN_ITEM = addToTab(ITEMS.register("warped_beam_down", () -> new BlockItem(BlockInit.WARPED_BEAM_DOWN.get(), new Item.Properties())));
 
+    public static final RegistryObject<BlockItem> ACACIA_LADDER_ITEM = addToTab(ITEMS.register("acacia_ladder", () -> new BlockItem(BlockInit.ACACIA_LADDER.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> BIRCH_LADDER_ITEM = addToTab(ITEMS.register("birch_ladder", () -> new BlockItem(BlockInit.BIRCH_LADDER.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> CHERRY_LADDER_ITEM = addToTab(ITEMS.register("cherry_ladder", () -> new BlockItem(BlockInit.CHERRY_LADDER.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> CRIMSON_LADDER_ITEM = addToTab(ITEMS.register("crimson_ladder", () -> new BlockItem(BlockInit.CRIMSON_LADDER.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> DARK_OAK_LADDER_ITEM = addToTab(ITEMS.register("dark_oak_ladder", () -> new BlockItem(BlockInit.DARK_OAK_LADDER.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> JUNGLE_LADDER_ITEM = addToTab(ITEMS.register("jungle_ladder", () -> new BlockItem(BlockInit.JUNGLE_LADDER.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MANGROVE_LADDER_ITEM = addToTab(ITEMS.register("mangrove_ladder", () -> new BlockItem(BlockInit.MANGROVE_LADDER.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> OAK_LADDER_ITEM = addToTab(ITEMS.register("oak_ladder", () -> new BlockItem(BlockInit.OAK_LADDER.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> SPRUCE_LADDER_ITEM = addToTab(ITEMS.register("spruce_ladder", () -> new BlockItem(BlockInit.SPRUCE_LADDER.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> WARPED_LADDER_ITEM = addToTab(ITEMS.register("warped_ladder", () -> new BlockItem(BlockInit.WARPED_LADDER.get(), new Item.Properties())));
+
 
 }

@@ -1,6 +1,17 @@
 {
   "values": [
     "silverwolfsbuildingblocks:bamboo_ladder",
-    "silverwolfsbuildingblocks:thatch_ladder"
+    "silverwolfsbuildingblocks:thatch_ladder",
+    "silverwolfsbuildingblocks:acacia_ladder",
+    "silverwolfsbuildingblocks:birch_ladder",
+    "silverwolfsbuildingblocks:cherry_ladder",
+    "silverwolfsbuildingblocks:crimson_ladder",
+    "silverwolfsbuildingblocks:dark_oak_ladder",
+    "silverwolfsbuildingblocks:jungle_ladder",
+    "silverwolfsbuildingblocks:mangrove_ladder",
+    "silverwolfsbuildingblocks:oak_ladder",
+    "silverwolfsbuildingblocks:spruce_ladder",
+    "silverwolfsbuildingblocks:warped_ladder"
+
   ]
 }
