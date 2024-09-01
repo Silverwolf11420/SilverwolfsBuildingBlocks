@@ -1,6 +1,10 @@
 package mod.silverwolf.silverwolfsbuildingblocks.init;
 
 import mod.silverwolf.silverwolfsbuildingblocks.SilverwolfsBuildingBlocks;
+import net.minecraft.client.particle.FlameParticle;
+import net.minecraft.core.particles.ParticleType;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
@@ -76,5 +80,27 @@ public class BlockInit {
     public static final RegistryObject<LadderBlock> OAK_LADDER = BLOCKS.register("oak_ladder", () -> new LadderBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LADDER).strength(0.5f).sound(SoundType.LADDER).noOcclusion()));
     public static final RegistryObject<LadderBlock> SPRUCE_LADDER = BLOCKS.register("spruce_ladder", () -> new LadderBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LADDER).strength(0.5f).sound(SoundType.LADDER).noOcclusion()));
     public static final RegistryObject<LadderBlock> WARPED_LADDER = BLOCKS.register("warped_ladder", () -> new LadderBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LADDER).strength(0.5f).sound(SoundType.LADDER).noOcclusion()));
+
+    public static final RegistryObject<TorchBlock> ACACIA_TORCH = BLOCKS.register("acacia_torch", () -> new TorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD)));
+    public static final RegistryObject<WallTorchBlock> ACACIA_WALL_TORCH = BLOCKS.register("acacia_wall_torch", () -> new WallTorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.WALL_TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD).dropsLike(ACACIA_TORCH.get())));
+
+    public static final RegistryObject<TorchBlock> BIRCH_TORCH = BLOCKS.register("birch_torch", () -> new TorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD)));
+    public static final RegistryObject<WallTorchBlock> BIRCH_WALL_TORCH = BLOCKS.register("birch_wall_torch", () -> new WallTorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.WALL_TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD).dropsLike(BIRCH_TORCH.get())));
+    public static final RegistryObject<TorchBlock> CHERRY_TORCH = BLOCKS.register("cherry_torch", () -> new TorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD)));
+    public static final RegistryObject<WallTorchBlock> CHERRY_WALL_TORCH = BLOCKS.register("cherry_wall_torch", () -> new WallTorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.WALL_TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD).dropsLike(CHERRY_TORCH.get())));
+    public static final RegistryObject<TorchBlock> CRIMSON_TORCH = BLOCKS.register("crimson_torch", () -> new TorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD)));
+    public static final RegistryObject<WallTorchBlock> CRIMSON_WALL_TORCH = BLOCKS.register("crimson_wall_torch", () -> new WallTorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.WALL_TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD).dropsLike(CRIMSON_TORCH.get())));
+    public static final RegistryObject<TorchBlock> DARK_OAK_TORCH = BLOCKS.register("dark_oak_torch", () -> new TorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD)));
+    public static final RegistryObject<WallTorchBlock> DARK_OAK_WALL_TORCH = BLOCKS.register("dark_oak_wall_torch", () -> new WallTorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.WALL_TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD).dropsLike(DARK_OAK_TORCH.get())));
+    public static final RegistryObject<TorchBlock> JUNGLE_TORCH = BLOCKS.register("jungle_torch", () -> new TorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD)));
+    public static final RegistryObject<WallTorchBlock> JUNGLE_WALL_TORCH = BLOCKS.register("jungle_wall_torch", () -> new WallTorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.WALL_TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD).dropsLike(JUNGLE_TORCH.get())));
+    public static final RegistryObject<TorchBlock> MANGROVE_TORCH = BLOCKS.register("mangrove_torch", () -> new TorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD)));
+    public static final RegistryObject<WallTorchBlock> MANGROVE_WALL_TORCH = BLOCKS.register("mangrove_wall_torch", () -> new WallTorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.WALL_TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD).dropsLike(MANGROVE_TORCH.get())));
+    public static final RegistryObject<TorchBlock> OAK_TORCH = BLOCKS.register("oak_torch", () -> new TorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD)));
+    public static final RegistryObject<WallTorchBlock> OAK_WALL_TORCH = BLOCKS.register("oak_wall_torch", () -> new WallTorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.WALL_TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD).dropsLike(OAK_TORCH.get())));
+    public static final RegistryObject<TorchBlock> SPRUCE_TORCH = BLOCKS.register("spruce_torch", () -> new TorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD)));
+    public static final RegistryObject<WallTorchBlock> SPRUCE_WALL_TORCH = BLOCKS.register("spruce_wall_torch", () -> new WallTorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.WALL_TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD).dropsLike(SPRUCE_TORCH.get())));
+    public static final RegistryObject<TorchBlock> WARPED_TORCH = BLOCKS.register("warped_torch", () -> new TorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD)));
+    public static final RegistryObject<WallTorchBlock> WARPED_WALL_TORCH = BLOCKS.register("warped_wall_torch", () -> new WallTorchBlock(ParticleTypes.FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.WALL_TORCH).noCollission().instabreak().lightLevel((state) -> 14).sound(SoundType.WOOD).dropsLike(WARPED_TORCH.get())));
 
 }

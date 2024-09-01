@@ -207,7 +207,19 @@
   "block.silverwolfsbuildingblocks.mangrove_ladder" : "Mangrove Ladder",
   "block.silverwolfsbuildingblocks.oak_ladder" : "Oak Ladder",
   "block.silverwolfsbuildingblocks.spruce_ladder" : "Spruce Ladder",
-  "block.silverwolfsbuildingblocks.warped_ladder" : "Warped Ladder"
+  "block.silverwolfsbuildingblocks.warped_ladder" : "Warped Ladder",
+
+  "block.silverwolfsbuildingblocks.acacia_torch" : "Acacia Torch",
+  "block.silverwolfsbuildingblocks.birch_torch" : "Birch Torch",
+  "block.silverwolfsbuildingblocks.cherry_torch" : "Cherry Torch",
+  "block.silverwolfsbuildingblocks.crimson_torch" : "Crimson Torch",
+  "block.silverwolfsbuildingblocks.dark_oak_torch" : "Dark Oak Torch",
+  "block.silverwolfsbuildingblocks.jungle_torch" : "Jungle Torch",
+  "block.silverwolfsbuildingblocks.mangrove_torch" : "Mangrove Torch",
+  "block.silverwolfsbuildingblocks.oak_torch" : "Oak Torch",
+  "block.silverwolfsbuildingblocks.spruce_torch" : "Spruce Torch",
+  "block.silverwolfsbuildingblocks.warped_torch" : "Warped Torch"
+
 
 
 

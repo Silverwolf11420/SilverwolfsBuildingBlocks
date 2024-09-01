@@ -1,8 +1,10 @@
 package mod.silverwolf.silverwolfsbuildingblocks.init;
 
 import mod.silverwolf.silverwolfsbuildingblocks.SilverwolfsBuildingBlocks;
+import net.minecraft.core.Direction;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.StandingAndWallBlockItem;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -222,5 +224,15 @@ public class ItemInit {
     public static final RegistryObject<BlockItem> SPRUCE_LADDER_ITEM = addToTab(ITEMS.register("spruce_ladder", () -> new BlockItem(BlockInit.SPRUCE_LADDER.get(), new Item.Properties())));
     public static final RegistryObject<BlockItem> WARPED_LADDER_ITEM = addToTab(ITEMS.register("warped_ladder", () -> new BlockItem(BlockInit.WARPED_LADDER.get(), new Item.Properties())));
 
+    public static final RegistryObject<BlockItem> ACACIA_TORCH_ITEM = addToTab(ITEMS.register("acacia_torch", () -> new StandingAndWallBlockItem(BlockInit.ACACIA_TORCH.get(), BlockInit.ACACIA_WALL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
+    public static final RegistryObject<BlockItem> BIRCH_TORCH_ITEM = addToTab(ITEMS.register("birch_torch", () -> new StandingAndWallBlockItem(BlockInit.BIRCH_TORCH.get(), BlockInit.BIRCH_WALL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
+    public static final RegistryObject<BlockItem> CHERRY_TORCH_ITEM = addToTab(ITEMS.register("cherry_torch", () -> new StandingAndWallBlockItem(BlockInit.CHERRY_TORCH.get(), BlockInit.CHERRY_WALL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
+    public static final RegistryObject<BlockItem> CRIMSON_TORCH_ITEM = addToTab(ITEMS.register("crimson_torch", () -> new StandingAndWallBlockItem(BlockInit.CRIMSON_TORCH.get(), BlockInit.CRIMSON_WALL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
+    public static final RegistryObject<BlockItem> DARK_OAK_TORCH_ITEM = addToTab(ITEMS.register("dark_oak_torch", () -> new StandingAndWallBlockItem(BlockInit.DARK_OAK_TORCH.get(), BlockInit.DARK_OAK_WALL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
+    public static final RegistryObject<BlockItem> JUNGLE_TORCH_ITEM = addToTab(ITEMS.register("jungle_torch", () -> new StandingAndWallBlockItem(BlockInit.JUNGLE_TORCH.get(), BlockInit.JUNGLE_WALL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
+    public static final RegistryObject<BlockItem> MANGROVE_TORCH_ITEM = addToTab(ITEMS.register("mangrove_torch", () -> new StandingAndWallBlockItem(BlockInit.MANGROVE_TORCH.get(), BlockInit.MANGROVE_WALL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
+    public static final RegistryObject<BlockItem> OAK_TORCH_ITEM = addToTab(ITEMS.register("oak_torch", () -> new StandingAndWallBlockItem(BlockInit.OAK_TORCH.get(), BlockInit.OAK_WALL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
+    public static final RegistryObject<BlockItem> SPRUCE_TORCH_ITEM = addToTab(ITEMS.register("spruce_torch", () -> new StandingAndWallBlockItem(BlockInit.SPRUCE_TORCH.get(), BlockInit.SPRUCE_WALL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
+    public static final RegistryObject<BlockItem> WARPED_TORCH_ITEM = addToTab(ITEMS.register("warped_torch", () -> new StandingAndWallBlockItem(BlockInit.WARPED_TORCH.get(), BlockInit.WARPED_WALL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
 
 }
