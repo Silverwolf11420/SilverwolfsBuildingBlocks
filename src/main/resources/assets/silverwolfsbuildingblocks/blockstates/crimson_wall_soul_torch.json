@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "silverwolfsbuildingblocks:block/crimson_wall_soul_torch"
+    },
+    "facing=north": {
+      "model": "silverwolfsbuildingblocks:block/crimson_wall_soul_torch",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "silverwolfsbuildingblocks:block/crimson_wall_soul_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "silverwolfsbuildingblocks:block/crimson_wall_soul_torch",
+      "y": 180
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_torch",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "torch": "silverwolfsbuildingblocks:block/cherry_soul_torch"
+  }
+}

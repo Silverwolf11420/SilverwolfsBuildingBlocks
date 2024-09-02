@@ -218,13 +218,18 @@
   "block.silverwolfsbuildingblocks.mangrove_torch" : "Mangrove Torch",
   "block.silverwolfsbuildingblocks.oak_torch" : "Oak Torch",
   "block.silverwolfsbuildingblocks.spruce_torch" : "Spruce Torch",
-  "block.silverwolfsbuildingblocks.warped_torch" : "Warped Torch"
+  "block.silverwolfsbuildingblocks.warped_torch" : "Warped Torch",
 
-
-
-
-
-
+  "block.silverwolfsbuildingblocks.acacia_soul_torch" : "Acacia Soul Torch",
+  "block.silverwolfsbuildingblocks.birch_soul_torch" : "Birch Soul Torch",
+  "block.silverwolfsbuildingblocks.cherry_soul_torch" : "Cherry Soul Torch",
+  "block.silverwolfsbuildingblocks.crimson_soul_torch" : "Crimson Soul Torch",
+  "block.silverwolfsbuildingblocks.dark_oak_soul_torch" : "Dark Oak Soul Torch",
+  "block.silverwolfsbuildingblocks.jungle_soul_torch" : "Jungle Soul Torch",
+  "block.silverwolfsbuildingblocks.mangrove_soul_torch" : "Mangrove Soul Torch",
+  "block.silverwolfsbuildingblocks.oak_soul_torch" : "Oak Soul Torch",
+  "block.silverwolfsbuildingblocks.spruce_soul_torch" : "Spruce Soul Torch",
+  "block.silverwolfsbuildingblocks.warped_soul_torch" : "Warped Soul Torch"
 
 
 
