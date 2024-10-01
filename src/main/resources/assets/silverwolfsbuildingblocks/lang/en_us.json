@@ -236,7 +236,13 @@
   "block.silverwolfsbuildingblocks.mossy_stone_pressure_plate" : "Mossy Stone Pressure Plate",
   "block.silverwolfsbuildingblocks.mossy_stone_slab" : "Mossy Stone Slab",
   "block.silverwolfsbuildingblocks.mossy_stone_stairs" : "Mossy Stone Stairs",
-  "block.silverwolfsbuildingblocks.mossy_stone_wall" : "Mossy Stone Wall"
+  "block.silverwolfsbuildingblocks.mossy_stone_wall" : "Mossy Stone Wall",
 
+  "block.silverwolfsbuildingblocks.more_mossy_stone" : "More Mossy Stone",
+  "block.silverwolfsbuildingblocks.more_mossy_stone_button" : "More Mossy Stone Button",
+  "block.silverwolfsbuildingblocks.more_mossy_stone_pressure_plate" : "More Mossy Stone Pressure Plate",
+  "block.silverwolfsbuildingblocks.more_mossy_stone_slab" : "More Mossy Stone Slab",
+  "block.silverwolfsbuildingblocks.more_mossy_stone_stairs" : "More Mossy Stone Stairs",
+  "block.silverwolfsbuildingblocks.more_mossy_stone_wall" : "More Mossy Stone Wall"
 
 }

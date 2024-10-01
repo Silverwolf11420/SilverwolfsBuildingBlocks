@@ -5,8 +5,13 @@
     "silverwolfsbuildingblocks:mossy_stone_pressure_plate",
     "silverwolfsbuildingblocks:mossy_stone_slab",
     "silverwolfsbuildingblocks:mossy_stone_stairs",
-    "silverwolfsbuildingblocks:mossy_stone_wall"
+    "silverwolfsbuildingblocks:mossy_stone_wall",
 
-
+    "silverwolfsbuildingblocks:more_mossy_stone",
+    "silverwolfsbuildingblocks:more_mossy_stone_button",
+    "silverwolfsbuildingblocks:more_mossy_stone_pressure_plate",
+    "silverwolfsbuildingblocks:more_mossy_stone_slab",
+    "silverwolfsbuildingblocks:more_mossy_stone_stairs",
+    "silverwolfsbuildingblocks:more_mossy_stone_wall"
   ]
 }
