@@ -123,4 +123,11 @@ public class BlockInit {
     public static final RegistryObject<TorchBlock> WARPED_SOUL_TORCH = BLOCKS.register("warped_soul_torch", () -> new TorchBlock(ParticleTypes.SOUL_FIRE_FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.TORCH).noCollission().instabreak().lightLevel((state) -> 10).sound(SoundType.WOOD)));
     public static final RegistryObject<WallTorchBlock> WARPED_WALL_SOUL_TORCH = BLOCKS.register("warped_wall_soul_torch", () -> new WallTorchBlock(ParticleTypes.SOUL_FIRE_FLAME, BlockBehaviour.Properties.ofFullCopy(Blocks.WALL_TORCH).noCollission().instabreak().lightLevel((state) -> 10).sound(SoundType.WOOD).dropsLike(WARPED_SOUL_TORCH.get())));
 
+    public static final RegistryObject<Block> MOSSY_STONE = BLOCKS.register("mossy_stone", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).strength(1.5F, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
+    public static final RegistryObject<ButtonBlock> MOSSY_STONE_BUTTON = BLOCKS.register("mossy_stone_button", () -> new ButtonBlock(BlockSetType.STONE, 20, BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).strength(0.5F).sound(SoundType.STONE).noCollission().requiresCorrectToolForDrops()));
+    public static final RegistryObject<PressurePlateBlock> MOSSY_STONE_PRESSURE_PLATE = BLOCKS.register("mossy_stone_pressure_plate", () -> new PressurePlateBlock(new BlockSetType("stone") ,BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).strength(0.5F).sound(SoundType.STONE).noCollission().requiresCorrectToolForDrops()));
+    public static final RegistryObject<SlabBlock> MOSSY_STONE_SLAB = BLOCKS.register("mossy_stone_slab", () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).strength(1.5F, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
+    public static final RegistryObject<StairBlock> MOSSY_STONE_STAIRS = BLOCKS.register("mossy_stone_stairs", () -> new StairBlock(MOSSY_STONE.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).strength(1.5F, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
+    public static final RegistryObject<WallBlock> MOSSY_STONE_WALL = BLOCKS.register("mossy_stone_wall", () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).strength(1.5F, 6.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
+
 }

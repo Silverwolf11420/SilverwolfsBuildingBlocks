@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "x": {
+      "item": "silverwolfsbuildingblocks:mossy_stone"
+    }
+  },
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "result": {
+    "count": 3,
+    "id": "silverwolfsbuildingblocks:mossy_stone_wall"
+  }
+}

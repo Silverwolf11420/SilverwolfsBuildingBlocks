@@ -1,5 +1,12 @@
 {
   "values": [
-    "minecraft:stone"
+    "silverwolfsbuildingblocks:mossy_stone",
+    "silverwolfsbuildingblocks:mossy_stone_button",
+    "silverwolfsbuildingblocks:mossy_stone_pressure_plate",
+    "silverwolfsbuildingblocks:mossy_stone_slab",
+    "silverwolfsbuildingblocks:mossy_stone_stairs",
+    "silverwolfsbuildingblocks:mossy_stone_wall"
+
+
   ]
 }

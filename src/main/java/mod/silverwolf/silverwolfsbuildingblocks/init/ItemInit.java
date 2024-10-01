@@ -246,4 +246,11 @@ public class ItemInit {
     public static final RegistryObject<BlockItem> SPRUCE_SOUL_TORCH_ITEM = addToTab(ITEMS.register("spruce_soul_torch", () -> new StandingAndWallBlockItem(BlockInit.SPRUCE_SOUL_TORCH.get(), BlockInit.SPRUCE_WALL_SOUL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
     public static final RegistryObject<BlockItem> WARPED_SOUL_TORCH_ITEM = addToTab(ITEMS.register("warped_soul_torch", () -> new StandingAndWallBlockItem(BlockInit.WARPED_SOUL_TORCH.get(), BlockInit.WARPED_WALL_SOUL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
 
+    public static final RegistryObject<BlockItem> MOSSY_STONE_ITEM = addToTab(ITEMS.register("mossy_stone", () -> new BlockItem(BlockInit.MOSSY_STONE.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MOSSY_STONE_BUTTON_ITEM = addToTab(ITEMS.register("mossy_stone_button", () -> new BlockItem(BlockInit.MOSSY_STONE_BUTTON.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MOSSY_STONE_PRESSURE_PLATE_ITEM = addToTab(ITEMS.register("mossy_stone_pressure_plate", () -> new BlockItem(BlockInit.MOSSY_STONE_PRESSURE_PLATE.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MOSSY_STONE_SLAB_ITEM = addToTab(ITEMS.register("mossy_stone_slab", () -> new BlockItem(BlockInit.MOSSY_STONE_SLAB.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MOSSY_STONE_STAIRS_ITEM = addToTab(ITEMS.register("mossy_stone_stairs", () -> new BlockItem(BlockInit.MOSSY_STONE_STAIRS.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MOSSY_STONE_WALL_ITEM = addToTab(ITEMS.register("mossy_stone_wall", () -> new BlockItem(BlockInit.MOSSY_STONE_WALL.get(), new Item.Properties())));
+
 }

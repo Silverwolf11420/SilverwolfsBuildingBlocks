@@ -229,8 +229,14 @@
   "block.silverwolfsbuildingblocks.mangrove_soul_torch" : "Mangrove Soul Torch",
   "block.silverwolfsbuildingblocks.oak_soul_torch" : "Oak Soul Torch",
   "block.silverwolfsbuildingblocks.spruce_soul_torch" : "Spruce Soul Torch",
-  "block.silverwolfsbuildingblocks.warped_soul_torch" : "Warped Soul Torch"
+  "block.silverwolfsbuildingblocks.warped_soul_torch" : "Warped Soul Torch",
 
+  "block.silverwolfsbuildingblocks.mossy_stone" : "Mossy Stone",
+  "block.silverwolfsbuildingblocks.mossy_stone_button" : "Mossy Stone Button",
+  "block.silverwolfsbuildingblocks.mossy_stone_pressure_plate" : "Mossy Stone Pressure Plate",
+  "block.silverwolfsbuildingblocks.mossy_stone_slab" : "Mossy Stone Slab",
+  "block.silverwolfsbuildingblocks.mossy_stone_stairs" : "Mossy Stone Stairs",
+  "block.silverwolfsbuildingblocks.mossy_stone_wall" : "Mossy Stone Wall"
 
 
 }
