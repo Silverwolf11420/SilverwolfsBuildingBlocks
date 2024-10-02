@@ -5,6 +5,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.StandingAndWallBlockItem;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -160,70 +161,6 @@ public class ItemInit {
     public static final RegistryObject<Item> DYE_YELLOW_DARK = addToTab(ITEMS.register("dye_yellow_dark", () -> new Item(new Item.Properties())));
 
     //Block Items
-    public static final RegistryObject<BlockItem> BAMBOO_BLOCK_ITEM = addToTab(ITEMS.register("bamboo_block", () -> new BlockItem(BlockInit.BAMBOO_BLOCK.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> BAMBOO_BUTTON_ITEM = addToTab(ITEMS.register("bamboo_button", () -> new BlockItem(BlockInit.BAMBOO_BUTTON.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> BAMBOO_DOOR_ITEM = addToTab(ITEMS.register("bamboo_door", () -> new BlockItem(BlockInit.BAMBOO_DOOR.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> BAMBOO_FENCE_ITEM = addToTab(ITEMS.register("bamboo_fence", () -> new BlockItem(BlockInit.BAMBOO_FENCE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> BAMBOO_FENCE_GATE_ITEM = addToTab(ITEMS.register("bamboo_fence_gate", () -> new BlockItem(BlockInit.BAMBOO_FENCE_GATE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> BAMBOO_LADDER_ITEM = addToTab(ITEMS.register("bamboo_ladder", () -> new BlockItem(BlockInit.BAMBOO_LADDER.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> BAMBOO_PRESSURE_PLATE_ITEM = addToTab(ITEMS.register("bamboo_pressure_plate", () -> new BlockItem(BlockInit.BAMBOO_PRESSURE_PLATE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> BAMBOO_SLAB_ITEM = addToTab(ITEMS.register("bamboo_slab", () -> new BlockItem(BlockInit.BAMBOO_SLAB.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> BAMBOO_STAIRS_ITEM = addToTab(ITEMS.register("bamboo_stairs", () -> new BlockItem(BlockInit.BAMBOO_STAIRS.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> BAMBOO_TRAPDOOR_ITEM = addToTab(ITEMS.register("bamboo_trapdoor", () -> new BlockItem(BlockInit.BAMBOO_TRAPDOOR.get(), new Item.Properties())));
-
-    public static final RegistryObject<BlockItem> THATCH_BLOCK_ITEM = addToTab(ITEMS.register("thatch_block", () -> new BlockItem(BlockInit.THATCH_BLOCK.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> THATCH_BUTTON_ITEM = addToTab(ITEMS.register("thatch_button", () -> new BlockItem(BlockInit.THATCH_BUTTON.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> THATCH_DOOR_ITEM = addToTab(ITEMS.register("thatch_door", () -> new BlockItem(BlockInit.THATCH_DOOR.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> THATCH_FENCE_ITEM = addToTab(ITEMS.register("thatch_fence", () -> new BlockItem(BlockInit.THATCH_FENCE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> THATCH_FENCE_GATE_ITEM = addToTab(ITEMS.register("thatch_fence_gate", () -> new BlockItem(BlockInit.THATCH_FENCE_GATE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> THATCH_LADDER_ITEM = addToTab(ITEMS.register("thatch_ladder", () -> new BlockItem(BlockInit.THATCH_LADDER.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> THATCH_PRESSURE_PLATE_ITEM = addToTab(ITEMS.register("thatch_pressure_plate", () -> new BlockItem(BlockInit.THATCH_PRESSURE_PLATE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> THATCH_SLAB_ITEM = addToTab(ITEMS.register("thatch_slab", () -> new BlockItem(BlockInit.THATCH_SLAB.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> THATCH_STAIRS_ITEM = addToTab(ITEMS.register("thatch_stairs", () -> new BlockItem(BlockInit.THATCH_STAIRS.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> THATCH_TRAPDOOR_ITEM = addToTab(ITEMS.register("thatch_trapdoor", () -> new BlockItem(BlockInit.THATCH_TRAPDOOR.get(), new Item.Properties())));
-
-    public static final RegistryObject<BlockItem> ACACIA_BEAM_UP_ITEM = addToTab(ITEMS.register("acacia_beam_up", () -> new BlockItem(BlockInit.ACACIA_BEAM_UP.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> ACACIA_BEAM_MIDDLE_ITEM = addToTab(ITEMS.register("acacia_beam_middle", () -> new BlockItem(BlockInit.ACACIA_BEAM_MIDDLE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> ACACIA_BEAM_DOWN_ITEM = addToTab(ITEMS.register("acacia_beam_down", () -> new BlockItem(BlockInit.ACACIA_BEAM_DOWN.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> BIRCH_BEAM_UP_ITEM = addToTab(ITEMS.register("birch_beam_up", () -> new BlockItem(BlockInit.BIRCH_BEAM_UP.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> BIRCH_BEAM_MIDDLE_ITEM = addToTab(ITEMS.register("birch_beam_middle", () -> new BlockItem(BlockInit.BIRCH_BEAM_MIDDLE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> BIRCH_BEAM_DOWN_ITEM = addToTab(ITEMS.register("birch_beam_down", () -> new BlockItem(BlockInit.BIRCH_BEAM_DOWN.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> CHERRY_BEAM_UP_ITEM = addToTab(ITEMS.register("cherry_beam_up", () -> new BlockItem(BlockInit.CHERRY_BEAM_UP.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> CHERRY_BEAM_MIDDLE_ITEM = addToTab(ITEMS.register("cherry_beam_middle", () -> new BlockItem(BlockInit.CHERRY_BEAM_MIDDLE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> CHERRY_BEAM_DOWN_ITEM = addToTab(ITEMS.register("cherry_beam_down", () -> new BlockItem(BlockInit.CHERRY_BEAM_DOWN.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> CRIMSON_BEAM_UP_ITEM = addToTab(ITEMS.register("crimson_beam_up", () -> new BlockItem(BlockInit.CRIMSON_BEAM_UP.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> CRIMSON_BEAM_MIDDLE_ITEM = addToTab(ITEMS.register("crimson_beam_middle", () -> new BlockItem(BlockInit.CRIMSON_BEAM_MIDDLE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> CRIMSON_BEAM_DOWN_ITEM = addToTab(ITEMS.register("crimson_beam_down", () -> new BlockItem(BlockInit.CRIMSON_BEAM_DOWN.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> DARK_OAK_BEAM_UP_ITEM = addToTab(ITEMS.register("dark_oak_beam_up", () -> new BlockItem(BlockInit.DARK_OAK_BEAM_UP.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> DARK_OAK_BEAM_MIDDLE_ITEM = addToTab(ITEMS.register("dark_oak_beam_middle", () -> new BlockItem(BlockInit.DARK_OAK_BEAM_MIDDLE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> DARK_OAK_BEAM_DOWN_ITEM = addToTab(ITEMS.register("dark_oak_beam_down", () -> new BlockItem(BlockInit.DARK_OAK_BEAM_DOWN.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> JUNGLE_BEAM_UP_ITEM = addToTab(ITEMS.register("jungle_beam_up", () -> new BlockItem(BlockInit.JUNGLE_BEAM_UP.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> JUNGLE_BEAM_MIDDLE_ITEM = addToTab(ITEMS.register("jungle_beam_middle", () -> new BlockItem(BlockInit.JUNGLE_BEAM_MIDDLE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> JUNGLE_BEAM_DOWN_ITEM = addToTab(ITEMS.register("jungle_beam_down", () -> new BlockItem(BlockInit.JUNGLE_BEAM_DOWN.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> MANGROVE_BEAM_UP_ITEM = addToTab(ITEMS.register("mangrove_beam_up", () -> new BlockItem(BlockInit.MANGROVE_BEAM_UP.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> MANGROVE_BEAM_MIDDLE_ITEM = addToTab(ITEMS.register("mangrove_beam_middle", () -> new BlockItem(BlockInit.MANGROVE_BEAM_MIDDLE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> MANGROVE_BEAM_DOWN_ITEM = addToTab(ITEMS.register("mangrove_beam_down", () -> new BlockItem(BlockInit.MANGROVE_BEAM_DOWN.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> OAK_BEAM_UP_ITEM = addToTab(ITEMS.register("oak_beam_up", () -> new BlockItem(BlockInit.OAK_BEAM_UP.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> OAK_BEAM_MIDDLE_ITEM = addToTab(ITEMS.register("oak_beam_middle", () -> new BlockItem(BlockInit.OAK_BEAM_MIDDLE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> OAK_BEAM_DOWN_ITEM = addToTab(ITEMS.register("oak_beam_down", () -> new BlockItem(BlockInit.OAK_BEAM_DOWN.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> SPRUCE_BEAM_UP_ITEM = addToTab(ITEMS.register("spruce_beam_up", () -> new BlockItem(BlockInit.SPRUCE_BEAM_UP.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> SPRUCE_BEAM_MIDDLE_ITEM = addToTab(ITEMS.register("spruce_beam_middle", () -> new BlockItem(BlockInit.SPRUCE_BEAM_MIDDLE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> SPRUCE_BEAM_DOWN_ITEM = addToTab(ITEMS.register("spruce_beam_down", () -> new BlockItem(BlockInit.SPRUCE_BEAM_DOWN.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> WARPED_BEAM_UP_ITEM = addToTab(ITEMS.register("warped_beam_up", () -> new BlockItem(BlockInit.WARPED_BEAM_UP.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> WARPED_BEAM_MIDDLE_ITEM = addToTab(ITEMS.register("warped_beam_middle", () -> new BlockItem(BlockInit.WARPED_BEAM_MIDDLE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> WARPED_BEAM_DOWN_ITEM = addToTab(ITEMS.register("warped_beam_down", () -> new BlockItem(BlockInit.WARPED_BEAM_DOWN.get(), new Item.Properties())));
-
-    public static final RegistryObject<BlockItem> ACACIA_LADDER_ITEM = addToTab(ITEMS.register("acacia_ladder", () -> new BlockItem(BlockInit.ACACIA_LADDER.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> BIRCH_LADDER_ITEM = addToTab(ITEMS.register("birch_ladder", () -> new BlockItem(BlockInit.BIRCH_LADDER.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> CHERRY_LADDER_ITEM = addToTab(ITEMS.register("cherry_ladder", () -> new BlockItem(BlockInit.CHERRY_LADDER.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> CRIMSON_LADDER_ITEM = addToTab(ITEMS.register("crimson_ladder", () -> new BlockItem(BlockInit.CRIMSON_LADDER.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> DARK_OAK_LADDER_ITEM = addToTab(ITEMS.register("dark_oak_ladder", () -> new BlockItem(BlockInit.DARK_OAK_LADDER.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> JUNGLE_LADDER_ITEM = addToTab(ITEMS.register("jungle_ladder", () -> new BlockItem(BlockInit.JUNGLE_LADDER.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> MANGROVE_LADDER_ITEM = addToTab(ITEMS.register("mangrove_ladder", () -> new BlockItem(BlockInit.MANGROVE_LADDER.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> OAK_LADDER_ITEM = addToTab(ITEMS.register("oak_ladder", () -> new BlockItem(BlockInit.OAK_LADDER.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> SPRUCE_LADDER_ITEM = addToTab(ITEMS.register("spruce_ladder", () -> new BlockItem(BlockInit.SPRUCE_LADDER.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> WARPED_LADDER_ITEM = addToTab(ITEMS.register("warped_ladder", () -> new BlockItem(BlockInit.WARPED_LADDER.get(), new Item.Properties())));
-
     public static final RegistryObject<BlockItem> ACACIA_TORCH_ITEM = addToTab(ITEMS.register("acacia_torch", () -> new StandingAndWallBlockItem(BlockInit.ACACIA_TORCH.get(), BlockInit.ACACIA_WALL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
     public static final RegistryObject<BlockItem> BIRCH_TORCH_ITEM = addToTab(ITEMS.register("birch_torch", () -> new StandingAndWallBlockItem(BlockInit.BIRCH_TORCH.get(), BlockInit.BIRCH_WALL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
     public static final RegistryObject<BlockItem> CHERRY_TORCH_ITEM = addToTab(ITEMS.register("cherry_torch", () -> new StandingAndWallBlockItem(BlockInit.CHERRY_TORCH.get(), BlockInit.CHERRY_WALL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
@@ -246,18 +183,7 @@ public class ItemInit {
     public static final RegistryObject<BlockItem> SPRUCE_SOUL_TORCH_ITEM = addToTab(ITEMS.register("spruce_soul_torch", () -> new StandingAndWallBlockItem(BlockInit.SPRUCE_SOUL_TORCH.get(), BlockInit.SPRUCE_WALL_SOUL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
     public static final RegistryObject<BlockItem> WARPED_SOUL_TORCH_ITEM = addToTab(ITEMS.register("warped_soul_torch", () -> new StandingAndWallBlockItem(BlockInit.WARPED_SOUL_TORCH.get(), BlockInit.WARPED_WALL_SOUL_TORCH.get(), new Item.Properties(), Direction.DOWN)));
 
-    public static final RegistryObject<BlockItem> MOSSY_STONE_ITEM = addToTab(ITEMS.register("mossy_stone", () -> new BlockItem(BlockInit.MOSSY_STONE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> MOSSY_STONE_BUTTON_ITEM = addToTab(ITEMS.register("mossy_stone_button", () -> new BlockItem(BlockInit.MOSSY_STONE_BUTTON.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> MOSSY_STONE_PRESSURE_PLATE_ITEM = addToTab(ITEMS.register("mossy_stone_pressure_plate", () -> new BlockItem(BlockInit.MOSSY_STONE_PRESSURE_PLATE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> MOSSY_STONE_SLAB_ITEM = addToTab(ITEMS.register("mossy_stone_slab", () -> new BlockItem(BlockInit.MOSSY_STONE_SLAB.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> MOSSY_STONE_STAIRS_ITEM = addToTab(ITEMS.register("mossy_stone_stairs", () -> new BlockItem(BlockInit.MOSSY_STONE_STAIRS.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> MOSSY_STONE_WALL_ITEM = addToTab(ITEMS.register("mossy_stone_wall", () -> new BlockItem(BlockInit.MOSSY_STONE_WALL.get(), new Item.Properties())));
-
-    public static final RegistryObject<BlockItem> MORE_MOSSY_STONE_ITEM = addToTab(ITEMS.register("more_mossy_stone", () -> new BlockItem(BlockInit.MORE_MOSSY_STONE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> MORE_MOSSY_STONE_BUTTON_ITEM = addToTab(ITEMS.register("more_mossy_stone_button", () -> new BlockItem(BlockInit.MORE_MOSSY_STONE_BUTTON.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> MORE_MOSSY_STONE_PRESSURE_PLATE_ITEM = addToTab(ITEMS.register("more_mossy_stone_pressure_plate", () -> new BlockItem(BlockInit.MORE_MOSSY_STONE_PRESSURE_PLATE.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> MORE_MOSSY_STONE_SLAB_ITEM = addToTab(ITEMS.register("more_mossy_stone_slab", () -> new BlockItem(BlockInit.MORE_MOSSY_STONE_SLAB.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> MORE_MOSSY_STONE_STAIRS_ITEM = addToTab(ITEMS.register("more_mossy_stone_stairs", () -> new BlockItem(BlockInit.MORE_MOSSY_STONE_STAIRS.get(), new Item.Properties())));
-    public static final RegistryObject<BlockItem> MORE_MOSSY_STONE_WALL_ITEM = addToTab(ITEMS.register("more_mossy_stone_wall", () -> new BlockItem(BlockInit.MORE_MOSSY_STONE_WALL.get(), new Item.Properties())));
-
+    public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
+    }
 }
