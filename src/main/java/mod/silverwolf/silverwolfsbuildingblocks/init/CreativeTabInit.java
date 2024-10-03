@@ -37,7 +37,4 @@ public class CreativeTabInit {
         return itemLike;
     }
 
-    public static void register(IEventBus eventBus) {
-        TABS.register(eventBus);
-    }
 }

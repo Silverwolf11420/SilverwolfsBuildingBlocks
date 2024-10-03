@@ -3,6 +3,7 @@ package mod.silverwolf.silverwolfsbuildingblocks;
 import mod.silverwolf.silverwolfsbuildingblocks.init.BlockInit;
 import mod.silverwolf.silverwolfsbuildingblocks.init.CreativeTabInit;
 import mod.silverwolf.silverwolfsbuildingblocks.init.ItemInit;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,26 +18,12 @@ public class SilverwolfsBuildingBlocks {
     public static final String MODID = "silverwolfsbuildingblocks";
 
     public SilverwolfsBuildingBlocks() {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ItemInit.register(modEventBus);
-        BlockInit.register(modEventBus);
-        CreativeTabInit.register(modEventBus);
-
-        modEventBus.addListener(this::commonSetup);
-
-        MinecraftForge.EVENT_BUS.register(this);
-    }
-
-    private void commonSetup(final FMLCommonSetupEvent event) {
+        ItemInit.ITEMS.register(bus);
+        BlockInit.BLOCKS.register(bus);
+        CreativeTabInit.TABS.register(bus);
 
     }
 
-    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {
-
-        }
-    }
 }
