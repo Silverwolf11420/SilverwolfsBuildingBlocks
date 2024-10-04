@@ -275,4 +275,32 @@ public class ItemInit {
     public static final RegistryObject<BlockItem> MORE_MOSSY_ANDESITE_STAIRS_ITEM = addToTab(ITEMS.register("more_mossy_andesite_stairs", () -> new BlockItem(BlockInit.MORE_MOSSY_ANDESITE_STAIRS.get(), new Item.Properties())));
     public static final RegistryObject<BlockItem> MORE_MOSSY_ANDESITE_WALL_ITEM = addToTab(ITEMS.register("more_mossy_andesite_wall", () -> new BlockItem(BlockInit.MORE_MOSSY_ANDESITE_WALL.get(), new Item.Properties())));
 
+    public static final RegistryObject<BlockItem> MOSSY_DIORITE_ITEM = addToTab(ITEMS.register("mossy_diorite", () -> new BlockItem(BlockInit.MOSSY_DIORITE.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MOSSY_DIORITE_BUTTON_ITEM = addToTab(ITEMS.register("mossy_diorite_button", () -> new BlockItem(BlockInit.MOSSY_DIORITE_BUTTON.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MOSSY_DIORITE_PRESSURE_PLATE_ITEM = addToTab(ITEMS.register("mossy_diorite_pressure_plate", () -> new BlockItem(BlockInit.MOSSY_DIORITE_PRESSURE_PLATE.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MOSSY_DIORITE_SLAB_ITEM = addToTab(ITEMS.register("mossy_diorite_slab", () -> new BlockItem(BlockInit.MOSSY_DIORITE_SLAB.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MOSSY_DIORITE_STAIRS_ITEM = addToTab(ITEMS.register("mossy_diorite_stairs", () -> new BlockItem(BlockInit.MOSSY_DIORITE_STAIRS.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MOSSY_DIORITE_WALL_ITEM = addToTab(ITEMS.register("mossy_diorite_wall", () -> new BlockItem(BlockInit.MOSSY_DIORITE_WALL.get(), new Item.Properties())));
+
+    public static final RegistryObject<BlockItem> MORE_MOSSY_DIORITE_ITEM = addToTab(ITEMS.register("more_mossy_diorite", () -> new BlockItem(BlockInit.MORE_MOSSY_DIORITE.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MORE_MOSSY_DIORITE_BUTTON_ITEM = addToTab(ITEMS.register("more_mossy_diorite_button", () -> new BlockItem(BlockInit.MORE_MOSSY_DIORITE_BUTTON.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MORE_MOSSY_DIORITE_PRESSURE_PLATE_ITEM = addToTab(ITEMS.register("more_mossy_diorite_pressure_plate", () -> new BlockItem(BlockInit.MORE_MOSSY_DIORITE_PRESSURE_PLATE.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MORE_MOSSY_DIORITE_SLAB_ITEM = addToTab(ITEMS.register("more_mossy_diorite_slab", () -> new BlockItem(BlockInit.MORE_MOSSY_DIORITE_SLAB.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MORE_MOSSY_DIORITE_STAIRS_ITEM = addToTab(ITEMS.register("more_mossy_diorite_stairs", () -> new BlockItem(BlockInit.MORE_MOSSY_DIORITE_STAIRS.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MORE_MOSSY_DIORITE_WALL_ITEM = addToTab(ITEMS.register("more_mossy_diorite_wall", () -> new BlockItem(BlockInit.MORE_MOSSY_DIORITE_WALL.get(), new Item.Properties())));
+
+    public static final RegistryObject<BlockItem> MOSSY_GRANITE_ITEM = addToTab(ITEMS.register("mossy_granite", () -> new BlockItem(BlockInit.MOSSY_GRANITE.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MOSSY_GRANITE_BUTTON_ITEM = addToTab(ITEMS.register("mossy_granite_button", () -> new BlockItem(BlockInit.MOSSY_GRANITE_BUTTON.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MOSSY_GRANITE_PRESSURE_PLATE_ITEM = addToTab(ITEMS.register("mossy_granite_pressure_plate", () -> new BlockItem(BlockInit.MOSSY_GRANITE_PRESSURE_PLATE.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MOSSY_GRANITE_SLAB_ITEM = addToTab(ITEMS.register("mossy_granite_slab", () -> new BlockItem(BlockInit.MOSSY_GRANITE_SLAB.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MOSSY_GRANITE_STAIRS_ITEM = addToTab(ITEMS.register("mossy_granite_stairs", () -> new BlockItem(BlockInit.MOSSY_GRANITE_STAIRS.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MOSSY_GRANITE_WALL_ITEM = addToTab(ITEMS.register("mossy_granite_wall", () -> new BlockItem(BlockInit.MOSSY_GRANITE_WALL.get(), new Item.Properties())));
+
+    public static final RegistryObject<BlockItem> MORE_MOSSY_GRANITE_ITEM = addToTab(ITEMS.register("more_mossy_granite", () -> new BlockItem(BlockInit.MORE_MOSSY_GRANITE.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MORE_MOSSY_GRANITE_BUTTON_ITEM = addToTab(ITEMS.register("more_mossy_granite_button", () -> new BlockItem(BlockInit.MORE_MOSSY_GRANITE_BUTTON.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MORE_MOSSY_GRANITE_PRESSURE_PLATE_ITEM = addToTab(ITEMS.register("more_mossy_granite_pressure_plate", () -> new BlockItem(BlockInit.MORE_MOSSY_GRANITE_PRESSURE_PLATE.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MORE_MOSSY_GRANITE_SLAB_ITEM = addToTab(ITEMS.register("more_mossy_granite_slab", () -> new BlockItem(BlockInit.MORE_MOSSY_GRANITE_SLAB.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MORE_MOSSY_GRANITE_STAIRS_ITEM = addToTab(ITEMS.register("more_mossy_granite_stairs", () -> new BlockItem(BlockInit.MORE_MOSSY_GRANITE_STAIRS.get(), new Item.Properties())));
+    public static final RegistryObject<BlockItem> MORE_MOSSY_GRANITE_WALL_ITEM = addToTab(ITEMS.register("more_mossy_granite_wall", () -> new BlockItem(BlockInit.MORE_MOSSY_GRANITE_WALL.get(), new Item.Properties())));
+
 }

@@ -257,6 +257,34 @@
   "block.silverwolfsbuildingblocks.more_mossy_andesite_pressure_plate" : "More Mossy Andesite Pressure Plate",
   "block.silverwolfsbuildingblocks.more_mossy_andesite_slab" : "More Mossy Andesite Slab",
   "block.silverwolfsbuildingblocks.more_mossy_andesite_stairs" : "More Mossy Andesite Stairs",
-  "block.silverwolfsbuildingblocks.more_mossy_andesite_wall" : "More Mossy Andesite Wall"
+  "block.silverwolfsbuildingblocks.more_mossy_andesite_wall" : "More Mossy Andesite Wall",
+
+  "block.silverwolfsbuildingblocks.mossy_diorite" : "Mossy Diorite",
+  "block.silverwolfsbuildingblocks.mossy_diorite_button" : "Mossy Diorite Button",
+  "block.silverwolfsbuildingblocks.mossy_diorite_pressure_plate" : "Mossy Diorite Pressure Plate",
+  "block.silverwolfsbuildingblocks.mossy_diorite_slab" : "Mossy Diorite Slab",
+  "block.silverwolfsbuildingblocks.mossy_diorite_stairs" : "Mossy Diorite Stairs",
+  "block.silverwolfsbuildingblocks.mossy_diorite_wall" : "Mossy Diorite Wall",
+
+  "block.silverwolfsbuildingblocks.more_mossy_diorite" : "More Mossy Diorite",
+  "block.silverwolfsbuildingblocks.more_mossy_diorite_button" : "More Mossy Diorite Button",
+  "block.silverwolfsbuildingblocks.more_mossy_diorite_pressure_plate" : "More Mossy Diorite Pressure Plate",
+  "block.silverwolfsbuildingblocks.more_mossy_diorite_slab" : "More Mossy Diorite Slab",
+  "block.silverwolfsbuildingblocks.more_mossy_diorite_stairs" : "More Mossy Diorite Stairs",
+  "block.silverwolfsbuildingblocks.more_mossy_diorite_wall" : "More Mossy Diorite Wall",
+
+  "block.silverwolfsbuildingblocks.mossy_granite" : "Mossy Granite",
+  "block.silverwolfsbuildingblocks.mossy_granite_button" : "Mossy Granite Button",
+  "block.silverwolfsbuildingblocks.mossy_granite_pressure_plate" : "Mossy Granite Pressure Plate",
+  "block.silverwolfsbuildingblocks.mossy_granite_slab" : "Mossy Granite Slab",
+  "block.silverwolfsbuildingblocks.mossy_granite_stairs" : "Mossy Granite Stairs",
+  "block.silverwolfsbuildingblocks.mossy_granite_wall" : "Mossy Granite Wall",
+
+  "block.silverwolfsbuildingblocks.more_mossy_granite" : "More Mossy Granite",
+  "block.silverwolfsbuildingblocks.more_mossy_granite_button" : "More Mossy Granite Button",
+  "block.silverwolfsbuildingblocks.more_mossy_granite_pressure_plate" : "More Mossy Granite Pressure Plate",
+  "block.silverwolfsbuildingblocks.more_mossy_granite_slab" : "More Mossy Granite Slab",
+  "block.silverwolfsbuildingblocks.more_mossy_granite_stairs" : "More Mossy Granite Stairs",
+  "block.silverwolfsbuildingblocks.more_mossy_granite_wall" : "More Mossy Granite Wall"
 
 }

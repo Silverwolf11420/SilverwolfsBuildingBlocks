@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silverwolfsbuildingblocks:block/mossy_granite_slab"
+    },
+    "type=double": {
+      "model": "silverwolfsbuildingblocks:block/mossy_granite"
+    },
+    "type=top": {
+      "model": "silverwolfsbuildingblocks:block/mossy_granite_slab_top"
+    }
+  }
+}
