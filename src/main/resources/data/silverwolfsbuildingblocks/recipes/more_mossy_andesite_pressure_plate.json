@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redandesite",
+  "category": "redstone",
   "key": {
     "#": {
       "item": "silverwolfsbuildingblocks:more_mossy_andesite"

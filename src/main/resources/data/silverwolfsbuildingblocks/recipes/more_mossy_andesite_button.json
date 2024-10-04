@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "redandesite",
+  "category": "redstone",
   "ingredients": [
     {
       "item": "silverwolfsbuildingblocks:more_mossy_andesite"
