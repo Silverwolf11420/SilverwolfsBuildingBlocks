@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "y": {
+      "item": "minecraft:vine"
+    },
+    "z": {
+      "item": "minecraft:diorite"
+    }
+  },
+  "pattern": [
+    "zzz",
+    "zyz",
+    "zzz"
+  ],
+  "result": {
+    "count": 8,
+    "id": "silverwolfsbuildingblocks:mossy_diorite"
+  }
+}

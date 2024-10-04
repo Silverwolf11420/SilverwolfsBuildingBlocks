@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "silverwolfsbuildingblocks:more_mossy_diorite"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "silverwolfsbuildingblocks:more_mossy_diorite_pressure_plate"
+  }
+}

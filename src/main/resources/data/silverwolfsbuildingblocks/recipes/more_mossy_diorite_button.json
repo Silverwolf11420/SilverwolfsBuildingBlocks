@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "silverwolfsbuildingblocks:more_mossy_diorite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "silverwolfsbuildingblocks:more_mossy_diorite_button"
+  }
+}

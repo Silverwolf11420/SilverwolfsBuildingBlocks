@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "silverwolfsbuildingblocks:block/more_mossy_diorite",
+    "side": "silverwolfsbuildingblocks:block/more_mossy_diorite",
+    "top": "silverwolfsbuildingblocks:block/more_mossy_diorite"
+  }
+}
