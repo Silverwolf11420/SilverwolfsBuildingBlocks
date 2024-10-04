@@ -12,6 +12,20 @@
     "silverwolfsbuildingblocks:more_mossy_stone_pressure_plate",
     "silverwolfsbuildingblocks:more_mossy_stone_slab",
     "silverwolfsbuildingblocks:more_mossy_stone_stairs",
-    "silverwolfsbuildingblocks:more_mossy_stone_wall"
+    "silverwolfsbuildingblocks:more_mossy_stone_wall",
+
+    "silverwolfsbuildingblocks:mossy_andesite",
+    "silverwolfsbuildingblocks:mossy_andesite_button",
+    "silverwolfsbuildingblocks:mossy_andesite_pressure_plate",
+    "silverwolfsbuildingblocks:mossy_andesite_slab",
+    "silverwolfsbuildingblocks:mossy_andesite_stairs",
+    "silverwolfsbuildingblocks:mossy_andesite_wall",
+
+    "silverwolfsbuildingblocks:more_mossy_andesite",
+    "silverwolfsbuildingblocks:more_mossy_andesite_button",
+    "silverwolfsbuildingblocks:more_mossy_andesite_pressure_plate",
+    "silverwolfsbuildingblocks:more_mossy_andesite_slab",
+    "silverwolfsbuildingblocks:more_mossy_andesite_stairs",
+    "silverwolfsbuildingblocks:more_mossy_andesite_wall"
   ]
 }

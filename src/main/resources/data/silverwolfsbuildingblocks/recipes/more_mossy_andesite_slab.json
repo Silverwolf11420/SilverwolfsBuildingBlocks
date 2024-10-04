@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "silverwolfsbuildingblocks:more_mossy_andesite"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "silverwolfsbuildingblocks:more_mossy_andesite_slab"
+  }
+}

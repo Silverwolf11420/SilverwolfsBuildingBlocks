@@ -1,6 +1,8 @@
 {
   "values": [
     "silverwolfsbuildingblocks:mossy_stone_wall",
-    "silverwolfsbuildingblocks:more_mossy_stone_wall"
+    "silverwolfsbuildingblocks:more_mossy_stone_wall",
+    "silverwolfsbuildingblocks:mossy_andesite_wall",
+    "silverwolfsbuildingblocks:more_mossy_andesite_wall"
   ]
 }

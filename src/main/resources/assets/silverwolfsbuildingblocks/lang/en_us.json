@@ -243,6 +243,20 @@
   "block.silverwolfsbuildingblocks.more_mossy_stone_pressure_plate" : "More Mossy Stone Pressure Plate",
   "block.silverwolfsbuildingblocks.more_mossy_stone_slab" : "More Mossy Stone Slab",
   "block.silverwolfsbuildingblocks.more_mossy_stone_stairs" : "More Mossy Stone Stairs",
-  "block.silverwolfsbuildingblocks.more_mossy_stone_wall" : "More Mossy Stone Wall"
+  "block.silverwolfsbuildingblocks.more_mossy_stone_wall" : "More Mossy Stone Wall",
+
+  "block.silverwolfsbuildingblocks.mossy_andesite" : "Mossy Andesite",
+  "block.silverwolfsbuildingblocks.mossy_andesite_button" : "Mossy Andesite Button",
+  "block.silverwolfsbuildingblocks.mossy_andesite_pressure_plate" : "Mossy Andesite Pressure Plate",
+  "block.silverwolfsbuildingblocks.mossy_andesite_slab" : "Mossy Andesite Slab",
+  "block.silverwolfsbuildingblocks.mossy_andesite_stairs" : "Mossy Andesite Stairs",
+  "block.silverwolfsbuildingblocks.mossy_andesite_wall" : "Mossy Andesite Wall",
+
+  "block.silverwolfsbuildingblocks.more_mossy_andesite" : "More Mossy Andesite",
+  "block.silverwolfsbuildingblocks.more_mossy_andesite_button" : "More Mossy Andesite Button",
+  "block.silverwolfsbuildingblocks.more_mossy_andesite_pressure_plate" : "More Mossy Andesite Pressure Plate",
+  "block.silverwolfsbuildingblocks.more_mossy_andesite_slab" : "More Mossy Andesite Slab",
+  "block.silverwolfsbuildingblocks.more_mossy_andesite_stairs" : "More Mossy Andesite Stairs",
+  "block.silverwolfsbuildingblocks.more_mossy_andesite_wall" : "More Mossy Andesite Wall"
 
 }

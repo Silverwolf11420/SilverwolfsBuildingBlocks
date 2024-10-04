@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "silverwolfsbuildingblocks:block/more_mossy_andesite"
+  }
+}

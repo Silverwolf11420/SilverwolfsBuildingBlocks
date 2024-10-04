@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "silverwolfsbuildingblocks:mossy_andesite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "silverwolfsbuildingblocks:mossy_andesite_button"
+  }
+}

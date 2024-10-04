@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redandesite",
+  "key": {
+    "#": {
+      "item": "silverwolfsbuildingblocks:more_mossy_andesite"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "silverwolfsbuildingblocks:more_mossy_andesite_pressure_plate"
+  }
+}

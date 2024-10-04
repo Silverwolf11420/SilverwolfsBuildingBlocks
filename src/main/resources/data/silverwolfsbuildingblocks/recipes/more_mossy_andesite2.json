@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    },
+    {
+      "item": "silverwolfsbuildingblocks:mossy_andesite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "silverwolfsbuildingblocks:more_mossy_andesite"
+  }
+}
